@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.uma.jmetal:jmetal-problem:5.7-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-problem/5.7-SNAPSHOT/jmetal-problem-5.7-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-problem/5.7-SNAPSHOT/jmetal-problem-5.7-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-problem/5.7-SNAPSHOT/jmetal-problem-5.7-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>Trading</artifactId>
+        <groupId>cl.dsoto</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>TradingController</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>cl.dsoto</groupId>
+            <artifactId>TradingPersistence</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.uma.jmetal</groupId>
+            <artifactId>jmetal-core</artifactId>
+            <version>5.7-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.uma.jmetal</groupId>
+            <artifactId>jmetal-algorithm</artifactId>
+            <version>5.7-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.uma.jmetal</groupId>
+            <artifactId>jmetal-problem</artifactId>
+            <version>5.7-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.uma.jmetal</groupId>
+            <artifactId>jmetal-exec</artifactId>
+            <version>5.7-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org-ta4j</groupId>
+            <artifactId>ta4j-core</artifactId>
+            <version>0.12-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org-ta4j</groupId>
+            <artifactId>ta4j-examples</artifactId>
+            <version>0.12-SNAPSHOT</version>
+        </dependency>
+
+
+    </dependencies>
+
+
+</project>
