@@ -11,6 +11,20 @@
 
     <artifactId>TradingController</artifactId>
     <dependencies>
+
+        <!-- Logging facade -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.25</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.4</version>
+        </dependency>
+
         <dependency>
             <groupId>cl.dsoto</groupId>
             <artifactId>TradingPersistence</artifactId>

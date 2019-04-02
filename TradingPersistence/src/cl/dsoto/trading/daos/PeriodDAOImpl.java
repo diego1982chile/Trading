@@ -24,6 +24,9 @@ public class PeriodDAOImpl implements PeriodDAO {
     //@EJB
     private OptimizationDAO optimizationDAO = (OptimizationDAO) ServiceLocator.getInstance().getService(OptimizationDAO.class);
 
+    //@EJB
+    private BarDAO barDAO = (BarDAO) ServiceLocator.getInstance().getService(BarDAO.class);
+
     public Period persist(Period period) throws Exception {
 
         String sql = "{call trd.create_period(?,?,?,?,?)}";
@@ -47,6 +50,10 @@ public class PeriodDAOImpl implements PeriodDAO {
 
                 for (Optimization optimization : period.getOptimizations()) {
                     optimizationDAO.persist(optimization);
+                }
+
+                for (PeriodBar periodBar : period.getBars()) {
+                    barDAO.persist(periodBar);
                 }
 
             } else {
@@ -107,6 +114,8 @@ public class PeriodDAOImpl implements PeriodDAO {
         Period period = new Period(id, name, timestamp, start, end, timeFrame);
 
         period.setOptimizations(optimizationDAO.getOptimizationsByPeriod(period));
+
+        period.setBars(barDAO.getBars(period));
 
         return period;
     }

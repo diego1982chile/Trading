@@ -1,7 +1,11 @@
 package cl.dsoto.trading.model;
 
+import org.ta4j.core.Bar;
+import org.ta4j.core.TimeSeries;
+
 import java.sql.Date;
 import java.sql.Timestamp;
+import java.util.ArrayList;
 import java.util.List;
 
 import static cl.dsoto.trading.model.DAO.NON_PERSISTED_ID;
@@ -21,7 +25,17 @@ public class Period {
 
     TimeFrame timeFrame;
 
-    List<Optimization> optimizations;
+    List<Optimization> optimizations = new ArrayList<>();
+
+    List<PeriodBar> bars = new ArrayList<>();
+
+    public List<PeriodBar> getBars() {
+        return bars;
+    }
+
+    public void setBars(List<PeriodBar> bars) {
+        this.bars = bars;
+    }
 
     public Period(String name, Timestamp timestamp, Date start, Date end, TimeFrame timeFrame) {
         this.name = name;

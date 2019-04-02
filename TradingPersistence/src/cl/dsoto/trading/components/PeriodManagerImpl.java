@@ -5,8 +5,11 @@ import cl.dsoto.trading.daos.OptimizationDAO;
 import cl.dsoto.trading.daos.PeriodDAO;
 import cl.dsoto.trading.daos.StrategyDAO;
 import cl.dsoto.trading.model.Period;
+import cl.dsoto.trading.model.PeriodBar;
 import cl.dsoto.trading.model.Strategy;
 import cl.dsoto.trading.model.TimeFrame;
+import org.ta4j.core.Bar;
+import org.ta4j.core.BaseTimeSeries;
 import org.ta4j.core.TimeSeries;
 import ta4jexamples.loaders.CsvTicksLoader;
 
@@ -50,6 +53,16 @@ public class PeriodManagerImpl implements PeriodManager {
         TimeFrame timeFrame = TimeFrame.DAY;
 
         Period period = new Period(name, timestamp, start, end, timeFrame);
+
+        for (Bar bar : timeSeries.getBarData()) {
+            double open = bar.getOpenPrice().doubleValue();
+            double high = bar.getMaxPrice().doubleValue();
+            double low = bar.getMinPrice().doubleValue();
+            double close = bar.getClosePrice().doubleValue();
+            double volume = bar.getVolume().doubleValue();
+
+            period.getBars().add(new PeriodBar(bar.getEndTime(), open, high, low, close, volume, period));
+        }
 
         return period;
     }

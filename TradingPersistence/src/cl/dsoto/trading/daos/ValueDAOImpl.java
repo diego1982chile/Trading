@@ -10,6 +10,7 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.BitSet;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -30,26 +31,31 @@ public class ValueDAOImpl<T extends Comparable> implements ValueDAO {
         try (Connection connect = DataSourceFactory.getInstance().getConnection();
              CallableStatement call = connect.prepareCall(sql)) {
 
-            connect.setAutoCommit(false);
-
             call.setLong(1, solution.getOptimization().getId());
 
-            Strategy problem = solution.getOptimization().getStrategy();
+            for (int i = 0; i < solution.getValues().size(); i++) {
 
-            int cont = 0;
+                BitSet bitset = (BitSet) solution.getValues().get(i);
 
-            while (cont < problem.getVariables()) {
-                call.setLong(1, solution.getId());
-                call.setBoolean(2, (Boolean) solution.getValues().get(cont));
-                cont++;
+                if(bitset.isEmpty()) {
+                    call.setLong(1, solution.getId());
+                    call.setBoolean(2, false);
+                    call.execute();
+                }
+                else {
+                    for (int j = 0; j < bitset.length(); j++) {
+                        call.setLong(1, solution.getId());
+                        call.setBoolean(2, bitset.get(j));
+                        call.execute();
+                    }
+                }
+
             }
-
-            call.execute();
 
             ResultSet rs = call.getResultSet();
 
             if (rs.next()) {
-                solution.setId(rs.getLong(1));
+                //solution.setId(rs.getLong(1));
             } else {
                 connect.rollback();
                 String errorMsg = "El registro no fue creado. Contacte a Desarrollo";
@@ -89,7 +95,7 @@ public class ValueDAOImpl<T extends Comparable> implements ValueDAO {
             ResultSet rs = call.getResultSet();
 
             if (rs.next()) {
-                solution.setId(rs.getLong(1));
+                //solution.setId(rs.getLong(1));
             } else {
                 connect.rollback();
                 String errorMsg = "El registro no fue creado. Contacte a Desarrollo";
@@ -131,7 +137,7 @@ public class ValueDAOImpl<T extends Comparable> implements ValueDAO {
             ResultSet rs = call.getResultSet();
 
             if (rs.next()) {
-                solution.setId(rs.getLong(1));
+                //solution.setId(rs.getLong(1));
             } else {
                 connect.rollback();
                 String errorMsg = "El registro no fue creado. Contacte a Desarrollo";

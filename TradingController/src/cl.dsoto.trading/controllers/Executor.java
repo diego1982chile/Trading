@@ -36,6 +36,7 @@ public class Executor {
                 GenerationalGeneticAlgorithmStockMarketIntegerRunner runner =
                     new GenerationalGeneticAlgorithmStockMarketIntegerRunner(strategy.getName(), file, strategy.getVariables());
                 Optimization optimization = runner.run();
+                optimization.setPeriod(period);
                 period.getOptimizations().add(optimization);
                 updateStrategy(optimization, strategy.getName());
             }
@@ -46,6 +47,7 @@ public class Executor {
                 GenerationalGeneticAlgorithmStockMarketRunner runner =
                         new GenerationalGeneticAlgorithmStockMarketRunner(strategy.getName(), file, strategy.getVariables());
                 Optimization optimization = runner.run();
+                optimization.setPeriod(period);
                 period.getOptimizations().add(optimization);
             }
 
@@ -57,28 +59,40 @@ public class Executor {
         switch (strategy) {
             case "GlobalExtremaStrategy":
                 GlobalExtremaStrategy.mapFrom(optimization);
+                break;
             case "TunnelStrategy":
                 TunnelStrategy.mapFrom(optimization);
+                break;
             case "CCICorrectionStrategy":
                 CCICorrectionStrategy.mapFrom(optimization);
+                break;
             case "BagovinoStrategy":
                 BagovinoStrategy.mapFrom(optimization);
+                break;
             case "MovingAveragesStrategy":
                 MovingAveragesStrategy.mapFrom(optimization);
+                break;
             case "RSI2Strategy":
                 RSI2Strategy.mapFrom(optimization);
+                break;
             case "ParabolicSARStrategy":
                 ParabolicSARStrategy.mapFrom(optimization);
+                break;
             case "MovingMomentumStrategy":
                 MovingMomentumStrategy.mapFrom(optimization);
+                break;
             case "StochasticStrategy":
                 StochasticStrategy.mapFrom(optimization);
+                break;
             case "MACDStrategy":
                 MACDStrategy.mapFrom(optimization);
+                break;
             case "FXBootCampStrategy":
                 FXBootCampStrategy.mapFrom(optimization);
+                break;
             case "WinslowStrategy":
                 WinslowStrategy.mapFrom(optimization);
+                break;
         }
 
     }

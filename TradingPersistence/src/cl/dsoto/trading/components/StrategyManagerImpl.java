@@ -51,6 +51,21 @@ public class StrategyManagerImpl implements StrategyManager {
 
         List<Strategy> strategies = new ArrayList<>();
 
+        if(strategyMap.isEmpty()) {
+            try {
+                for (Strategy strategy : strategyDAO.getStrategies()) {
+                    String strategyName = strategy.getName();
+                    String strategyVars = String.valueOf(strategy.getVariables());
+                    int strategyKey = strategyName.concat(strategyVars).hashCode();
+                    strategyMap.put(strategyKey, strategy);
+                }
+            }
+            catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+
+
         for (Strategy strategy : strategyMap.values()) {
             if(strategy.getType().equals(ProblemType.INTEGER)) {
                 strategies.add(strategy);
@@ -63,6 +78,20 @@ public class StrategyManagerImpl implements StrategyManager {
     @Override
     public List<Strategy> getBinaryProblemTypeStrategies() throws Exception {
         List<Strategy> strategies = new ArrayList<>();
+
+        if(strategyMap.isEmpty()) {
+            try {
+                for (Strategy strategy : strategyDAO.getStrategies()) {
+                    String strategyName = strategy.getName();
+                    String strategyVars = String.valueOf(strategy.getVariables());
+                    int strategyKey = strategyName.concat(strategyVars).hashCode();
+                    strategyMap.put(strategyKey, strategy);
+                }
+            }
+            catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
 
         for (Strategy strategy : strategyMap.values()) {
             if(strategy.getType().equals(ProblemType.BINARY)) {

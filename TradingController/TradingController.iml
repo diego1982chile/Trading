@@ -12,6 +12,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
     <orderEntry type="module" module-name="TradingPersistence" />
     <orderEntry type="module" module-name="TradingDomain" />
     <orderEntry type="library" name="Maven: org.jboss.weld.se:weld-se-shaded:3.0.0.Final" level="project" />
