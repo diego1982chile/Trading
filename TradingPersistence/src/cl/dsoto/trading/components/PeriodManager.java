@@ -2,6 +2,7 @@ package cl.dsoto.trading.components;
 
 import cl.dsoto.trading.model.Period;
 import cl.dsoto.trading.model.Strategy;
+import org.ta4j.core.BaseStrategy;
 
 import java.util.List;
 
@@ -11,7 +12,11 @@ import java.util.List;
 public interface PeriodManager {
 
     public Period persist(Period period) throws Exception;
+
     public List<Period> getLast(int periods) throws Exception;
+
     public Period createFromFile(String file) throws Exception;
+
+    public List<org.ta4j.core.Strategy> mapFrom(Period period) throws Exception;
 
 }

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="TradingMonitor:war">
+    <output-path>$PROJECT_DIR$/TradingMonitor/target</output-path>
+    <root id="archive" name="ROOT.war">
+      <element id="artifact" artifact-name="TradingMonitor:war exploded" />
+    </root>
+  </artifact>
+</component>

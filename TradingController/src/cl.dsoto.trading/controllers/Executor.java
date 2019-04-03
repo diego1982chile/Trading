@@ -22,7 +22,7 @@ public class Executor {
     static PeriodManager periodManager = (PeriodManager) ServiceLocator.getInstance().getService(PeriodManager.class);
     static StrategyManager strategyManager = (StrategyManager) ServiceLocator.getInstance().getService(StrategyManager.class);
 
-    static List<String> files = Arrays.asList("2010_D.csv","2011_D.csv","2013_D.csv","2014_D.csv","2015_D.csv","2016_D.csv","2017_D.csv","2018_D.csv");
+    static List<String> files = Arrays.asList("2010_D.csv","2011_D.csv","2012_D.csv","2013_D.csv","2014_D.csv","2015_D.csv","2016_D.csv","2017_D.csv","2018_D.csv");
 
     public static void main(String[] args) throws Exception {
 

@@ -24,14 +24,18 @@
         <processorPath useClasspath="true" />
         <module name="TradingController" />
         <module name="TradingDomain" />
+        <module name="TradingMonitor" />
         <module name="TradingPersistence" />
+        <module name="TradingWeb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="Trading" target="1.7" />
       <module name="TradingController" target="1.7" />
       <module name="TradingDomain" target="1.8" />
+      <module name="TradingMonitor" target="1.8" />
       <module name="TradingPersistence" target="1.8" />
+      <module name="TradingWeb" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

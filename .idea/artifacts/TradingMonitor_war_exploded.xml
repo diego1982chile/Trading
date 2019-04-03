@@ -1,0 +1,45 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="TradingMonitor:war exploded">
+    <output-path>$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="TradingMonitor" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="TradingPersistence-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="TradingPersistence" />
+          </element>
+          <element id="archive" name="TradingDomain-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="TradingDomain" />
+          </element>
+          <element id="library" level="project" name="Maven: org.jboss.weld.se:weld-se-shaded:3.0.0.Final" />
+          <element id="library" level="project" name="Maven: org.postgresql:postgresql:9.4.1208" />
+          <element id="library" level="project" name="Maven: org.glassfish:javax.faces:2.2.17" />
+          <element id="library" level="project" name="Maven: org.jboss.weld.servlet:weld-servlet:2.3.5.Final" />
+          <element id="library" level="project" name="Maven: org.primefaces:primefaces:6.2" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.21" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.21" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.primefaces.themes:ultima:1.1.3" />
+          <element id="library" level="project" name="Maven: org.apache.poi:poi:3.16" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-collections4:4.1" />
+          <element id="library" level="project" name="Maven: org.primefaces.extensions:primefaces-extensions:6.0.0" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.2.4" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.1" />
+          <element id="library" level="project" name="Maven: org.omnifaces:omnifaces:2.4" />
+          <element id="library" level="project" name="Maven: org.ocpsoft.rewrite:rewrite-servlet:3.4.1.Final" />
+          <element id="library" level="project" name="Maven: org.ocpsoft.rewrite:rewrite-config-prettyfaces:3.4.1.Final" />
+          <element id="library" level="project" name="Maven: org.ocpsoft.rewrite:rewrite-integration-faces:3.4.1.Final" />
+          <element id="library" level="project" name="Maven: org-ta4j:ta4j-core:0.12-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: org-ta4j:ta4j-examples:0.12-SNAPSHOT" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="TradingMonitor/web/Web" />
+    </root>
+  </artifact>
+</component>

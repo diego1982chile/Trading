@@ -109,4 +109,16 @@ public class Period {
     public void setOptimizations(List<Optimization> optimizations) {
         this.optimizations = optimizations;
     }
+
+    public List<Optimization> getOptimizationsOfType(ProblemType problemType) {
+        List<Optimization> optimizations = new ArrayList<>();
+
+        for (Optimization optimization : optimizations) {
+            if(optimization.getStrategy().getType().equals(problemType)) {
+                optimizations.add(optimization);
+            }
+        }
+
+        return optimizations;
+    }
 }

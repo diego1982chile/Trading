@@ -1,0 +1,138 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:pe="http://primefaces.org/ui/extensions"
+                template="/WEB-INF/template.xhtml">
+
+    <ui:define name="title">Semantikos Diseñador</ui:define>
+
+    <ui:define name="head">
+        <script type="text/javascript">
+            //<![CDATA[
+            function skinChart() {
+                this.cfg.shadow = false;
+                this.cfg.title = '';
+                this.cfg.seriesColors = ['#FFC107', '#03A9F4'];
+                this.cfg.grid = {
+                    background: '#ffffff',
+                    borderColor: '#ffffff',
+                    gridLineColor: '#EEEEEE',
+                    shadow: false
+                };
+                this.cfg.axesDefaults = {
+                    rendererOptions: {
+                        textColor: '#212121'
+                    }
+                };
+                this.cfg.seriesDefaults = {
+                    shadow: false,
+                    lineWidth: 1,
+                    markerOptions: {
+                        shadow: false,
+                        size: 7,
+                        style: 'circle'
+                    }
+                }
+            }
+            //]]>
+        </script>
+        <style type="text/css">
+            .main-content {
+                padding: 0;
+            }
+        </style>
+    </ui:define>
+
+    <ui:define name="content">
+
+        <div class="ui-g dashboard">
+
+        <h:form style="width: 100%">
+
+            <div class="ui-g-12 ui-md-12 ui-lg-3">
+
+                <!-- Left Side -->
+                <div class="card card-w-title">
+                    <h1>BACKTESTS</h1>
+
+                    <p:separator styleClass="heading-separator" style="margin: 0px"/>
+
+                    <p:outputPanel rendered="true" styleClass="categories">
+                    <ul class="activity-list">
+                        <p:repeat value="#{backTestBean.periods}" var="period">
+                            <li class="hoverful">
+                                <div class="ui-g">
+                                    <div class="ui-g-10">
+                                        <span style="font-weight:bold;">#{period.name}</span>
+                                        <p>#{period.start} - #{period.end}</p>
+                                    </div>
+                                    <div class="ui-g-2" style="text-align:right">
+                                        <p:commandButton icon="fa fa-list-alt fa-lg" styleClass="loader-trigger"
+                                                         actionListener="#{backTestBean.setSelectedPeriod(period)}"/>
+                                    </div>
+                                </div>
+                            </li>
+                        </p:repeat>
+                    </ul>
+                    </p:outputPanel>
+
+                </div>
+
+            </div>
+
+            <div class="ui-g-12 ui-md-12 ui-lg-9">
+                    <!-- Left Side -->
+
+                    <div class="card card-w-title">
+
+                        <h1>DETAIL</h1>
+
+                        <div class="ui-g ui-fluid" style="margin-bottom: 20px">
+
+                            <div class="ui-g-12 ui-md-4 ui-lg-2">
+                                <h:outputText value="Number of trades:" styleClass="label" />
+                            </div>
+
+                            <div class="ui-g-12 ui-md-8 ui-lg-10">
+                                <h:outputText value="#{backTestBean.profitableTrades}" styleClass="value" />
+                            </div>
+
+                            <div class="ui-g-12 ui-md-4 ui-lg-2">
+                                <h:outputText value="Reward-risk ratio:" styleClass="label" />
+                            </div>
+
+                            <div class="ui-g-12 ui-md-8 ui-lg-10">
+                                <h:outputText value="#{backTestBean.rewardRisk}" styleClass="value"/>
+                            </div>
+
+                            <div class="ui-g-12 ui-md-4 ui-lg-2">
+                                <h:outputText value="vs buy-and-hold profit:" styleClass="label"/>
+                            </div>
+
+                            <div class="ui-g-12 ui-md-8 ui-lg-10">
+                                <h:outputText rows="1" value="#{backTestBean.vsBuyAndHold}" styleClass="value"/>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+            </div>
+
+        </h:form>
+
+        </div>
+
+        <script type="text/javascript">
+
+            $(document).ready(function() {
+                $.removeCookie('myCookie');
+            });
+
+        </script>
+
+    </ui:define>
+
+</ui:composition>

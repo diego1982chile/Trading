@@ -23,7 +23,7 @@ public class BarDAOImpl implements BarDAO {
     @Override
     public PeriodBar persist(PeriodBar bar) throws Exception {
 
-        String sql = "{call trd.create_bar(?,?,?,?,?,?,?)}";
+        String sql = "{call trd.create_bar_period(?,?,?,?,?,?,?)}";
 
         try (Connection connect = DataSourceFactory.getInstance().getConnection();
              CallableStatement call = connect.prepareCall(sql)) {

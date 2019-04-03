@@ -22,8 +22,6 @@ public class ServiceLocator {
 
     private static WeldContainer container;
 
-    SeContainerInitializer initializer = SeContainerInitializer.newInstance();
-
     /** Mapa de interfaces por su nombre. */
     private Map<String, Object> servicesByName;
 
