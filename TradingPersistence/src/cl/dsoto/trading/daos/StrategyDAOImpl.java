@@ -4,7 +4,10 @@ import cl.dsoto.trading.factories.DataSourceFactory;
 import cl.dsoto.trading.model.ProblemType;
 import cl.dsoto.trading.model.Strategy;
 
+import javax.annotation.Resource;
+import javax.ejb.Stateless;
 import javax.inject.Named;
+import javax.sql.DataSource;
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -19,11 +22,15 @@ import java.util.logging.Logger;
 /**
  * Created by des01c7 on 25-03-19.
  */
+@Stateless
 public class StrategyDAOImpl implements StrategyDAO {
 
     static private final Logger logger = Logger.getLogger(StrategyDAOImpl.class.getName());
 
     Map<Long, Strategy> strategyMap = new ConcurrentHashMap<>();
+
+    @Resource(lookup = "java:jboss/TradingDS")
+    private DataSource dataSource;
 
     public List<Strategy> getStrategies() throws Exception {
 
@@ -31,7 +38,7 @@ public class StrategyDAOImpl implements StrategyDAO {
 
         String sql = "{call trd.get_strategies()}";
 
-        try (Connection connect = DataSourceFactory.getInstance().getConnection();
+        try (Connection connect = dataSource.getConnection();
              CallableStatement call = connect.prepareCall(sql)) {
 
             call.execute();

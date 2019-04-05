@@ -1,12 +1,15 @@
 package cl.dsoto.trading.daos;
 
-import cl.dsoto.trading.cdi.ServiceLocator;
 import cl.dsoto.trading.factories.DataSourceFactory;
 import cl.dsoto.trading.model.Optimization;
 import cl.dsoto.trading.model.ProblemType;
 import cl.dsoto.trading.model.Strategy;
 import cl.dsoto.trading.model.Solution;
 
+import javax.annotation.Resource;
+import javax.ejb.EJB;
+import javax.ejb.Stateless;
+import javax.sql.DataSource;
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -19,10 +22,14 @@ import java.util.logging.Logger;
 /**
  * Created by des01c7 on 25-03-19.
  */
+@Stateless
 public class SolutionDAOImpl implements SolutionDAO {
 
-    //@EJB
-    private ValueDAO valueDAO = (ValueDAO) ServiceLocator.getInstance().getService(ValueDAO.class);
+    @EJB
+    private ValueDAO valueDAO;
+
+    @Resource(lookup = "java:jboss/TradingDS")
+    private DataSource dataSource;
 
     static private final Logger logger = Logger.getLogger(SolutionDAOImpl.class.getName());
 
@@ -30,7 +37,7 @@ public class SolutionDAOImpl implements SolutionDAO {
 
         String sql = "{call trd.create_solution(?)}";
 
-        try (Connection connect = DataSourceFactory.getInstance().getConnection();
+        try (Connection connect = dataSource.getConnection();
              CallableStatement call = connect.prepareCall(sql)) {
 
             call.setLong(1, solution.getOptimization().getId());
@@ -62,7 +69,7 @@ public class SolutionDAOImpl implements SolutionDAO {
                 logger.log(Level.SEVERE, errorMsg);
                 throw new Exception(errorMsg);
             }
-            rs.close();
+            //rs.close();
         } catch (SQLException e) {
             logger.log(Level.SEVERE, e.getMessage());
             throw new Exception(e);
@@ -78,7 +85,7 @@ public class SolutionDAOImpl implements SolutionDAO {
 
         String sql = "{call trd.get_solutions_by_optimization(?)}";
 
-        try (Connection connect = DataSourceFactory.getInstance().getConnection();
+        try (Connection connect = dataSource.getConnection();
              CallableStatement call = connect.prepareCall(sql)) {
 
             call.setLong(1, optimization.getId());
@@ -91,7 +98,7 @@ public class SolutionDAOImpl implements SolutionDAO {
                 solutions.add(createVariableFromResultSet(rs, optimization));
             }
 
-            rs.close();
+            //rs.close();
         } catch (SQLException e) {
             logger.log(Level.SEVERE, e.getMessage());
             throw new Exception(e);

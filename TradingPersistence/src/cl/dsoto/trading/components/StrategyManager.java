@@ -2,11 +2,13 @@ package cl.dsoto.trading.components;
 
 import cl.dsoto.trading.model.Strategy;
 
+import javax.ejb.Remote;
 import java.util.List;
 
 /**
  * Created by des01c7 on 25-03-19.
  */
+@Remote
 public interface StrategyManager {
 
     public Strategy findBy(String name, int variables);

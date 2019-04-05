@@ -1,6 +1,5 @@
 package cl.dsoto.trading.controllers;
 
-import cl.dsoto.trading.cdi.ServiceLocator;
 import cl.dsoto.trading.components.OptimizationManager;
 import cl.dsoto.trading.model.Objective;
 import cl.dsoto.trading.model.Optimization;

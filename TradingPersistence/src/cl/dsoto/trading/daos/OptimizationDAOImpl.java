@@ -1,9 +1,12 @@
 package cl.dsoto.trading.daos;
 
-import cl.dsoto.trading.cdi.ServiceLocator;
 import cl.dsoto.trading.factories.DataSourceFactory;
 import cl.dsoto.trading.model.*;
 
+import javax.annotation.Resource;
+import javax.ejb.EJB;
+import javax.ejb.Stateless;
+import javax.sql.DataSource;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -15,24 +18,28 @@ import static java.util.Collections.EMPTY_LIST;
 /**
  * Created by des01c7 on 25-03-19.
  */
+@Stateless
 public class OptimizationDAOImpl implements OptimizationDAO {
 
     static private final Logger logger = Logger.getLogger(OptimizationDAOImpl.class.getName());
 
-    //@EJB
-    private ObjectiveDAO objectiveDAO = (ObjectiveDAO) ServiceLocator.getInstance().getService(ObjectiveDAO.class);
+    @EJB
+    private ObjectiveDAO objectiveDAO;
 
-    //@EJB
-    private SolutionDAO solutionDAO = (SolutionDAO) ServiceLocator.getInstance().getService(SolutionDAO.class);
+    @EJB
+    private SolutionDAO solutionDAO;
 
-    //@EJB
-    private StrategyDAO strategyDAO = (StrategyDAO) ServiceLocator.getInstance().getService(StrategyDAO.class);
+    @EJB
+    private StrategyDAO strategyDAO;
+
+    @Resource(lookup = "java:jboss/TradingDS")
+    private DataSource dataSource;
 
     public Optimization persist(Optimization optimization) throws Exception {
 
         String sql = "{call trd.create_optimization(?,?,?)}";
 
-        try (Connection connect = DataSourceFactory.getInstance().getConnection();
+        try (Connection connect = dataSource.getConnection();
              CallableStatement call = connect.prepareCall(sql);
         ) {
 
@@ -63,7 +70,7 @@ public class OptimizationDAOImpl implements OptimizationDAO {
                 logger.log(Level.SEVERE, errorMsg);
                 throw new Exception(errorMsg);
             }
-            rs.close();
+            //rs.close();
             //connect.commit();
         } catch (SQLException e) {
             logger.log(Level.SEVERE, e.getMessage());
@@ -79,7 +86,7 @@ public class OptimizationDAOImpl implements OptimizationDAO {
 
         String sql = "{call trd.get_optimizations_by_period(?)}";
 
-        try (Connection connect = DataSourceFactory.getInstance().getConnection();
+        try (Connection connect = dataSource.getConnection();
              CallableStatement call = connect.prepareCall(sql)) {
 
             call.setLong(1, period.getId());
@@ -98,6 +105,10 @@ public class OptimizationDAOImpl implements OptimizationDAO {
             String errorMsg = "Error al recuperar la descripción de la BDD.";
             logger.log(Level.SEVERE, e.getMessage());
             throw new Exception(e.getMessage());
+        } catch (Exception ex) {
+            String errorMsg = "Error al recuperar la descripción de la BDD.";
+            logger.log(Level.SEVERE, ex.getMessage());
+            throw new Exception(ex.getMessage());
         }
 
         return optimizationList;

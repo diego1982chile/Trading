@@ -1,6 +1,5 @@
 package cl.dsoto.trading.components;
 
-import cl.dsoto.trading.cdi.ServiceLocator;
 import cl.dsoto.trading.daos.OptimizationDAO;
 import cl.dsoto.trading.daos.PeriodDAO;
 import cl.dsoto.trading.daos.StrategyDAO;
@@ -10,6 +9,8 @@ import org.ta4j.core.Strategy;
 import ta4jexamples.loaders.CsvTicksLoader;
 import ta4jexamples.strategies.*;
 
+import javax.ejb.EJB;
+import javax.ejb.Stateless;
 import java.sql.Date;
 import java.sql.Timestamp;
 import java.time.LocalDate;
@@ -24,10 +25,11 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * Created by des01c7 on 25-03-19.
  */
+@Stateless
 public class PeriodManagerImpl implements PeriodManager {
 
-    //@EJB
-    private PeriodDAO periodDAO = (PeriodDAO) ServiceLocator.getInstance().getService(PeriodDAO.class);
+    @EJB
+    private PeriodDAO periodDAO;
 
     private static final String GLOBAL_EXTREMA = "GlobalExtremaStrategy";
 

@@ -18,8 +18,8 @@ public class ServiceLocator {
     /** Mapa de interfaces por su nombre. */
     private Map<String, Object> servicesByName;
 
-    private static String APP_NAME = "SemantikosCentral/";
-    private static String MODULE_NAME = "SemantikosKernelEJB/";
+    private static String APP_NAME = "TradingCentral/";
+    private static String MODULE_NAME = "TradingPersistence/";
 
     private void lookupRemoteStatelessEJB(Type type) throws NamingException {
 

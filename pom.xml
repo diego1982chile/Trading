@@ -25,6 +25,7 @@
         <module>TradingPersistence</module>
         <module>TradingController</module>
         <module>TradingMonitor</module>
+        <module>TradingCentral</module>
     </modules>
 
     <build>

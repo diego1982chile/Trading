@@ -2,259 +2,103 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bab48a6c-f80d-4cc5-836d-8e22cc29cea5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/semantikos/images/background-light-web-opera-blue-simple.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/semantikos/images/loader-pink.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/semantikos/images/logo-31.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/semantikos/images/logo-indigo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/semantikos/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/semantikos/images/logo180-180.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/semantikos/images/minsal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/semantikos/images/search.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/semantikos/images/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/semantikos/loader-pink.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/fonts/MaterialIcons-Regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/fonts/MaterialIcons-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/fonts/MaterialIcons-Regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/fonts/MaterialIcons-Regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/fonts/roboto-v15-latin-300.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/fonts/roboto-v15-latin-300.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/fonts/roboto-v15-latin-300.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/fonts/roboto-v15-latin-300.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/fonts/roboto-v15-latin-700.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/fonts/roboto-v15-latin-700.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/fonts/roboto-v15-latin-700.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/fonts/roboto-v15-latin-700.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/fonts/roboto-v15-latin-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/fonts/roboto-v15-latin-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/fonts/roboto-v15-latin-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/fonts/roboto-v15-latin-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/avatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/avatar1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/avatar2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/avatar2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/avatar3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/avatar4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/dark-user-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/dark-user-bg2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/dashboard/map.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/dashboard/md.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/dashboard/sidebar-image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/landing/landing-header.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/landing/promotion.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/login/login.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/login/login2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/logo2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/preloader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/profile-bg-dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/profile-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/profile-image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/user-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/user-bg2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/TradingMonitor_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/TradingMonitor_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Trading_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Trading_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_jws_jsr181_api_1_0_MR1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_faces_2_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_jaxrs_api_3_0_8_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_annotation_jboss_annotations_api_1_2_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_batch_jboss_batch_api_1_0_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_ejb_jboss_ejb_api_3_2_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_el_jboss_el_api_3_0_spec_1_0_4_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_enterprise_concurrent_jboss_concurrency_api_1_0_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_faces_jboss_jsf_api_2_2_spec_2_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_interceptor_jboss_interceptors_api_1_2_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_jms_jboss_jms_api_2_0_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_json_jboss_json_api_1_0_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_management_j2ee_jboss_j2eemgmt_api_1_1_spec_1_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_resource_jboss_connector_api_1_7_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_rmi_jboss_rmi_api_1_0_spec_1_0_4_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_security_auth_message_jboss_jaspi_api_1_1_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_security_jacc_jboss_jacc_api_1_5_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_servlet_jboss_servlet_api_3_1_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_servlet_jsp_jboss_jsp_api_2_3_spec_1_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_servlet_jstl_jboss_jstl_api_1_2_spec_1_1_2_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_websocket_jboss_websocket_api_1_0_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_xml_bind_jboss_jaxb_api_2_2_spec_1_0_4_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_xml_soap_jboss_saaj_api_1_3_spec_1_0_3_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_xml_ws_jboss_jaxws_api_2_2_spec_2_0_2_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_weld_servlet_weld_servlet_2_3_5_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ocpsoft_rewrite_rewrite_config_prettyfaces_3_4_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ocpsoft_rewrite_rewrite_integration_faces_3_4_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ocpsoft_rewrite_rewrite_servlet_3_4_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_omnifaces_omnifaces_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_extensions_primefaces_extensions_6_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_6_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_ultima_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/TradingMonitor.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/src/cl/dsoto/trading/BackTestBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/src/cl/dsoto/trading/MenuBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/src/cl/dsoto/trading/components/GuestPreferences.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/WEB-INF/faces-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/WEB-INF/footer.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/WEB-INF/menu.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/WEB-INF/pretty-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/WEB-INF/rightpanel.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/WEB-INF/template.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/WEB-INF/topbar.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/semantikos/css/customStyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/semantikos/js/jquery.mark.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/semantikos/js/jquery.toast.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-blue-grey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-blue-grey.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-blue.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-brown.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-brown.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-cyan.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-cyan.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-dark-blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-dark-blue.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-dark-green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-dark-green.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-green.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-grey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-grey.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-indigo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-indigo.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-purple-amber.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-purple-amber.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-purple-cyan.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-purple-cyan.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-teal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/layout-teal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/nanoscroller.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/css/ripple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/fonts/roboto-v15-latin-300.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/fonts/roboto-v15-latin-700.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/fonts/roboto-v15-latin-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/401.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/404.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/dashboard/progress.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/dashboard/sales.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/dashboard/views.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/dashboard/weather-icon-1.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/dashboard/weather-icon-2.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/dashboard/weather-icon-3.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/dashboard/weather-icon-4.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/error.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/logo-ultima.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/images/profile-bg.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/js/layout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/js/nanoscroller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/js/ripple.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/ultima-layout/js/swipe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/errors/404.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/errors/error.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples-ultima/404.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples-ultima/access.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples-ultima/charts.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples-ultima/dashboard.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples-ultima/data.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples-ultima/docs.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples-ultima/empty.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples-ultima/error.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples-ultima/file.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples-ultima/forms.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples-ultima/landing.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples-ultima/login.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples-ultima/menu.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples-ultima/messages.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples-ultima/misc.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples-ultima/overlay.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples-ultima/panel.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples-ultima/sample.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples-ultima/utils.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/charts.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/dashboard.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/data.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/datatable.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/core/box-sizing.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/core/containerx.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/core/displaying.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/core/empty-boxes.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/core/floating.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/core/font-size.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/core/font-weights.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/core/installation.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/core/menus.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/core/opacity.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/core/overflows.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/core/positioning.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/core/responsive-mode.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/core/selection.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/core/text-aligning.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/core/transitions.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/core/underline.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/core/visibilities.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/core/widx.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/layout/background-colors.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/layout/borders.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/layout/cards.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/layout/effects.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/layout/less.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/layout/roboto-font.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/layout/separators.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/docs/layout/text-colors.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/empty-page.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/file.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/font-icons.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/forms.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/login.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/menu.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/messages.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/misc.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/overlay.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/panel.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/promotion-page.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/examples/sample.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/home.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/promotion-page.xhtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/TradingCentral_ear.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/TradingCentral_ear_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_build_config_7_5_21_Final_redhat_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_ejb3_jboss_ejb3_ext_api_2_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jboss_ejb_client_1_0_41_Final_redhat_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jboss_remote_naming_1_0_13_Final_redhat_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_4_GA_redhat_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_marshalling_jboss_marshalling_1_4_10_SP3_redhat_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_marshalling_jboss_marshalling_river_1_4_10_SP3_redhat_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_remoting3_jboss_remoting_3_3_12_Final_redhat_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_sasl_jboss_sasl_1_0_5_Final_redhat_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_ejb_jboss_ejb_api_3_1_spec_1_0_2_Final_redhat_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_1_Final_redhat_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_api_3_0_17_GA_redhat_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_nio_3_0_17_GA_redhat_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__postgresql_postgresql_9_1_901_1_jdbc4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingCentral/META-INF/application.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingCentral/TradingCentral.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingCentral/TradingCentral/application.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingCentral/TradingCentral/src/main/resources/application.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingCentral/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingDomain/resources/jboss-ejb-client.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/components/OptimizationManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/components/PeriodManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/components/StrategyManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/resources/cl/dsoto/trading/version.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_weld_se_weld_se_shaded_3_0_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_9_4_1208.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/cdi/ServiceLocator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/cdi/ServiceLocator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingPersistence/target/lib/TradingDomain-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingPersistence/target/lib/postgresql-9.4.1208.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingPersistence/target/lib/ta4j-core-0.12-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingPersistence/target/lib/ta4j-examples-0.12-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingPersistence/target/lib/weld-se-shaded-3.0.0.Final.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingController/target/TradingController-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/TradingController/target/TradingController-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingDomain/target/TradingDomain-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/TradingDomain/target/TradingDomain-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingDomain/target/classes/cl/dsoto/trading/clients/ServiceLocator.class" afterPath="$PROJECT_DIR$/TradingDomain/target/classes/cl/dsoto/trading/clients/ServiceLocator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingDomain/target/classes/cl/dsoto/trading/model/Period.class" afterPath="$PROJECT_DIR$/TradingDomain/target/classes/cl/dsoto/trading/model/Period.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/TradingPersistence-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/TradingPersistence/target/TradingPersistence-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/cdi/ServiceLocator.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/cdi/ServiceLocator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/components/OptimizationManager.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/components/OptimizationManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/components/OptimizationManagerImpl.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/components/OptimizationManagerImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/components/PeriodManager.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/components/PeriodManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/components/PeriodManagerImpl.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/components/PeriodManagerImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/lib/TradingDomain-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/TradingPersistence/target/lib/TradingDomain-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/components/StrategyManager.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/components/StrategyManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/components/StrategyManagerImpl.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/components/StrategyManagerImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/controllers/Start.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/controllers/Start.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/ObjectiveDAO.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/ObjectiveDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/ObjectiveDAOImpl.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/ObjectiveDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/OptimizationDAO.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/OptimizationDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/OptimizationDAOImpl.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/OptimizationDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/PeriodDAO.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/PeriodDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/PeriodDAOImpl.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/PeriodDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/SolutionDAO.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/SolutionDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/SolutionDAOImpl.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/SolutionDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/StrategyDAO.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/StrategyDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/StrategyDAOImpl.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/StrategyDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/ValueDAO.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/ValueDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/ValueDAOImpl.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/ValueDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/TradingMonitor_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/TradingMonitor_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trading.iml" afterPath="$PROJECT_DIR$/Trading.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingController/src/cl.dsoto.trading/controllers/Executor.java" afterPath="$PROJECT_DIR$/TradingController/src/cl.dsoto.trading/controllers/Executor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingController/TradingController.iml" afterPath="$PROJECT_DIR$/TradingController/TradingController.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingController/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/TradingController/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Period.java" afterPath="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Period.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingDomain/TradingDomain.iml" afterPath="$PROJECT_DIR$/TradingDomain/TradingDomain.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingDomain/pom.xml" afterPath="$PROJECT_DIR$/TradingDomain/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/clients/ServiceLocator.java" afterPath="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/clients/ServiceLocator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingDomain/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/TradingDomain/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/cdi/ServiceLocator.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/cdi/ServiceLocator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingMonitor/TradingMonitor.iml" afterPath="$PROJECT_DIR$/TradingMonitor/TradingMonitor.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingMonitor/src/cl/dsoto/trading/BackTestBean.java" afterPath="$PROJECT_DIR$/TradingMonitor/src/cl/dsoto/trading/BackTestBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingMonitor/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/TradingMonitor/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/TradingPersistence.iml" afterPath="$PROJECT_DIR$/TradingPersistence/TradingPersistence.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/pom.xml" afterPath="$PROJECT_DIR$/TradingPersistence/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/OptimizationManager.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/OptimizationManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/OptimizationManagerImpl.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/OptimizationManagerImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManager.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManagerImpl.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManagerImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/StrategyManager.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/StrategyManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/StrategyManagerImpl.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/StrategyManagerImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/controllers/Start.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/controllers/Start.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/BarDAO.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/BarDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/BarDAOImpl.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/BarDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ObjectiveDAO.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ObjectiveDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ObjectiveDAOImpl.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ObjectiveDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/OptimizationDAO.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/OptimizationDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/OptimizationDAOImpl.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/OptimizationDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAO.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAOImpl.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/SolutionDAO.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/SolutionDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/SolutionDAOImpl.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/SolutionDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/StrategyDAO.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/StrategyDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/StrategyDAOImpl.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/StrategyDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ValueDAO.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ValueDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ValueDAOImpl.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ValueDAOImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/TradingPersistence/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
@@ -268,6 +112,7 @@
     <ignored path="$PROJECT_DIR$/TradingController/target/" />
     <ignored path="$PROJECT_DIR$/TradingWeb/target/" />
     <ignored path="$PROJECT_DIR$/TradingMonitor/target/" />
+    <ignored path="$PROJECT_DIR$/TradingCentral/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -285,131 +130,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingMonitor/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BackTestBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TradingMonitor/src/cl/dsoto/trading/BackTestBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state relative-caret-position="96">
+              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1773#1774#0" expanded="true" />
-                <element signature="e#1812#1813#0" expanded="true" />
-                <element signature="e#1886#1887#0" expanded="true" />
-                <element signature="e#1942#1943#0" expanded="true" />
-                <element signature="e#2476#2477#0" expanded="true" />
-                <element signature="e#2506#2507#0" expanded="true" />
-                <element signature="e#2558#2559#0" expanded="true" />
-                <element signature="e#2596#2597#0" expanded="true" />
-                <element signature="e#2637#2638#0" expanded="true" />
-                <element signature="e#2674#2675#0" expanded="true" />
-                <element signature="e#2734#2735#0" expanded="true" />
-                <element signature="e#2786#2787#0" expanded="true" />
-                <element signature="e#2816#2817#0" expanded="true" />
-                <element signature="e#2845#2846#0" expanded="true" />
-                <element signature="e#2886#2887#0" expanded="true" />
-                <element signature="e#2922#2923#0" expanded="true" />
-                <element signature="e#2965#2966#0" expanded="true" />
-                <element signature="e#3004#3005#0" expanded="true" />
-                <element signature="e#3068#3069#0" expanded="true" />
-                <element signature="e#3124#3125#0" expanded="true" />
-                <element signature="e#3161#3162#0" expanded="true" />
-                <element signature="e#3194#3195#0" expanded="true" />
-                <element signature="e#3246#3247#0" expanded="true" />
-                <element signature="e#3290#3291#0" expanded="true" />
-                <element signature="e#3329#3330#0" expanded="true" />
-                <element signature="e#3364#3365#0" expanded="true" />
-                <element signature="e#3420#3421#0" expanded="true" />
-                <element signature="e#3468#3469#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ServiceLocator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/cdi/ServiceLocator.java">
+        <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/clients/ServiceLocator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebContainerInjectionProvider.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/javax.faces/2.2.17/javax.faces-2.2.17.jar!/com/sun/faces/vendor/WebContainerInjectionProvider.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeldValueExpression.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/weld/servlet/weld-servlet/2.3.5.Final/weld-servlet-2.3.5.Final.jar!/org/jboss/weld/el/WeldValueExpression.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PeriodManagerImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PeriodManagerImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManagerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="195" column="9" selection-start-line="195" selection-start-column="9" selection-end-line="195" selection-end-column="9" />
+            <state relative-caret-position="170">
+              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Period.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Period.java">
+      <file leaf-file-name="PeriodDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="116" column="70" selection-start-line="116" selection-start-column="70" selection-end-line="116" selection-end-column="70" />
+            <state relative-caret-position="180">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="404.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingMonitor/web/views/errors/404.xhtml">
+      <file leaf-file-name="PeriodDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+            <state relative-caret-position="221">
+              <caret line="126" column="34" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingMonitor/web/views/errors/error.xhtml">
+      <file leaf-file-name="BarDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/BarDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+            <state relative-caret-position="180">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OptimizationDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/OptimizationDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BarDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/BarDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41">
+              <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OptimizationDAOImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/OptimizationDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="111" column="9" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValueDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ValueDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -427,6 +244,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -436,35 +258,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/StrategyDAOImpl.java" />
-        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/VariableDAOImpl.java" />
-        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ValueDAO.java" />
-        <option value="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Solution.java" />
-        <option value="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Optimization.java" />
-        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/OptimizationManager.java" />
-        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/OptimizationDAO.java" />
-        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/SolutionDAO.java" />
-        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/SolutionDAOImpl.java" />
-        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/OptimizationDAOImpl.java" />
-        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/OptimizationManagerImpl.java" />
-        <option value="$PROJECT_DIR$/TradingPersistence/pom.xml" />
-        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAO.java" />
-        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/StrategyManager.java" />
-        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/controllers/Start.java" />
-        <option value="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/PeriodType.java" />
-        <option value="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Test.java" />
-        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/StrategyManagerImpl.java" />
-        <option value="$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.7-SNAPSHOT/jmetal-core-5.7-SNAPSHOT.jar!/org/uma/jmetal/util/fileoutput/SolutionListOutput.class" />
-        <option value="$PROJECT_DIR$/TradingController/pom.xml" />
-        <option value="$MAVEN_REPOSITORY$/org-ta4j/ta4j-examples/0.12-SNAPSHOT/ta4j-examples-0.12-SNAPSHOT.jar!/ta4jexamples/strategies/MovingAveragesStrategy.class" />
-        <option value="$PROJECT_DIR$/TradingDomain/pom.xml" />
-        <option value="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/PBar.java" />
-        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/BarDAO.java" />
-        <option value="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/PeriodBar.java" />
-        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAOImpl.java" />
-        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ValueDAOImpl.java" />
         <option value="$PROJECT_DIR$/TradingController/src/cl.dsoto.trading/controllers/Executor.java" />
-        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/BarDAOImpl.java" />
         <option value="$PROJECT_DIR$/TradingWeb/TradingWeb.iml" />
         <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/GuestPreferences.java" />
         <option value="$PROJECT_DIR$/TradingWeb/src/cl.dsoto.trading/components/GuestPreferences.java" />
@@ -474,7 +268,6 @@
         <option value="$PROJECT_DIR$/TradingWeb/src/cl/dsoto/trading/MenuBean.java" />
         <option value="$PROJECT_DIR$/TradingWeb/pom.xml" />
         <option value="$PROJECT_DIR$/TradingWeb/web/WEB-INF/template.xhtml" />
-        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManager.java" />
         <option value="$PROJECT_DIR$/TradingWeb/src/cl/dsoto/trading/BackTestBean.java" />
         <option value="$PROJECT_DIR$/TradingWeb/web/views/home.xhtml" />
         <option value="$PROJECT_DIR$/TradingWeb/web/WEB-INF/web.xml" />
@@ -482,11 +275,40 @@
         <option value="$PROJECT_DIR$/TradingWeb/web/WEB-INF/pretty-config.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/TradingMonitor/web/views/errors/error.xhtml" />
-        <option value="$PROJECT_DIR$/TradingMonitor/src/cl/dsoto/trading/BackTestBean.java" />
         <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/cdi/ServiceLocator.java" />
         <option value="$PROJECT_DIR$/TradingMonitor/pom.xml" />
         <option value="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Period.java" />
+        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/OptimizationManager.java" />
+        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManager.java" />
+        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/StrategyManager.java" />
+        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/BarDAO.java" />
+        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ObjectiveDAO.java" />
+        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/OptimizationDAO.java" />
+        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAO.java" />
+        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/SolutionDAO.java" />
+        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/StrategyDAO.java" />
+        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ValueDAO.java" />
+        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/StrategyDAOImpl.java" />
+        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/controllers/Start.java" />
+        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/OptimizationManagerImpl.java" />
         <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManagerImpl.java" />
+        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/StrategyManagerImpl.java" />
+        <option value="$PROJECT_DIR$/TradingCentral/TradingCentral/src/main/resources/application.xml" />
+        <option value="$PROJECT_DIR$/TradingCentral/TradingCentral/application.xml" />
+        <option value="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/clients/ServiceLocator.java" />
+        <option value="$PROJECT_DIR$/TradingCentral/pom.xml" />
+        <option value="$PROJECT_DIR$/TradingDomain/pom.xml" />
+        <option value="$PROJECT_DIR$/TradingMonitor/src/cl/dsoto/trading/BackTestBean.java" />
+        <option value="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/components/OptimizationManager.java" />
+        <option value="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/components/PeriodManager.java" />
+        <option value="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/components/StrategyManager.java" />
+        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/BarDAOImpl.java" />
+        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ObjectiveDAOImpl.java" />
+        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAOImpl.java" />
+        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/SolutionDAOImpl.java" />
+        <option value="$PROJECT_DIR$/TradingPersistence/pom.xml" />
+        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/OptimizationDAOImpl.java" />
+        <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ValueDAOImpl.java" />
       </list>
     </option>
   </component>
@@ -740,218 +562,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradingPersistence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradingMonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradingMonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradingMonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradingMonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="errors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradingDomain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradingDomain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradingDomain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradingDomain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradingDomain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clients" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -961,7 +571,7 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SumZeroTrading-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../servidor-terminologico" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.36505577" />
@@ -973,11 +583,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TradingDomain" />
+      <recent name="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading" />
+      <recent name="$PROJECT_DIR$/TradingMonitor" />
+      <recent name="$PROJECT_DIR$/TradingCentral" />
       <recent name="$PROJECT_DIR$/TradingWeb/web/views" />
-      <recent name="$PROJECT_DIR$/TradingWeb" />
-      <recent name="$PROJECT_DIR$/TradingPersistence" />
-      <recent name="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model" />
-      <recent name="$PROJECT_DIR$/TradingDomain/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cl.dsoto.trading" />
@@ -1270,6 +880,20 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
+    <configuration default="true" type="JBossConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="SERVER" value="" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" value="" />
+        <option name="USERNAME" value="" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="JBoss" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1475,6 +1099,77 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="false" name="Jboss" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 7.5.0.Final-redhat-21" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="TradingCentral:ear">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" value="main-server-group" />
+        <option name="USERNAME" value="" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="JBoss" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="33625" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="TradingCentral:ear" />
+        </option>
+      </method>
+    </configuration>
     <configuration default="false" name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -1547,10 +1242,11 @@
         </option>
       </method>
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Start" />
       <item index="1" class="java.lang.String" itemvalue="Application.Executor" />
-      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
+      <item index="2" class="java.lang.String" itemvalue="JBoss Server.Jboss" />
+      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -1580,7 +1276,7 @@
       <workItem from="1553805363081" duration="23425000" />
       <workItem from="1554145515566" duration="27842000" />
       <workItem from="1554302153901" duration="6260000" />
-      <workItem from="1554316785657" duration="13938000" />
+      <workItem from="1554316785657" duration="24588000" />
     </task>
     <task id="LOCAL-00001" summary="Se modifica modelo">
       <created>1554246046586</created>
@@ -1589,15 +1285,22 @@
       <option name="project" value="LOCAL" />
       <updated>1554246046586</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Se crea nuevo proyecto web para monitoreo...se debe redefinir componente de persistencia como proyecto EJB">
+      <created>1554331116661</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554331116661</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149153000" />
+    <option name="totallyTimeSpent" value="159803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1920" height="910" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5020855" order="7" side_tool="true" content_ui="tabs" />
@@ -1611,25 +1314,26 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40445027" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39921466" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4450262" sideWeight="0.49687174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40706807" sideWeight="0.49687174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44109946" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44183007" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1659,7 +1363,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/controllers/Start.java</url>
-          <line>13</line>
+          <line>12</line>
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
@@ -1668,12 +1372,6 @@
           <line>65</line>
           <properties />
           <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TradingMonitor/src/cl/dsoto/trading/BackTestBean.java</url>
-          <line>66</line>
-          <properties />
-          <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/cdi/ServiceLocator.java</url>
@@ -1688,7 +1386,7 @@
           <option name="timeStamp" value="64" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="65" />
+      <option name="time" value="81" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1697,190 +1395,218 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-problem/5.7-SNAPSHOT/jmetal-problem-5.7-SNAPSHOT.jar!/org/uma/jmetal/problem/singleobjective/trading/Decoder.class">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-931">
-          <caret line="129" column="20" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
+        <state relative-caret-position="120">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <marker date="1554496544354" expanded="true" signature="774:995" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-examples/0.12-SNAPSHOT/ta4j-examples-0.12-SNAPSHOT.jar!/ta4jexamples/strategies/TunnelStrategy.class">
+    <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Period.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        <state relative-caret-position="181">
+          <caret line="116" column="70" selection-start-line="116" selection-start-column="70" selection-end-line="116" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#706#707#0" expanded="false" />
+            <element signature="e#733#734#0" expanded="false" />
+            <element signature="e#782#783#0" expanded="false" />
+            <element signature="e#814#815#0" expanded="false" />
+            <element signature="e#1380#1381#0" expanded="false" />
+            <element signature="e#1405#1406#0" expanded="false" />
+            <element signature="e#1439#1440#0" expanded="false" />
+            <element signature="e#1467#1468#0" expanded="false" />
+            <element signature="e#1498#1499#0" expanded="false" />
+            <element signature="e#1525#1526#0" expanded="false" />
+            <element signature="e#1565#1566#0" expanded="false" />
+            <element signature="e#1597#1598#0" expanded="false" />
+            <element signature="e#1636#1637#0" expanded="false" />
+            <element signature="e#1668#1669#0" expanded="false" />
+            <element signature="e#1721#1722#0" expanded="false" />
+            <element signature="e#1763#1764#0" expanded="false" />
+            <element signature="e#1793#1794#0" expanded="false" />
+            <element signature="e#1821#1822#0" expanded="false" />
+            <element signature="e#1861#1862#0" expanded="false" />
+            <element signature="e#1895#1896#0" expanded="false" />
+            <element signature="e#1923#1924#0" expanded="false" />
+            <element signature="e#1949#1950#0" expanded="false" />
+            <element signature="e#1985#1986#0" expanded="false" />
+            <element signature="e#2015#2016#0" expanded="false" />
+            <element signature="e#2054#2055#0" expanded="false" />
+            <element signature="e#2086#2087#0" expanded="false" />
+            <element signature="e#2139#2140#0" expanded="false" />
+            <element signature="e#2181#2182#0" expanded="false" />
+            <element signature="e#2233#2234#0" expanded="false" />
+            <element signature="e#2269#2270#0" expanded="false" />
+            <element signature="e#2339#2340#0" expanded="false" />
+            <element signature="e#2389#2390#0" expanded="false" />
+            <marker date="1554330056736" expanded="true" signature="2470:2777" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/TimeSeries.class">
+    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/OptimizationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/Bar.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingDomain/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="105">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/StrategyManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="105">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ObjectiveDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ObjectiveDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/SolutionDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="92" />
+        <state relative-caret-position="105">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/PeriodBar.java">
+    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/StrategyDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="105">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ValueDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/StrategyDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/cdi/ServiceLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/controllers/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="e#1116#1117#0" expanded="false" />
-            <element signature="e#1141#1142#0" expanded="false" />
-            <element signature="e#1175#1176#0" expanded="false" />
-            <element signature="e#1203#1204#0" expanded="false" />
-            <element signature="e#1236#1237#0" expanded="false" />
-            <element signature="e#1265#1266#0" expanded="false" />
-            <element signature="e#1309#1310#0" expanded="false" />
-            <element signature="e#1345#1346#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/OptimizationDAO.java">
+    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/OptimizationManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/StrategyManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingCentral/TradingCentral/src/main/resources/jboss-app.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingCentral/TradingCentral/src/main/resources/jboss-ejb3.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingCentral/TradingCentral/src/main/resources/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <marker date="1554497038689" expanded="true" signature="93:387" ph="..." />
+            <marker date="1554497038689" expanded="true" signature="319:371" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingCentral/TradingCentral/application.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <marker date="1554497076796" expanded="true" signature="93:387" ph="..." />
+            <marker date="1554497076796" expanded="true" signature="319:371" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/OptimizationDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/factories/DataSourceFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        <state relative-caret-position="50">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="false" />
+            <element signature="e#2004#2005#0" expanded="false" />
+            <element signature="e#2035#2036#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAO.java">
+    <entry file="file://$PROJECT_DIR$/TradingController/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/BarDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/BarDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingPersistence/TradingPersistence.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="465">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TradingController/TradingController.iml">
+    <entry file="file://$PROJECT_DIR$/TradingCentral/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="169">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TradingMonitor/TradingMonitor.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/GuestPreferences.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingWeb/src/cl.dsoto.trading/components/GuestPreferences.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingWeb/src/cl/dsoto/trading/backtests/GuestPreferences.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingWeb/src/cl/dsoto/trading/BackTest.java">
+    <entry file="file://$PROJECT_DIR$/TradingCentral/META-INF/application.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1888,126 +1614,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TradingMonitor/src/cl/dsoto/trading/components/GuestPreferences.java">
+    <entry file="file://$PROJECT_DIR$/TradingDomain/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="201">
+          <caret line="43" column="60" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TradingMonitor/web/WEB-INF/menu.xhtml">
+    <entry file="file://$PROJECT_DIR$/TradingMonitor/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <marker date="1554318061250" expanded="true" signature="15:2473" ph="..." />
-            <marker date="1554318061250" expanded="true" signature="306:834" ph="..." />
-            <marker date="1554318061250" expanded="true" signature="370:820" ph="..." />
-            <marker date="1554318061250" expanded="true" signature="401:805" ph="..." />
-            <marker date="1554318061250" expanded="true" signature="464:786" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingMonitor/src/cl/dsoto/trading/MenuBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingController/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="31" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/OptimizationManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="127" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingWeb/web/WEB-INF/jboss-web.xml">
-      <provider editor-type-id="com.intellij.javaee.oss.jboss.editor.JBossWebRootProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingWeb/web/WEB-INF/jboss-ejb-client.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TradingMonitor/web/WEB-INF/template.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
+        <state relative-caret-position="813">
           <caret line="61" column="118" selection-start-line="61" selection-start-column="118" selection-end-line="61" selection-end-column="118" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TradingController/src/cl.dsoto.trading/controllers/Executor.java">
+    <entry file="file://$PROJECT_DIR$/TradingMonitor/web/views/home.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="94" column="22" selection-start-line="59" selection-start-column="12" selection-end-line="94" selection-end-column="22" />
+        <state relative-caret-position="94">
+          <caret line="91" column="66" selection-start-line="91" selection-start-column="65" selection-end-line="91" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/SolutionDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/TradingMonitor/web/WEB-INF/footer.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ValueDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ValueDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingMonitor/web/WEB-INF/faces-config.xml">
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="-13">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2020,144 +1662,199 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TradingMonitor/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/TradingMonitor/web/WEB-INF/faces-config.xml">
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TradingMonitor/web/views/home.xhtml">
+    <entry file="file://$PROJECT_DIR$/TradingMonitor/resources/cl/dsoto/trading/version.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="117" column="30" selection-start-line="117" selection-start-column="30" selection-end-line="117" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/components/PeriodManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/components/OptimizationManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/components/StrategyManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/components/OptimizationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/components/StrategyManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/components/PeriodManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ObjectiveDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/SolutionDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="71" column="14" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingDomain/resources/jboss-ejb-client.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TradingPersistence/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingMonitor/web/views/errors/404.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingMonitor/web/views/errors/access-denied.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingMonitor/web/views/errors/error.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/javax.faces/2.2.17/javax.faces-2.2.17.jar!/com/sun/faces/vendor/WebContainerInjectionProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="129">
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TradingMonitor/src/cl/dsoto/trading/BackTestBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state relative-caret-position="96">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1773#1774#0" expanded="true" />
-            <element signature="e#1812#1813#0" expanded="true" />
-            <element signature="e#1886#1887#0" expanded="true" />
-            <element signature="e#1942#1943#0" expanded="true" />
-            <element signature="e#2476#2477#0" expanded="true" />
-            <element signature="e#2506#2507#0" expanded="true" />
-            <element signature="e#2558#2559#0" expanded="true" />
-            <element signature="e#2596#2597#0" expanded="true" />
-            <element signature="e#2637#2638#0" expanded="true" />
-            <element signature="e#2674#2675#0" expanded="true" />
-            <element signature="e#2734#2735#0" expanded="true" />
-            <element signature="e#2786#2787#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2845#2846#0" expanded="true" />
-            <element signature="e#2886#2887#0" expanded="true" />
-            <element signature="e#2922#2923#0" expanded="true" />
-            <element signature="e#2965#2966#0" expanded="true" />
-            <element signature="e#3004#3005#0" expanded="true" />
-            <element signature="e#3068#3069#0" expanded="true" />
-            <element signature="e#3124#3125#0" expanded="true" />
-            <element signature="e#3161#3162#0" expanded="true" />
-            <element signature="e#3194#3195#0" expanded="true" />
-            <element signature="e#3246#3247#0" expanded="true" />
-            <element signature="e#3290#3291#0" expanded="true" />
-            <element signature="e#3329#3330#0" expanded="true" />
-            <element signature="e#3364#3365#0" expanded="true" />
-            <element signature="e#3420#3421#0" expanded="true" />
-            <element signature="e#3468#3469#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/cdi/ServiceLocator.java">
+    <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/clients/ServiceLocator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/weld/servlet/weld-servlet/2.3.5.Final/weld-servlet-2.3.5.Final.jar!/org/jboss/weld/el/WeldValueExpression.class">
+    <entry file="jar://$USER_HOME$/jdk1.8.0_144/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="131">
+          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TradingMonitor/pom.xml">
+    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/OptimizationDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        <state relative-caret-position="180">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="180">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Period.java">
+    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/BarDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="116" column="70" selection-start-line="116" selection-start-column="70" selection-end-line="116" selection-end-column="70" />
+        <state relative-caret-position="180">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/BarDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="126" column="34" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="195" column="9" selection-start-line="195" selection-start-column="9" selection-end-line="195" selection-end-column="9" />
+        <state relative-caret-position="170">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ValueDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/OptimizationDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="111" column="9" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="TradingCentral:ear">
+    <output-path>$PROJECT_DIR$/TradingCentral/target</output-path>
+    <root id="archive" name="TradingCentral.ear">
+      <element id="artifact" artifact-name="TradingCentral:ear exploded" />
+    </root>
+  </artifact>
+</component>

@@ -5,6 +5,9 @@ import cl.dsoto.trading.model.ProblemType;
 import cl.dsoto.trading.model.Solution;
 import cl.dsoto.trading.model.Strategy;
 
+import javax.annotation.Resource;
+import javax.ejb.Stateless;
+import javax.sql.DataSource;
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -18,17 +21,20 @@ import java.util.logging.Logger;
 /**
  * Created by des01c7 on 25-03-19.
  */
+@Stateless
 public class ValueDAOImpl<T extends Comparable> implements ValueDAO {
 
     static private final Logger logger = Logger.getLogger(ValueDAOImpl.class.getName());
 
+    @Resource(lookup = "java:jboss/TradingDS")
+    private DataSource dataSource;
 
     @Override
     public Solution persistBinaryValues(Solution solution) throws Exception {
 
         String sql = "{call trd.create_boolean_value(?,?)}";
 
-        try (Connection connect = DataSourceFactory.getInstance().getConnection();
+        try (Connection connect = dataSource.getConnection();
              CallableStatement call = connect.prepareCall(sql)) {
 
             call.setLong(1, solution.getOptimization().getId());
@@ -57,12 +63,11 @@ public class ValueDAOImpl<T extends Comparable> implements ValueDAO {
             if (rs.next()) {
                 //solution.setId(rs.getLong(1));
             } else {
-                connect.rollback();
                 String errorMsg = "El registro no fue creado. Contacte a Desarrollo";
                 logger.log(Level.SEVERE, errorMsg);
                 throw new Exception(errorMsg);
             }
-            rs.close();
+            //rs.close();
         } catch (SQLException e) {
             logger.log(Level.SEVERE, e.getMessage());
             throw new Exception(e);
@@ -76,7 +81,7 @@ public class ValueDAOImpl<T extends Comparable> implements ValueDAO {
 
         String sql = "{call trd.create_integer_value(?,?)}";
 
-        try (Connection connect = DataSourceFactory.getInstance().getConnection();
+        try (Connection connect = dataSource.getConnection();
              CallableStatement call = connect.prepareCall(sql)) {
 
             call.setLong(1, solution.getOptimization().getId());
@@ -97,12 +102,11 @@ public class ValueDAOImpl<T extends Comparable> implements ValueDAO {
             if (rs.next()) {
                 //solution.setId(rs.getLong(1));
             } else {
-                connect.rollback();
                 String errorMsg = "El registro no fue creado. Contacte a Desarrollo";
                 logger.log(Level.SEVERE, errorMsg);
                 throw new Exception(errorMsg);
             }
-            rs.close();
+            //rs.close();
         } catch (SQLException e) {
             logger.log(Level.SEVERE, e.getMessage());
             throw new Exception(e);
@@ -116,7 +120,7 @@ public class ValueDAOImpl<T extends Comparable> implements ValueDAO {
 
         String sql = "{call trd.create_real_value(?,?)}";
 
-        try (Connection connect = DataSourceFactory.getInstance().getConnection();
+        try (Connection connect = dataSource.getConnection();
              CallableStatement call = connect.prepareCall(sql)) {
 
             call.setLong(1, solution.getOptimization().getId());
@@ -139,12 +143,11 @@ public class ValueDAOImpl<T extends Comparable> implements ValueDAO {
             if (rs.next()) {
                 //solution.setId(rs.getLong(1));
             } else {
-                connect.rollback();
                 String errorMsg = "El registro no fue creado. Contacte a Desarrollo";
                 logger.log(Level.SEVERE, errorMsg);
                 throw new Exception(errorMsg);
             }
-            rs.close();
+            //rs.close();
         } catch (SQLException e) {
             logger.log(Level.SEVERE, e.getMessage());
             throw new Exception(e);
@@ -160,7 +163,7 @@ public class ValueDAOImpl<T extends Comparable> implements ValueDAO {
 
         String sql = "{call trd.get_boolean_values_by_solution(?)}";
 
-        try (Connection connect = DataSourceFactory.getInstance().getConnection();
+        try (Connection connect = dataSource.getConnection();
              CallableStatement call = connect.prepareCall(sql)) {
 
             call.setLong(1, solution.getId());
@@ -171,9 +174,8 @@ public class ValueDAOImpl<T extends Comparable> implements ValueDAO {
 
             while (rs.next()) {
                 binaryValues.add(rs.getBoolean("boolean_value"));
-                call.execute();
             }
-            rs.close();
+            //rs.close();
         } catch (SQLException e) {
             logger.log(Level.SEVERE, e.getMessage());
             throw new Exception(e);
@@ -189,7 +191,7 @@ public class ValueDAOImpl<T extends Comparable> implements ValueDAO {
 
         String sql = "{call trd.get_int_values_by_solution(?)}";
 
-        try (Connection connect = DataSourceFactory.getInstance().getConnection();
+        try (Connection connect = dataSource.getConnection();
              CallableStatement call = connect.prepareCall(sql)) {
 
             call.setLong(1, solution.getId());
@@ -201,7 +203,7 @@ public class ValueDAOImpl<T extends Comparable> implements ValueDAO {
             while (rs.next()) {
                 intValues.add(rs.getInt("int_value"));
             }
-            rs.close();
+            //rs.close();
         } catch (SQLException e) {
             logger.log(Level.SEVERE, e.getMessage());
             throw new Exception(e);
@@ -218,7 +220,7 @@ public class ValueDAOImpl<T extends Comparable> implements ValueDAO {
 
         String sql = "{call trd.get_real_values_by_solution(?)}";
 
-        try (Connection connect = DataSourceFactory.getInstance().getConnection();
+        try (Connection connect = dataSource.getConnection();
              CallableStatement call = connect.prepareCall(sql)) {
 
             call.setLong(1, solution.getId());
@@ -230,7 +232,7 @@ public class ValueDAOImpl<T extends Comparable> implements ValueDAO {
             while (rs.next()) {
                 floatValues.add(rs.getFloat("float_value"));
             }
-            rs.close();
+            //rs.close();
         } catch (SQLException e) {
             logger.log(Level.SEVERE, e.getMessage());
             throw new Exception(e);

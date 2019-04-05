@@ -1,6 +1,6 @@
 package cl.dsoto.trading;
 
-import cl.dsoto.trading.cdi.ServiceLocator;
+import cl.dsoto.trading.clients.ServiceLocator;
 import cl.dsoto.trading.components.GuestPreferences;
 import cl.dsoto.trading.components.PeriodManager;
 import cl.dsoto.trading.daos.OptimizationDAO;
@@ -22,6 +22,7 @@ import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.SessionScoped;
+import javax.faces.bean.ViewScoped;
 import javax.faces.context.FacesContext;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
@@ -32,7 +33,7 @@ import java.util.List;
  * Created by des01c7 on 03-04-19.
  */
 @ManagedBean
-@SessionScoped
+@ViewScoped
 public class BackTestBean {
 
     /**

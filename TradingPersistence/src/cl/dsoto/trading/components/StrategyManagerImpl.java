@@ -1,10 +1,11 @@
 package cl.dsoto.trading.components;
 
-import cl.dsoto.trading.cdi.ServiceLocator;
 import cl.dsoto.trading.daos.StrategyDAO;
 import cl.dsoto.trading.model.ProblemType;
 import cl.dsoto.trading.model.Strategy;
 
+import javax.ejb.EJB;
+import javax.ejb.Stateless;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -13,13 +14,14 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * Created by des01c7 on 25-03-19.
  */
+@Stateless
 public class StrategyManagerImpl implements StrategyManager {
 
     Map<Integer, Strategy> strategyMap = new ConcurrentHashMap<>();
     Map<String, Strategy> strategiesByName = new ConcurrentHashMap<>();
 
-    //@EJB
-    private StrategyDAO strategyDAO = (StrategyDAO) ServiceLocator.getInstance().getService(StrategyDAO.class);
+    @EJB
+    private StrategyDAO strategyDAO;
 
     @Override
     public Strategy findBy(String name, int variables) {

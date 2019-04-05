@@ -1,9 +1,12 @@
 package cl.dsoto.trading.daos;
 
-import cl.dsoto.trading.cdi.ServiceLocator;
 import cl.dsoto.trading.factories.DataSourceFactory;
 import cl.dsoto.trading.model.*;
 
+import javax.annotation.Resource;
+import javax.ejb.EJB;
+import javax.ejb.Stateless;
+import javax.sql.DataSource;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -15,23 +18,27 @@ import java.util.logging.Logger;
 /**
  * Created by des01c7 on 25-03-19.
  */
+@Stateless
 public class PeriodDAOImpl implements PeriodDAO {
 
     static private final Logger logger = Logger.getLogger(PeriodDAOImpl.class.getName());
 
     Map<Long, Strategy> strategyMap = new ConcurrentHashMap<>();
 
-    //@EJB
-    private OptimizationDAO optimizationDAO = (OptimizationDAO) ServiceLocator.getInstance().getService(OptimizationDAO.class);
+    @EJB
+    private OptimizationDAO optimizationDAO;
 
-    //@EJB
-    private BarDAO barDAO = (BarDAO) ServiceLocator.getInstance().getService(BarDAO.class);
+    @EJB
+    private BarDAO barDAO;
+
+    @Resource(lookup = "java:jboss/TradingDS")
+    private DataSource dataSource;
 
     public Period persist(Period period) throws Exception {
 
         String sql = "{call trd.create_period(?,?,?,?,?)}";
 
-        try (Connection connect = DataSourceFactory.getInstance().getConnection();
+        try (Connection connect = dataSource.getConnection();
              CallableStatement call = connect.prepareCall(sql);
         ) {
 
@@ -62,7 +69,7 @@ public class PeriodDAOImpl implements PeriodDAO {
                 logger.log(Level.SEVERE, errorMsg);
                 throw new Exception(errorMsg);
             }
-            rs.close();
+            //rs.close();
             //connect.commit();
         } catch (SQLException e) {
             logger.log(Level.SEVERE, e.getMessage());
@@ -78,8 +85,10 @@ public class PeriodDAOImpl implements PeriodDAO {
 
         String sql = "{call trd.get_last_periods(?)}";
 
-        try (Connection connect = DataSourceFactory.getInstance().getConnection();
+        try (Connection connect = dataSource.getConnection();
              CallableStatement call = connect.prepareCall(sql)) {
+
+            call.setInt(1, periods);
 
             call.execute();
 

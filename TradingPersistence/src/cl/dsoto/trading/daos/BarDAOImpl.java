@@ -1,11 +1,13 @@
 package cl.dsoto.trading.daos;
 
-import cl.dsoto.trading.cdi.ServiceLocator;
 import cl.dsoto.trading.factories.DataSourceFactory;
 import cl.dsoto.trading.model.*;
 import cl.dsoto.trading.model.Period;
 import org.ta4j.core.Bar;
 
+import javax.annotation.Resource;
+import javax.ejb.Stateless;
+import javax.sql.DataSource;
 import java.sql.*;
 import java.time.*;
 import java.util.ArrayList;
@@ -16,16 +18,20 @@ import java.util.logging.Logger;
 /**
  * Created by des01c7 on 25-03-19.
  */
+@Stateless
 public class BarDAOImpl implements BarDAO {
 
     static private final Logger logger = Logger.getLogger(BarDAOImpl.class.getName());
+
+    @Resource(lookup = "java:jboss/TradingDS")
+    private DataSource dataSource;
 
     @Override
     public PeriodBar persist(PeriodBar bar) throws Exception {
 
         String sql = "{call trd.create_bar_period(?,?,?,?,?,?,?)}";
 
-        try (Connection connect = DataSourceFactory.getInstance().getConnection();
+        try (Connection connect = dataSource.getConnection();
              CallableStatement call = connect.prepareCall(sql)) {
 
             ZonedDateTime time = bar.getEndTime();
@@ -57,7 +63,7 @@ public class BarDAOImpl implements BarDAO {
                 throw new Exception(errorMsg);
             }
 
-            rs.close();
+            //rs.close();
 
         } catch (SQLException e) {
             logger.log(Level.SEVERE, e.getMessage());
@@ -73,7 +79,7 @@ public class BarDAOImpl implements BarDAO {
 
         String sql = "{call trd.get_bars_by_period(?)}";
 
-        try (Connection connect = DataSourceFactory.getInstance().getConnection();
+        try (Connection connect = dataSource.getConnection();
              CallableStatement call = connect.prepareCall(sql)) {
 
             call.setLong(1, period.getId());
