@@ -123,9 +123,9 @@
         <dispatcher>ERROR</dispatcher>
     </filter-mapping>
 
-    <session-config>
+    <!--session-config>
         <session-timeout>1</session-timeout>
-    </session-config>
+    </session-config-->
 
     <!-- Require HTTPS for everything except /img (favicon) and /css. -->
     <!--security-constraint>

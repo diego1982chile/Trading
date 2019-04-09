@@ -66,6 +66,7 @@
     <orderEntry type="library" name="Maven: org.jboss.xnio:xnio-api:3.0.17.GA-redhat-1" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.xnio:xnio-nio:3.0.17.GA-redhat-1" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.as:jboss-as-build-config:7.5.21.Final-redhat-1" level="project" />
+    <orderEntry type="library" name="Maven: org.uma.jmetal:jmetal-core:5.7-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: postgresql:postgresql:9.1-901-1.jdbc4" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish:javax.faces:2.2.17" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.weld.servlet:weld-servlet:2.3.5.Final" level="project" />
@@ -86,5 +87,7 @@
     <orderEntry type="library" name="Maven: org.ocpsoft.rewrite:rewrite-integration-faces:3.4.1.Final" level="project" />
     <orderEntry type="library" name="Maven: org-ta4j:ta4j-core:0.12-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org-ta4j:ta4j-examples:0.12-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.jfree:jfreechart:1.0.14-redhat-2" level="project" />
+    <orderEntry type="library" name="Maven: org.jfree:jcommon:1.0.17-redhat-2" level="project" />
   </component>
 </module>

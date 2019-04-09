@@ -5,10 +5,18 @@ import cl.dsoto.trading.components.GuestPreferences;
 import cl.dsoto.trading.components.PeriodManager;
 import cl.dsoto.trading.daos.OptimizationDAO;
 import cl.dsoto.trading.daos.PeriodDAO;
-import cl.dsoto.trading.model.Period;
-import cl.dsoto.trading.model.PeriodBar;
+import cl.dsoto.trading.model.*;
+import org.apache.poi.hssf.record.chart.TickRecord;
+import org.jfree.chart.ChartUtilities;
+import org.jfree.chart.JFreeChart;
+import org.primefaces.model.DefaultStreamedContent;
 import org.primefaces.model.DefaultTreeNode;
+import org.primefaces.model.StreamedContent;
+import org.primefaces.model.chart.AxisType;
+import org.primefaces.model.chart.OhlcChartModel;
+import org.primefaces.model.chart.OhlcChartSeries;
 import org.ta4j.core.*;
+import org.ta4j.core.Strategy;
 import org.ta4j.core.analysis.CashFlow;
 import org.ta4j.core.analysis.criteria.AverageProfitableTradesCriterion;
 import org.ta4j.core.analysis.criteria.RewardRiskRatioCriterion;
@@ -24,9 +32,16 @@ import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.SessionScoped;
 import javax.faces.bean.ViewScoped;
 import javax.faces.context.FacesContext;
+import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServletRequest;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -50,6 +65,33 @@ public class BackTestBean {
     private double profitableTrades;
     private double rewardRisk;
     private double vsBuyAndHold;
+    private CashFlow cashFlow;
+
+    private StreamedContent chart;
+
+    private static final String GLOBAL_EXTREMA = "GlobalExtremaStrategy";
+
+    private static final String TUNNEL = "TunnelStrategy";
+
+    private static final String CCI_CORRECTION = "CCICorrectionStrategy";
+
+    private static final String BAGOVINO = "BagovinoStrategy";
+
+    private static final String MOVING_AVERAGES = "MovingAveragesStrategy";
+
+    private static final String RSI_2 = "RSI2Strategy";
+
+    private static final String PARABOLIC_SAR = "ParabolicSARStrategy";
+
+    private static final String MOVING_MOMENTUM = "MovingMomentumStrategy";
+
+    private static final String STOCHASTIC = "StochasticStrategy";
+
+    private static final String MACD = "MACDStrategy";
+
+    private static final String FX_BOOTCAMP = "FXBootCampStrategy";
+
+    private static final String WINSLOW = "WinslowStrategy";
 
     @ManagedProperty(value = "#{guestPreferences}")
     GuestPreferences guestPreferences;
@@ -95,6 +137,7 @@ public class BackTestBean {
 
     public void setSelectedPeriod(Period selectedPeriod) {
         this.selectedPeriod = selectedPeriod;
+        computeResults();
     }
 
     public int getTrades() {
@@ -129,6 +172,22 @@ public class BackTestBean {
         this.vsBuyAndHold = vsBuyAndHold;
     }
 
+    public CashFlow getCashFlow() {
+        return cashFlow;
+    }
+
+    public void setCashFlow(CashFlow cashFlow) {
+        this.cashFlow = cashFlow;
+    }
+
+    public StreamedContent getChart() {
+        return chart;
+    }
+
+    public void setChart(StreamedContent chart) {
+        this.chart = chart;
+    }
+
     private void computeResults() {
 
         try {
@@ -140,7 +199,7 @@ public class BackTestBean {
 
             TimeSeriesManager seriesManager = new TimeSeriesManager(series);
 
-            List<Strategy> strategies = periodManager.mapFrom(selectedPeriod);
+            List<Strategy> strategies = mapFrom(selectedPeriod);
 
             MultipleStrategy multipleStrategy = new MultipleStrategy(strategies);
 
@@ -151,22 +210,22 @@ public class BackTestBean {
             // Analysis
 
             // Getting the cash flow of the resulting trades
-            CashFlow cashFlow = new CashFlow(series, tradingRecord);
+            cashFlow = new CashFlow(series, tradingRecord);
 
             // Getting the profitable trades ratio
             AnalysisCriterion profitTradesRatio = new AverageProfitableTradesCriterion();
-            //System.out.println("Profitable trades ratio: " + profitTradesRatio.calculate(series, tradingRecord));
+            System.out.println("Profitable trades ratio: " + profitTradesRatio.calculate(series, tradingRecord));
             setProfitableTrades(profitTradesRatio.calculate(series, tradingRecord));
 
             // Getting the reward-risk ratio
             AnalysisCriterion rewardRiskRatio = new RewardRiskRatioCriterion();
-            //System.out.println("Reward-risk ratio: " + rewardRiskRatio.calculate(series, tradingRecord));
+            System.out.println("Reward-risk ratio: " + rewardRiskRatio.calculate(series, tradingRecord));
             setRewardRisk(rewardRiskRatio.calculate(series, tradingRecord));
 
             // Total profit of our strategy
             // vs total profit of a buy-and-hold strategy
             AnalysisCriterion vsBuyAndHold = new VersusBuyAndHoldCriterion(new TotalProfitCriterion());
-            //System.out.println("Our profit vs buy-and-hold profit: " + vsBuyAndHold.calculate(series, tradingRecord));
+            System.out.println("Our profit vs buy-and-hold profit: " + vsBuyAndHold.calculate(series, tradingRecord));
             setVsBuyAndHold(vsBuyAndHold.calculate(series, tradingRecord));
 
             for (int i = 0; i < tradingRecord.getTrades().size(); ++i) {
@@ -177,6 +236,12 @@ public class BackTestBean {
                 System.out.println("CashFlow["+ i +"]: " + cashFlow.getValue(i));
             }
 
+            //Chart
+            JFreeChart jfreechart = BuyAndSellSignalsToChart.buildCandleStickChart(series, multipleStrategy.buildStrategy(series));
+            File chartFile = new File("dynamichart");
+            ChartUtilities.saveChartAsPNG(chartFile, jfreechart, 1024, 400);
+            chart = new DefaultStreamedContent(new FileInputStream(chartFile), "image/png");
+
             //BuyAndSellSignalsToChart.buildCandleStickChart(series, multipleStrategy.buildStrategy(series));
         }
         catch(Exception e) {
@@ -184,5 +249,112 @@ public class BackTestBean {
         }
 
     }
+
+    public List<Strategy> mapFrom(Period period) throws Exception {
+
+        List<org.ta4j.core.Strategy> strategies = new ArrayList<>();
+
+        TimeSeries series = new BaseTimeSeries(period.getName());
+
+        for (PeriodBar periodBar : period.getBars()) {
+            series.addBar(periodBar);
+        }
+
+        for (Optimization optimization : period.getOptimizationsOfType(ProblemType.INTEGER)) {
+            switch (optimization.getStrategy().getName()) {
+                case GLOBAL_EXTREMA:
+                    GlobalExtremaStrategy.mapFrom(optimization);
+                    break;
+                case TUNNEL:
+                    TunnelStrategy.mapFrom(optimization);
+                    break;
+                case CCI_CORRECTION:
+                    CCICorrectionStrategy.mapFrom(optimization);
+                    break;
+                case BAGOVINO:
+                    BagovinoStrategy.mapFrom(optimization);
+                    break;
+                case MOVING_AVERAGES:
+                    MovingAveragesStrategy.mapFrom(optimization);
+                    break;
+                case RSI_2:
+                    RSI2Strategy.mapFrom(optimization);
+                    break;
+                case PARABOLIC_SAR:
+                    ParabolicSARStrategy.mapFrom(optimization);
+                    break;
+                case MOVING_MOMENTUM:
+                    MovingMomentumStrategy.mapFrom(optimization);
+                    break;
+                case STOCHASTIC:
+                    StochasticStrategy.mapFrom(optimization);
+                    break;
+                case MACD:
+                    MACDStrategy.mapFrom(optimization);
+                    break;
+                case FX_BOOTCAMP:
+                    FXBootCampStrategy.mapFrom(optimization);
+                    break;
+                case WINSLOW:
+                    WinslowStrategy.mapFrom(optimization);
+                    break;
+            }
+        }
+
+        for (Optimization optimization : period.getOptimizationsOfType(ProblemType.BINARY)) {
+            for (Solution solution : optimization.getSolutions()) {
+
+                for (int i = 0; i < solution.getValues().size(); i++) {
+                    boolean value = (Boolean) solution.getValues().get(i);
+
+                    if (value) {
+
+                        switch (i) {
+                            case 0:
+                                strategies.add(CCICorrectionStrategy.buildStrategy(series));
+                                break;
+                            case 1:
+                                strategies.add(GlobalExtremaStrategy.buildStrategy(series));
+                                break;
+                            case 2:
+                                strategies.add(MovingMomentumStrategy.buildStrategy(series));
+                                break;
+                            case 3:
+                                strategies.add(RSI2Strategy.buildStrategy(series));
+                                break;
+                            case 4:
+                                strategies.add(MACDStrategy.buildStrategy(series));
+                                break;
+                            case 5:
+                                strategies.add(StochasticStrategy.buildStrategy(series));
+                                break;
+                            case 6:
+                                strategies.add(ParabolicSARStrategy.buildStrategy(series));
+                                break;
+                            case 7:
+                                strategies.add(MovingAveragesStrategy.buildStrategy(series));
+                                break;
+                            case 8:
+                                strategies.add(BagovinoStrategy.buildStrategy(series));
+                                break;
+                            case 9:
+                                strategies.add(FXBootCampStrategy.buildStrategy(series));
+                                break;
+                            case 10:
+                                strategies.add(TunnelStrategy.buildStrategy(series));
+                                break;
+                            case 11:
+                                strategies.add(WinslowStrategy.buildStrategy(series));
+                                break;
+                        }
+                    }
+                }
+            }
+        }
+
+        return strategies;
+
+    }
+
 
 }

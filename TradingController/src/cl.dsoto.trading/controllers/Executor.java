@@ -1,18 +1,21 @@
 package cl.dsoto.trading.controllers;
 
-import cl.dsoto.trading.cdi.ServiceLocator;
+import cl.dsoto.trading.clients.ServiceLocator;
 import cl.dsoto.trading.components.OptimizationManager;
 import cl.dsoto.trading.components.PeriodManager;
 import cl.dsoto.trading.components.StrategyManager;
-import cl.dsoto.trading.model.Optimization;
-import cl.dsoto.trading.model.Period;
-import cl.dsoto.trading.model.Strategy;
+import cl.dsoto.trading.model.*;
+import org.ta4j.core.Bar;
 import org.ta4j.core.BaseStrategy;
+import org.ta4j.core.TimeSeries;
 import org.uma.jmetal.runner.singleobjective.GenerationalGeneticAlgorithmStockMarketIntegerRunner;
 import org.uma.jmetal.runner.singleobjective.GenerationalGeneticAlgorithmStockMarketRunner;
+import ta4jexamples.loaders.CsvTicksLoader;
 import ta4jexamples.strategies.*;
 
+import java.sql.*;
 import java.util.*;
+import java.util.Date;
 
 /**
  * Created by des01c7 on 28-03-19.
@@ -28,7 +31,7 @@ public class Executor {
 
         for (String file : files) {
 
-            Period period = periodManager.createFromFile(file);
+            Period period = createFromFile(file);
 
             List<Strategy> strategies = strategyManager.getIntegerProblemTypeStrategies();
 
@@ -95,6 +98,32 @@ public class Executor {
                 break;
         }
 
+    }
+
+    public static Period createFromFile(String file) throws Exception {
+        TimeSeries timeSeries = CsvTicksLoader.load(file);
+        String name = file;
+        Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+
+        java.sql.Date start = java.sql.Date.valueOf(timeSeries.getFirstBar().getBeginTime().toLocalDate());
+        java.sql.Date end = java.sql.Date.valueOf(timeSeries.getLastBar().getBeginTime().toLocalDate());
+
+        //TODO: Dejar esto parametrico
+        TimeFrame timeFrame = TimeFrame.DAY;
+
+        Period period = new Period(name, timestamp, start, end, timeFrame);
+
+        for (Bar bar : timeSeries.getBarData()) {
+            double open = bar.getOpenPrice().doubleValue();
+            double high = bar.getMaxPrice().doubleValue();
+            double low = bar.getMinPrice().doubleValue();
+            double close = bar.getClosePrice().doubleValue();
+            double volume = bar.getVolume().doubleValue();
+
+            period.getBars().add(new PeriodBar(bar.getEndTime(), open, high, low, close, volume, period));
+        }
+
+        return period;
     }
 
 }

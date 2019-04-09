@@ -3,6 +3,7 @@ package cl.dsoto.trading.model;
 import org.ta4j.core.Bar;
 import org.ta4j.core.TimeSeries;
 
+import java.io.Serializable;
 import java.sql.Date;
 import java.sql.Timestamp;
 import java.util.ArrayList;
@@ -13,7 +14,7 @@ import static cl.dsoto.trading.model.DAO.NON_PERSISTED_ID;
 /**
  * Created by des01c7 on 29-03-19.
  */
-public class Period {
+public class Period implements Serializable {
 
     /** El identificador único de la entidad, inicialmente fijado en <code>NON_PERSISTED_ID</code>. */
     private long id = NON_PERSISTED_ID;
@@ -113,7 +114,7 @@ public class Period {
     public List<Optimization> getOptimizationsOfType(ProblemType problemType) {
         List<Optimization> optimizations = new ArrayList<>();
 
-        for (Optimization optimization : optimizations) {
+        for (Optimization optimization : this.optimizations) {
             if(optimization.getStrategy().getType().equals(problemType)) {
                 optimizations.add(optimization);
             }

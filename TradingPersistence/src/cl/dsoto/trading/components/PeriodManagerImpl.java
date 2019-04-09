@@ -148,9 +148,9 @@ public class PeriodManagerImpl implements PeriodManager {
             for (Solution solution : optimization.getSolutions()) {
 
                 for (int i = 0; i < solution.getValues().size(); i++) {
-                    BitSet bitset = (BitSet) solution.getValues().get(i);
+                    boolean value = (Boolean) solution.getValues().get(i);
 
-                    for (int j = 0; j < bitset.length(); j++) {
+                    if (value) {
 
                         switch (i) {
                             case 0:
@@ -190,10 +190,8 @@ public class PeriodManagerImpl implements PeriodManager {
                                 strategies.add(WinslowStrategy.buildStrategy(series));
                                 break;
                         }
-
                     }
                 }
-
             }
         }
 

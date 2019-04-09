@@ -1,5 +1,6 @@
 package cl.dsoto.trading.model;
 
+import java.io.Serializable;
 import java.util.List;
 
 import static cl.dsoto.trading.model.DAO.NON_PERSISTED_ID;
@@ -8,7 +9,7 @@ import static cl.dsoto.trading.model.DAO.NON_PERSISTED_ID;
 /**
  * Created by des01c7 on 22-03-19.
  */
-public class Solution<T extends Comparable> {
+public class Solution<T extends Comparable> implements Serializable {
     /**
      * El identificador único de la entidad, inicialmente fijado en <code>NON_PERSISTED_ID</code>.
      */

@@ -1,11 +1,13 @@
 package cl.dsoto.trading.model;
 
+import java.io.Serializable;
+
 import static cl.dsoto.trading.model.DAO.NON_PERSISTED_ID;
 
 /**
  * Created by des01c7 on 22-03-19.
  */
-public class Strategy {
+public class Strategy implements Serializable {
     /** El identificador único de la entidad, inicialmente fijado en <code>NON_PERSISTED_ID</code>. */
     private long id = NON_PERSISTED_ID;
 
