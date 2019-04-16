@@ -46,8 +46,9 @@
           <element id="library" level="project" name="Maven: org.ocpsoft.rewrite:rewrite-integration-faces:3.4.1.Final" />
           <element id="library" level="project" name="Maven: org-ta4j:ta4j-core:0.12-SNAPSHOT" />
           <element id="library" level="project" name="Maven: org-ta4j:ta4j-examples:0.12-SNAPSHOT" />
-          <element id="library" level="project" name="Maven: org.jfree:jfreechart:1.0.14-redhat-2" />
-          <element id="library" level="project" name="Maven: org.jfree:jcommon:1.0.17-redhat-2" />
+          <element id="library" level="project" name="Maven: org.jfree:jfreechart:1.0.17" />
+          <element id="library" level="project" name="Maven: org.jfree:jcommon:1.0.21" />
+          <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.3.04" />
         </element>
       </element>
       <element id="directory" name="META-INF">

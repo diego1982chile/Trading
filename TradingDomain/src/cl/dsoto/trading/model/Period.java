@@ -122,4 +122,9 @@ public class Period implements Serializable {
 
         return optimizations;
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }

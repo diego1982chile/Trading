@@ -10,6 +10,8 @@ import java.util.List;
  */
 public interface PeriodManager {
 
+    public Period getPeriodById(long id) throws Exception;
+
     public Period persist(Period period) throws Exception;
 
     public List<Period> getLast(int periods) throws Exception;

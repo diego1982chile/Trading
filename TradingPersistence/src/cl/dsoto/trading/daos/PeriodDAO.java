@@ -12,6 +12,8 @@ import java.util.List;
 @Local
 public interface PeriodDAO {
 
+    Period getPeriodById(long id) throws Exception;
+
     Period persist(Period period) throws Exception;
 
     List<Period> getLast(int periods) throws Exception;

@@ -56,6 +56,11 @@ public class PeriodManagerImpl implements PeriodManager {
     private static final String WINSLOW = "WinslowStrategy";
 
     @Override
+    public Period getPeriodById(long id) throws Exception {
+        return periodDAO.getPeriodById(id);
+    }
+
+    @Override
     public Period persist(Period period) throws Exception {
         return periodDAO.persist(period);
     }

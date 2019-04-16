@@ -34,6 +34,42 @@ public class PeriodDAOImpl implements PeriodDAO {
     @Resource(lookup = "java:jboss/TradingDS")
     private DataSource dataSource;
 
+    public Period getPeriodById(long id) throws Exception {
+
+        Period period = null;
+
+        String sql = "{call trd.get_period_by_id(?)}";
+
+        try (Connection connect = dataSource.getConnection();
+             CallableStatement call = connect.prepareCall(sql)) {
+
+            call.setLong(1, id);
+
+            call.execute();
+
+            logger.log(Level.INFO, "Registros recuperadas:");
+
+            ResultSet rs = call.getResultSet();
+
+            if (rs.next()) {
+                period = createPeriodFromResultSet(rs);
+            }
+            else {
+                String errorMsg = "Error al recuperar la descripción de la BDD.";
+                logger.log(Level.SEVERE, errorMsg);
+                throw new Exception(errorMsg);
+            }
+
+        } catch (SQLException e) {
+            String errorMsg = "Error al recuperar la descripción de la BDD.";
+            logger.log(Level.SEVERE, e.getMessage());
+            throw new Exception(e.getMessage());
+        }
+
+        return period;
+    }
+
+
     public Period persist(Period period) throws Exception {
 
         String sql = "{call trd.create_period(?,?,?,?,?)}";

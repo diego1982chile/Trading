@@ -239,7 +239,7 @@
 .heading-separator {
     border-top: 0px solid rgb(219, 219, 219) !important;
     border-bottom: 1px solid darkgrey !important;
-    margin: 10px !important;
+    /*margin: 10px !important;*/
     margin-bottom: 1.5em !important;
 }
 

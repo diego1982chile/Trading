@@ -27,6 +27,7 @@
         <module name="TradingDomain" />
         <module name="TradingMonitor" />
         <module name="TradingPersistence" />
+        <module name="TradingView" />
         <module name="TradingWeb" />
       </profile>
     </annotationProcessing>
@@ -37,6 +38,8 @@
       <module name="TradingDomain" target="1.8" />
       <module name="TradingMonitor" target="1.8" />
       <module name="TradingPersistence" target="1.8" />
+      <module name="TradingView" target="1.8" />
+      <module name="TradingVisual" target="1.7" />
       <module name="TradingWeb" target="1.8" />
     </bytecodeTargetLevel>
   </component>
