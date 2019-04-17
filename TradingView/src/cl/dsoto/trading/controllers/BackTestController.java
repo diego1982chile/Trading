@@ -3,6 +3,8 @@ package cl.dsoto.trading.controllers;
 import cl.dsoto.trading.clients.ServiceLocator;
 import cl.dsoto.trading.components.PeriodManager;
 import cl.dsoto.trading.model.*;
+import cl.dsoto.trading.strategies.StrategyHelper;
+import javafx.util.Pair;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
 import org.jfree.date.MonthConstants;
@@ -26,6 +28,7 @@ import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 
 /**
@@ -58,38 +61,17 @@ public class BackTestController {
 
     private JPanel plotView;
 
+    private JLabel strategiesView;
+
     String pattern = "###.#####";
     DecimalFormat decimalFormat = new DecimalFormat(pattern);
 
     private static String newline = System.getProperty("line.separator");
 
-    private static final String GLOBAL_EXTREMA = "GlobalExtremaStrategy";
-
-    private static final String TUNNEL = "TunnelStrategy";
-
-    private static final String CCI_CORRECTION = "CCICorrectionStrategy";
-
-    private static final String BAGOVINO = "BagovinoStrategy";
-
-    private static final String MOVING_AVERAGES = "MovingAveragesStrategy";
-
-    private static final String RSI_2 = "RSI2Strategy";
-
-    private static final String PARABOLIC_SAR = "ParabolicSARStrategy";
-
-    private static final String MOVING_MOMENTUM = "MovingMomentumStrategy";
-
-    private static final String STOCHASTIC = "StochasticStrategy";
-
-    private static final String MACD = "MACDStrategy";
-
-    private static final String FX_BOOTCAMP = "FXBootCampStrategy";
-
-    private static final String WINSLOW = "WinslowStrategy";
-
     List<Period> periods;
 
     Period selected;
+
 
     public List<Period> getLast() throws Exception {
         try {
@@ -196,13 +178,9 @@ public class BackTestController {
 
             TimeSeriesManager seriesManager = new TimeSeriesManager(series);
 
-            List<org.ta4j.core.Strategy> strategies = mapFrom(selected);
+            List<org.ta4j.core.Strategy> strategies = StrategyHelper.mapFrom(selected);
 
             MultipleStrategy multipleStrategy = new MultipleStrategy(strategies);
-
-            for (Strategy strategy : multipleStrategy.getStrategies()) {
-                strategy..g.getEntryRule().and()
-            }
 
             TradingRecord tradingRecord = seriesManager.run(multipleStrategy.buildStrategy(series), Order.OrderType.BUY);
 
@@ -263,112 +241,6 @@ public class BackTestController {
         catch(Exception e) {
 
         }
-
-    }
-
-    public List<org.ta4j.core.Strategy> mapFrom(Period period) throws Exception {
-
-        List<org.ta4j.core.Strategy> strategies = new ArrayList<>();
-
-        TimeSeries series = new BaseTimeSeries(period.getName());
-
-        for (PeriodBar periodBar : period.getBars()) {
-            series.addBar(periodBar);
-        }
-
-        for (Optimization optimization : period.getOptimizationsOfType(ProblemType.INTEGER)) {
-            switch (optimization.getStrategy().getName()) {
-                case GLOBAL_EXTREMA:
-                    GlobalExtremaStrategy.mapFrom(optimization);
-                    break;
-                case TUNNEL:
-                    TunnelStrategy.mapFrom(optimization);
-                    break;
-                case CCI_CORRECTION:
-                    CCICorrectionStrategy.mapFrom(optimization);
-                    break;
-                case BAGOVINO:
-                    BagovinoStrategy.mapFrom(optimization);
-                    break;
-                case MOVING_AVERAGES:
-                    MovingAveragesStrategy.mapFrom(optimization);
-                    break;
-                case RSI_2:
-                    RSI2Strategy.mapFrom(optimization);
-                    break;
-                case PARABOLIC_SAR:
-                    ParabolicSARStrategy.mapFrom(optimization);
-                    break;
-                case MOVING_MOMENTUM:
-                    MovingMomentumStrategy.mapFrom(optimization);
-                    break;
-                case STOCHASTIC:
-                    StochasticStrategy.mapFrom(optimization);
-                    break;
-                case MACD:
-                    MACDStrategy.mapFrom(optimization);
-                    break;
-                case FX_BOOTCAMP:
-                    FXBootCampStrategy.mapFrom(optimization);
-                    break;
-                case WINSLOW:
-                    WinslowStrategy.mapFrom(optimization);
-                    break;
-            }
-        }
-
-        for (Optimization optimization : period.getOptimizationsOfType(ProblemType.BINARY)) {
-            for (Solution solution : optimization.getSolutions()) {
-
-                for (int i = 0; i < solution.getValues().size(); i++) {
-                    boolean value = (Boolean) solution.getValues().get(i);
-
-                    if (value) {
-
-                        switch (i) {
-                            case 0:
-                                strategies.add(CCICorrectionStrategy.buildStrategy(series));
-                                break;
-                            case 1:
-                                strategies.add(GlobalExtremaStrategy.buildStrategy(series));
-                                break;
-                            case 2:
-                                strategies.add(MovingMomentumStrategy.buildStrategy(series));
-                                break;
-                            case 3:
-                                strategies.add(RSI2Strategy.buildStrategy(series));
-                                break;
-                            case 4:
-                                strategies.add(MACDStrategy.buildStrategy(series));
-                                break;
-                            case 5:
-                                strategies.add(StochasticStrategy.buildStrategy(series));
-                                break;
-                            case 6:
-                                strategies.add(ParabolicSARStrategy.buildStrategy(series));
-                                break;
-                            case 7:
-                                strategies.add(MovingAveragesStrategy.buildStrategy(series));
-                                break;
-                            case 8:
-                                strategies.add(BagovinoStrategy.buildStrategy(series));
-                                break;
-                            case 9:
-                                strategies.add(FXBootCampStrategy.buildStrategy(series));
-                                break;
-                            case 10:
-                                strategies.add(TunnelStrategy.buildStrategy(series));
-                                break;
-                            case 11:
-                                strategies.add(WinslowStrategy.buildStrategy(series));
-                                break;
-                        }
-                    }
-                }
-            }
-        }
-
-        return strategies;
 
     }
 
@@ -442,6 +314,14 @@ public class BackTestController {
 
     public void setPlotView(JPanel plotView) {
         this.plotView = plotView;
+    }
+
+    public JLabel getStrategiesView() {
+        return strategiesView;
+    }
+
+    public void setStrategiesView(JLabel strategiesView) {
+        this.strategiesView = strategiesView;
     }
 
 

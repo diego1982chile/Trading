@@ -2,57 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bab48a6c-f80d-4cc5-836d-8e22cc29cea5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jfreechart_1_0_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_3_04.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/period.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingView/TradingView.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingView/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/BackTestController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jcommon_1_0_17_redhat_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jcommon_1_0_21.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingController/target/TradingController-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/TradingController/target/TradingController-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingDomain/target/TradingDomain-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/TradingDomain/target/TradingDomain-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingDomain/target/classes/cl/dsoto/trading/model/Period.class" afterPath="$PROJECT_DIR$/TradingDomain/target/classes/cl/dsoto/trading/model/Period.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/TradingPersistence-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/TradingPersistence/target/TradingPersistence-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/components/PeriodManager.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/components/PeriodManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/components/PeriodManagerImpl.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/components/PeriodManagerImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/PeriodDAO.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/PeriodDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/PeriodDAOImpl.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/PeriodDAOImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ta4j-core-0.12-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ta4j-core-0.12-SNAPSHOT.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/StrategiesController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/strategies/StrategyHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/StrategiesView.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/StrategiesView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ta4j-examples-0.12-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ta4j-examples-0.12-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/TradingMonitor_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/TradingMonitor_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingController/src/cl.dsoto.trading/controllers/Executor.java" afterPath="$PROJECT_DIR$/TradingController/src/cl.dsoto.trading/controllers/Executor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingController/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/TradingController/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingDomain/TradingDomain.iml" afterPath="$PROJECT_DIR$/TradingDomain/TradingDomain.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/components/PeriodManager.java" afterPath="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/components/PeriodManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Period.java" afterPath="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Period.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingDomain/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/TradingDomain/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingMonitor/TradingMonitor.iml" afterPath="$PROJECT_DIR$/TradingMonitor/TradingMonitor.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingMonitor/pom.xml" afterPath="$PROJECT_DIR$/TradingMonitor/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingMonitor/src/cl/dsoto/trading/BackTestBean.java" afterPath="$PROJECT_DIR$/TradingMonitor/src/cl/dsoto/trading/BackTestBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingMonitor/src/cl/dsoto/trading/MenuBean.java" afterPath="$PROJECT_DIR$/TradingMonitor/src/cl/dsoto/trading/MenuBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingMonitor/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/TradingMonitor/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingMonitor/web/WEB-INF/menu.xhtml" afterPath="$PROJECT_DIR$/TradingMonitor/web/WEB-INF/menu.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingMonitor/web/WEB-INF/pretty-config.xml" afterPath="$PROJECT_DIR$/TradingMonitor/web/WEB-INF/pretty-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingMonitor/web/WEB-INF/template.xhtml" afterPath="$PROJECT_DIR$/TradingMonitor/web/WEB-INF/template.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingMonitor/web/resources/semantikos/css/customStyle.css" afterPath="$PROJECT_DIR$/TradingMonitor/web/resources/semantikos/css/customStyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingMonitor/web/views/errors/404.xhtml" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/errors/404.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingMonitor/web/views/home.xhtml" afterPath="$PROJECT_DIR$/TradingMonitor/web/views/home.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManager.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManagerImpl.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManagerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAO.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAOImpl.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/TradingPersistence/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingView/pom.xml" afterPath="$PROJECT_DIR$/TradingView/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/BackTestController.java" afterPath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/BackTestController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.form" afterPath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.java" afterPath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.java" />
     </list>
     <ignored path="Trading.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,80 +43,138 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TradingView.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="89" column="73" selection-start-line="89" selection-start-column="73" selection-end-line="89" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StrategiesView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/StrategiesView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="21" column="101" selection-start-line="21" selection-start-column="101" selection-end-line="21" selection-end-column="101" />
+              <folding>
+                <element signature="e#974#975#0" expanded="true" />
+                <element signature="e#1012#1013#0" expanded="true" />
+                <element signature="e#1144#1145#0" expanded="true" />
+                <element signature="e#1186#1187#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JDialog.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/jdk1.8.0_144/src.zip!/javax/swing/JDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#48246#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#4931#4932#0" expanded="false" />
+                <element signature="e#4971#4972#0" expanded="false" />
+                <element signature="e#5946#5947#0" expanded="false" />
+                <element signature="e#5980#5981#0" expanded="false" />
+                <element signature="e#7210#7211#0" expanded="false" />
+                <element signature="e#7248#7249#0" expanded="false" />
+                <element signature="e#8334#8335#0" expanded="false" />
+                <element signature="e#8375#8376#0" expanded="false" />
+                <element signature="e#13442#13443#0" expanded="false" />
+                <element signature="e#13476#13477#0" expanded="false" />
+                <element signature="e#14604#14605#0" expanded="false" />
+                <element signature="e#14642#14643#0" expanded="false" />
+                <element signature="e#15396#15397#0" expanded="false" />
+                <element signature="e#15437#15438#0" expanded="false" />
+                <element signature="e#19442#19443#0" expanded="false" />
+                <element signature="e#19499#19500#0" expanded="false" />
+                <element signature="e#20993#20994#0" expanded="false" />
+                <element signature="e#21038#21039#0" expanded="false" />
+                <element signature="e#22144#22145#0" expanded="false" />
+                <element signature="e#22208#22209#0" expanded="false" />
+                <element signature="e#30842#30843#0" expanded="false" />
+                <element signature="e#30886#30887#0" expanded="false" />
+                <element signature="e#32912#32913#0" expanded="false" />
+                <element signature="e#32950#32951#0" expanded="false" />
+                <element signature="e#33197#33198#0" expanded="false" />
+                <element signature="e#33221#33222#0" expanded="false" />
+                <element signature="e#33538#33539#0" expanded="false" />
+                <element signature="e#33584#33585#0" expanded="false" />
+                <element signature="e#33711#33712#0" expanded="false" />
+                <element signature="e#33760#33761#0" expanded="false" />
+                <element signature="e#34188#34189#0" expanded="false" />
+                <element signature="e#34234#34235#0" expanded="false" />
+                <element signature="e#34852#34853#0" expanded="false" />
+                <element signature="e#34901#34902#0" expanded="false" />
+                <element signature="e#37417#37418#0" expanded="false" />
+                <element signature="e#37448#37449#0" expanded="false" />
+                <element signature="e#38510#38511#0" expanded="false" />
+                <element signature="e#38563#38564#0" expanded="false" />
+                <element signature="e#39511#39512#0" expanded="false" />
+                <element signature="e#39568#39569#0" expanded="false" />
+                <element signature="e#39826#39827#0" expanded="false" />
+                <element signature="e#39879#39880#0" expanded="false" />
+                <element signature="e#40453#40454#0" expanded="false" />
+                <element signature="e#40510#40511#0" expanded="false" />
+                <element signature="e#40755#40756#0" expanded="false" />
+                <element signature="e#40806#40807#0" expanded="false" />
+                <element signature="e#41229#41230#0" expanded="false" />
+                <element signature="e#41282#41283#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StrategiesController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/StrategiesController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TradingView.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.form">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TradingView/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
+            <state relative-caret-position="360">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TradingView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="71" column="59" selection-start-line="71" selection-start-column="59" selection-end-line="71" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyCandlestickRenderer.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-examples/0.12-SNAPSHOT/ta4j-examples-0.12-SNAPSHOT.jar!/ta4jexamples/analysis/MyCandlestickRenderer.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#829#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Executor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingController/src/cl.dsoto.trading/controllers/Executor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1115">
-              <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PeriodDAOImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BarDAOImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/BarDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-510">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BackTestController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BackTestController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/BackTestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-944">
-              <caret line="203" column="25" selection-start-line="203" selection-start-column="25" selection-end-line="203" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3511#3512#0" expanded="true" />
-                <element signature="e#3542#3543#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1920">
+              <caret line="182" column="81" selection-start-line="182" selection-start-column="81" selection-end-line="182" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StrategyHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/strategies/StrategyHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2070">
+              <caret line="148" column="58" selection-start-line="148" selection-start-column="18" selection-end-line="148" selection-end-column="58" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -165,34 +182,9 @@
       <file leaf-file-name="RSI2Strategy.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-examples/0.12-SNAPSHOT/ta4j-examples-0.12-SNAPSHOT.jar!/ta4jexamples/strategies/RSI2Strategy.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="75" column="27" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Strategy.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/Strategy.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="465">
+              <caret line="74" column="27" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MultipleStrategy.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-examples/0.12-SNAPSHOT/ta4j-examples-0.12-SNAPSHOT.jar!/ta4jexamples/research/MultipleStrategy.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-              <folding>
-                <element signature="e#785#786#0" expanded="true" />
-                <element signature="e#823#824#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -223,11 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TradingCentral/TradingCentral/src/main/resources/application.xml" />
-        <option value="$PROJECT_DIR$/TradingCentral/TradingCentral/application.xml" />
-        <option value="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/clients/ServiceLocator.java" />
-        <option value="$PROJECT_DIR$/TradingCentral/pom.xml" />
-        <option value="$PROJECT_DIR$/TradingDomain/pom.xml" />
         <option value="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/components/OptimizationManager.java" />
         <option value="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/components/StrategyManager.java" />
         <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/BarDAOImpl.java" />
@@ -268,12 +255,17 @@
         <option value="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Period.java" />
         <option value="$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/BaseTimeSeries.class" />
         <option value="$PROJECT_DIR$/TradingMonitor/src/cl/dsoto/trading/BackTestBean.java" />
-        <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.form" />
         <option value="$MAVEN_REPOSITORY$/org-ta4j/ta4j-examples/0.12-SNAPSHOT/ta4j-examples-0.12-SNAPSHOT.jar!/ta4jexamples/analysis/BuyAndSellSignalsToChart.class" />
-        <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.java" />
-        <option value="$PROJECT_DIR$/TradingView/pom.xml" />
         <option value="$PROJECT_DIR$/TradingController/src/cl.dsoto.trading/controllers/Executor.java" />
+        <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/strategies/StrategyHelper.java" />
+        <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.form" />
         <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/BackTestController.java" />
+        <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/Jframe.java" />
+        <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.java" />
+        <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/StrategiesView.java" />
+        <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/StrategiesController.java" />
+        <option value="$PROJECT_DIR$/TradingView/pom.xml" />
+        <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/StrategiesView.form" />
       </list>
     </option>
   </component>
@@ -310,30 +302,6 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
       </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Trading" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Trading" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
@@ -367,7 +335,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -402,7 +369,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TradingPersistence" />
+              <option name="myItemId" value="TradingView" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -416,29 +383,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TradingPersistence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradingPersistence" />
+              <option name="myItemId" value="TradingView" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -450,7 +395,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="daos" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -464,25 +409,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TradingController" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradingController" />
+              <option name="myItemId" value="TradingView" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trading" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="strategies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trading" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trading" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TradingView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trading" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -492,12 +453,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../servidor-terminologico" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.36505577" />
@@ -510,16 +472,8 @@
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="205" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views" />
-      <recent name="$PROJECT_DIR$/TradingDomain/src/cl/dsoto" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cl.dsoto.trading" />
-      <recent name="cl.dsoto.trading.components" />
-      <recent name="cl.dsoto.trading.backtests" />
-      <recent name="cl.dsoto.trading.model" />
-      <recent name="cl.dsoto.trading.daos" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cl.dsoto.trading.views" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/TradingMonitor/web/views" />
@@ -527,6 +481,17 @@
       <recent name="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading" />
       <recent name="$PROJECT_DIR$/TradingMonitor" />
       <recent name="$PROJECT_DIR$/TradingCentral" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cl.dsoto.trading.controllers" />
+      <recent name="cl.dsoto.trading" />
+      <recent name="cl.dsoto.trading.components" />
+      <recent name="cl.dsoto.trading.backtests" />
+      <recent name="cl.dsoto.trading.model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views" />
+      <recent name="$PROJECT_DIR$/TradingDomain/src/cl/dsoto" />
     </key>
   </component>
   <component name="RunManager" selected="Application.TradingView">
@@ -1234,7 +1199,9 @@
       <workItem from="1555095567685" duration="10413000" />
       <workItem from="1555336194181" duration="13616000" />
       <workItem from="1555352465591" duration="16762000" />
-      <workItem from="1555433350761" duration="13890000" />
+      <workItem from="1555433350761" duration="27700000" />
+      <workItem from="1555520802546" duration="1547000" />
+      <workItem from="1555527560976" duration="136000" />
     </task>
     <task id="LOCAL-00001" summary="Se modifica modelo">
       <created>1554246046586</created>
@@ -1264,48 +1231,57 @@
       <option name="project" value="LOCAL" />
       <updated>1554848475701</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Se cdrea nuevo proyecto swing TradingView">
+      <created>1555454920218</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555454920218</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269881000" />
+    <option name="totallyTimeSpent" value="285374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1922" height="911" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40392157" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.4979145" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16041666" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.178125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29150328" sideWeight="0.49583334" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42091504" sideWeight="0.49687174" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.178125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44052288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31111112" sideWeight="0.49583334" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42091504" sideWeight="0.49687174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44052288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1358,7 +1334,8 @@
     <MESSAGE value="Se crea nuevo proyecto web para monitoreo...se debe redefinir componente de persistencia como proyecto EJB" />
     <MESSAGE value="Nueva rama donde se convierte proyecto SE a proyecto ejb y nuevo proyecto ear" />
     <MESSAGE value="Se avanza con proyecto web monitor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se avanza con proyecto web monitor" />
+    <MESSAGE value="Se cdrea nuevo proyecto swing TradingView" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se cdrea nuevo proyecto swing TradingView" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1403,7 +1380,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="154" />
+      <option name="time" value="164" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1412,48 +1389,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/primefaces/primefaces/6.2/primefaces-6.2.jar!/org/primefaces/model/chart/OhlcChartSeries.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/primefaces/primefaces/6.2/primefaces-6.2.jar!/org/primefaces/model/chart/Axis.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/javax.faces/2.2.17/javax.faces-2.2.17.jar!/com/sun/faces/mgbean/BeanManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="492" column="0" selection-start-line="492" selection-start-column="0" selection-end-line="492" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.0.14-redhat-2/jfreechart-1.0.14-redhat-2.jar!/org/jfree/chart/block/BlockContainer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.0.14-redhat-2/jfreechart-1.0.14-redhat-2.jar!/org/jfree/chart/title/LegendTitle.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="269" column="0" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.0.14-redhat-2/jfreechart-1.0.14-redhat-2.jar!/org/jfree/chart/ChartUtilities.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.0.14-redhat-2/jfreechart-1.0.14-redhat-2.jar!/org/jfree/chart/JFreeChart.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1575,9 +1510,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1603,7 +1536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1612,25 +1544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#659#660#0" expanded="false" />
-            <element signature="e#684#685#0" expanded="false" />
-            <element signature="e#718#719#0" expanded="false" />
-            <element signature="e#746#747#0" expanded="false" />
-            <element signature="e#777#778#0" expanded="false" />
-            <element signature="e#804#805#0" expanded="false" />
-            <element signature="e#844#845#0" expanded="false" />
-            <element signature="e#876#877#0" expanded="false" />
-            <element signature="e#909#910#0" expanded="false" />
-            <element signature="e#941#942#0" expanded="false" />
-            <element signature="e#988#989#0" expanded="false" />
-            <element signature="e#1030#1031#0" expanded="false" />
-            <element signature="e#1066#1067#0" expanded="false" />
-            <element signature="e#1093#1094#0" expanded="false" />
-            <element signature="e#1138#1139#0" expanded="false" />
-            <element signature="e#1170#1171#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1652,7 +1565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="56" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1660,7 +1572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="85" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1675,7 +1586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1740">
           <caret line="116" column="65" selection-start-line="116" selection-start-column="65" selection-end-line="116" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1701,17 +1611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.form">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/jdk1.8.0_144/src.zip!/java/awt/Color.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1726,29 +1625,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TradingView/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="71" column="59" selection-start-line="71" selection-start-column="59" selection-end-line="71" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1756,7 +1636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-510">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1764,9 +1643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#829#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1774,7 +1650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1115">
           <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1782,10 +1657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding>
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1793,29 +1664,149 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-examples/0.12-SNAPSHOT/ta4j-examples-0.12-SNAPSHOT.jar!/ta4jexamples/strategies/RSI2Strategy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="75" column="27" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="465">
+          <caret line="74" column="27" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/strategies/StrategyHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="148" column="58" selection-start-line="148" selection-start-column="18" selection-end-line="148" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/BackTestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-944">
-          <caret line="203" column="25" selection-start-line="203" selection-start-column="25" selection-end-line="203" selection-end-column="25" />
+        <state relative-caret-position="1920">
+          <caret line="182" column="81" selection-start-line="182" selection-start-column="81" selection-end-line="182" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/jdk1.8.0_144/src.zip!/javax/swing/JDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3511#3512#0" expanded="true" />
-            <element signature="e#3542#3543#0" expanded="true" />
+            <element signature="e#0#48246#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4931#4932#0" expanded="false" />
+            <element signature="e#4971#4972#0" expanded="false" />
+            <element signature="e#5946#5947#0" expanded="false" />
+            <element signature="e#5980#5981#0" expanded="false" />
+            <element signature="e#7210#7211#0" expanded="false" />
+            <element signature="e#7248#7249#0" expanded="false" />
+            <element signature="e#8334#8335#0" expanded="false" />
+            <element signature="e#8375#8376#0" expanded="false" />
+            <element signature="e#13442#13443#0" expanded="false" />
+            <element signature="e#13476#13477#0" expanded="false" />
+            <element signature="e#14604#14605#0" expanded="false" />
+            <element signature="e#14642#14643#0" expanded="false" />
+            <element signature="e#15396#15397#0" expanded="false" />
+            <element signature="e#15437#15438#0" expanded="false" />
+            <element signature="e#19442#19443#0" expanded="false" />
+            <element signature="e#19499#19500#0" expanded="false" />
+            <element signature="e#20993#20994#0" expanded="false" />
+            <element signature="e#21038#21039#0" expanded="false" />
+            <element signature="e#22144#22145#0" expanded="false" />
+            <element signature="e#22208#22209#0" expanded="false" />
+            <element signature="e#30842#30843#0" expanded="false" />
+            <element signature="e#30886#30887#0" expanded="false" />
+            <element signature="e#32912#32913#0" expanded="false" />
+            <element signature="e#32950#32951#0" expanded="false" />
+            <element signature="e#33197#33198#0" expanded="false" />
+            <element signature="e#33221#33222#0" expanded="false" />
+            <element signature="e#33538#33539#0" expanded="false" />
+            <element signature="e#33584#33585#0" expanded="false" />
+            <element signature="e#33711#33712#0" expanded="false" />
+            <element signature="e#33760#33761#0" expanded="false" />
+            <element signature="e#34188#34189#0" expanded="false" />
+            <element signature="e#34234#34235#0" expanded="false" />
+            <element signature="e#34852#34853#0" expanded="false" />
+            <element signature="e#34901#34902#0" expanded="false" />
+            <element signature="e#37417#37418#0" expanded="false" />
+            <element signature="e#37448#37449#0" expanded="false" />
+            <element signature="e#38510#38511#0" expanded="false" />
+            <element signature="e#38563#38564#0" expanded="false" />
+            <element signature="e#39511#39512#0" expanded="false" />
+            <element signature="e#39568#39569#0" expanded="false" />
+            <element signature="e#39826#39827#0" expanded="false" />
+            <element signature="e#39879#39880#0" expanded="false" />
+            <element signature="e#40453#40454#0" expanded="false" />
+            <element signature="e#40510#40511#0" expanded="false" />
+            <element signature="e#40755#40756#0" expanded="false" />
+            <element signature="e#40806#40807#0" expanded="false" />
+            <element signature="e#41229#41230#0" expanded="false" />
+            <element signature="e#41282#41283#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/Jframe.java" />
+    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/StrategiesView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="101" selection-start-line="21" selection-start-column="101" selection-end-line="21" selection-end-column="101" />
+          <folding>
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/StrategiesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingView/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.form">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/StrategiesView.form">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="89" column="73" selection-start-line="89" selection-start-column="73" selection-end-line="89" selection-end-column="73" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1911,8 +1902,8 @@
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
-    <option value="install:install-file -Dfile=ta4j-core-0.12-SNAPSHOT.jar -DgroupId=org-ta4j -DartifactId=ta4j-core -Dversion=0.12-SNAPSHOT -Dpackaging=jar" />
     <option value="install:install-file -Dfile=ta4j-examples-0.12-SNAPSHOT.jar -DgroupId=org-ta4j -DartifactId=ta4j-examples -Dversion=0.12-SNAPSHOT -Dpackaging=jar" />
+    <option value="install:install-file -Dfile=ta4j-core-0.12-SNAPSHOT.jar -DgroupId=org-ta4j -DartifactId=ta4j-core -Dversion=0.12-SNAPSHOT -Dpackaging=jar" />
     <option value="archetype:generate -DarchetypeGroupId=com.zenjava -DarchetypeArtifactId=javafx-basic-archetype" />
     <option value="install:install-file -Dfile=jmetal-exec-5.7-SNAPSHOT.jar -DgroupId=org.uma.jmetal -DartifactId=jmetal-exec -Dversion=5.7-SNAPSHOT -Dpackaging=jar" />
     <option value="install:install-file -Dfile=TradingPersistence-1.0-SNAPSHOT.jar -DgroupId=cl.dsoto -DartifactId=TradingPersistence -Dversion=1.0-SNAPSHOT -Dpackaging=jar" />
