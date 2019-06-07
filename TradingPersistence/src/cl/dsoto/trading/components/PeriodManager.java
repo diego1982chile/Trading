@@ -3,6 +3,7 @@ package cl.dsoto.trading.components;
 import cl.dsoto.trading.model.Period;
 import cl.dsoto.trading.model.Strategy;
 import org.ta4j.core.BaseStrategy;
+import org.ta4j.core.TimeSeries;
 
 import javax.ejb.Remote;
 import java.util.List;
@@ -20,6 +21,8 @@ public interface PeriodManager {
     public List<Period> getLast(int periods) throws Exception;
 
     public Period createFromFile(String file) throws Exception;
+
+    public void generateOptimizations(TimeSeries series) throws Exception;
 
     public List<org.ta4j.core.Strategy> mapFrom(Period period) throws Exception;
 

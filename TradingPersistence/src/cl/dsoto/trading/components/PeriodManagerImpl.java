@@ -6,9 +6,12 @@ import cl.dsoto.trading.daos.StrategyDAO;
 import cl.dsoto.trading.model.*;
 import org.ta4j.core.*;
 import org.ta4j.core.Strategy;
+import org.uma.jmetal.runner.singleobjective.GenerationalGeneticAlgorithmStockMarketIntegerRunner;
+import org.uma.jmetal.runner.singleobjective.GenerationalGeneticAlgorithmStockMarketRunner;
 import ta4jexamples.loaders.CsvTicksLoader;
 import ta4jexamples.strategies.*;
 
+import javax.ejb.Asynchronous;
 import javax.ejb.EJB;
 import javax.ejb.Stateless;
 import java.sql.Date;
@@ -27,6 +30,9 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 @Stateless
 public class PeriodManagerImpl implements PeriodManager {
+
+    @EJB
+    private StrategyManager strategyManager;
 
     @EJB
     private PeriodDAO periodDAO;
@@ -85,6 +91,31 @@ public class PeriodManagerImpl implements PeriodManager {
         Period period = new Period(name, timestamp, start, end, timeFrame);
 
         for (Bar bar : timeSeries.getBarData()) {
+            double open = bar.getOpenPrice().doubleValue();
+            double high = bar.getMaxPrice().doubleValue();
+            double low = bar.getMinPrice().doubleValue();
+            double close = bar.getClosePrice().doubleValue();
+            double volume = bar.getVolume().doubleValue();
+
+            period.getBars().add(new PeriodBar(bar.getEndTime(), open, high, low, close, volume, period));
+        }
+
+        return period;
+    }
+
+    public Period createFromSeries(TimeSeries series) throws Exception {
+
+        String name = series.getName();
+        Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+        Date start = Date.valueOf(series.getFirstBar().getBeginTime().toLocalDate());
+        Date end = Date.valueOf(series.getLastBar().getBeginTime().toLocalDate());
+
+        //TODO: Dejar esto parametrico
+        TimeFrame timeFrame = TimeFrame.DAY;
+
+        Period period = new Period(name, timestamp, start, end, timeFrame);
+
+        for (Bar bar : series.getBarData()) {
             double open = bar.getOpenPrice().doubleValue();
             double high = bar.getMaxPrice().doubleValue();
             double low = bar.getMinPrice().doubleValue();
@@ -203,4 +234,77 @@ public class PeriodManagerImpl implements PeriodManager {
         return strategies;
 
     }
+
+    @Asynchronous
+    public void generateOptimizations(TimeSeries timeSeries) throws Exception {
+
+        Period period = createFromSeries(timeSeries);
+
+        List<cl.dsoto.trading.model.Strategy> strategies = strategyManager.getIntegerProblemTypeStrategies();
+
+        for (cl.dsoto.trading.model.Strategy strategy : strategies) {
+            GenerationalGeneticAlgorithmStockMarketIntegerRunner runner =
+                    new GenerationalGeneticAlgorithmStockMarketIntegerRunner(strategy.getName(), timeSeries, strategy.getVariables());
+            Optimization optimization = runner.run();
+            optimization.setPeriod(period);
+            period.getOptimizations().add(optimization);
+            updateStrategy(optimization, strategy.getName());
+        }
+
+        strategies = strategyManager.getBinaryProblemTypeStrategies();
+
+        for (cl.dsoto.trading.model.Strategy strategy : strategies) {
+            GenerationalGeneticAlgorithmStockMarketRunner runner =
+                    new GenerationalGeneticAlgorithmStockMarketRunner(strategy.getName(), timeSeries, strategy.getVariables());
+            Optimization optimization = runner.run();
+            optimization.setPeriod(period);
+            period.getOptimizations().add(optimization);
+        }
+
+        persist(period);
+
+    }
+
+    public static void updateStrategy(Optimization optimization, String strategy) throws Exception {
+        switch (strategy) {
+            case "GlobalExtremaStrategy":
+                GlobalExtremaStrategy.mapFrom(optimization);
+                break;
+            case "TunnelStrategy":
+                TunnelStrategy.mapFrom(optimization);
+                break;
+            case "CCICorrectionStrategy":
+                CCICorrectionStrategy.mapFrom(optimization);
+                break;
+            case "BagovinoStrategy":
+                BagovinoStrategy.mapFrom(optimization);
+                break;
+            case "MovingAveragesStrategy":
+                MovingAveragesStrategy.mapFrom(optimization);
+                break;
+            case "RSI2Strategy":
+                RSI2Strategy.mapFrom(optimization);
+                break;
+            case "ParabolicSARStrategy":
+                ParabolicSARStrategy.mapFrom(optimization);
+                break;
+            case "MovingMomentumStrategy":
+                MovingMomentumStrategy.mapFrom(optimization);
+                break;
+            case "StochasticStrategy":
+                StochasticStrategy.mapFrom(optimization);
+                break;
+            case "MACDStrategy":
+                MACDStrategy.mapFrom(optimization);
+                break;
+            case "FXBootCampStrategy":
+                FXBootCampStrategy.mapFrom(optimization);
+                break;
+            case "WinslowStrategy":
+                WinslowStrategy.mapFrom(optimization);
+                break;
+        }
+
+    }
+
 }

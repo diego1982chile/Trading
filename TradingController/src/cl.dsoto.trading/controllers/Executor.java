@@ -25,9 +25,9 @@ public class Executor {
     static PeriodManager periodManager = (PeriodManager) ServiceLocator.getInstance().getService(PeriodManager.class);
     static StrategyManager strategyManager = (StrategyManager) ServiceLocator.getInstance().getService(StrategyManager.class);
 
-    //static List<String> files = Arrays.asList("2010_D.csv","2011_D.csv","2012_D.csv","2013_D.csv","2014_D.csv","2015_D.csv","2016_D.csv","2017_D.csv","2018_D.csv");
+    //static List<String> files = Arrays.asList("2011_01.csv","2011_02.csv","2011_03.csv","2011_04.csv","2011_05.csv","2011_06.csv","2011_07.csv","2011_08.csv","2011_09.csv", "2011_10.csv", "2011_11.csv", "2011_12.csv");
 
-    static List<String> files = Arrays.asList("2010_2012_D.csv");
+    static List<String> files = Arrays.asList("2019_M.csv");
 
     public static void main(String[] args) throws Exception {
 
@@ -104,6 +104,11 @@ public class Executor {
 
     public static Period createFromFile(String file) throws Exception {
         TimeSeries timeSeries = CsvTicksLoader.load(file);
+        try {
+            periodManager.generateOptimizations(timeSeries);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         String name = file;
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 

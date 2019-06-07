@@ -25,8 +25,11 @@
           <element id="library" level="project" name="Maven: org.jboss.xnio:xnio-api:3.0.17.GA-redhat-1" />
           <element id="library" level="project" name="Maven: org.jboss.xnio:xnio-nio:3.0.17.GA-redhat-1" />
           <element id="library" level="project" name="Maven: org.jboss.as:jboss-as-build-config:7.5.21.Final-redhat-1" />
-          <element id="library" level="project" name="Maven: org.uma.jmetal:jmetal-core:5.7-SNAPSHOT" />
           <element id="library" level="project" name="Maven: postgresql:postgresql:9.1-901-1.jdbc4" />
+          <element id="library" level="project" name="Maven: org.uma.jmetal:jmetal-core:5.7-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: org.uma.jmetal:jmetal-algorithm:5.7-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: org.uma.jmetal:jmetal-problem:5.7-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: org.uma.jmetal:jmetal-exec:5.7-SNAPSHOT" />
           <element id="library" level="project" name="Maven: org.glassfish:javax.faces:2.2.17" />
           <element id="library" level="project" name="Maven: org.jboss.weld.servlet:weld-servlet:2.3.5.Final" />
           <element id="library" level="project" name="Maven: org.primefaces:primefaces:6.2" />
