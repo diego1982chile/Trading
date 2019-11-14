@@ -1,0 +1,320 @@
+
+/*
+.topbar-left {
+    background-color: #2f8ee5 !important;
+}
+*/
+
+.search {
+    position: relative;
+    color: #aaa;
+    /*font-size: 16px;*/
+}
+
+.search input { text-indent: 32px;}
+
+.search .fa-search {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.search .fa.fa-close.fa-lg {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+.search .loader {
+    position: absolute !important;
+    top: -6px !important;
+    left: 4px !important;
+    width: 30px !important;
+}
+
+
+.fa-lg {
+    line-height: .5em !important;
+}
+
+.browserLayout .ui-widget-content {
+    border: 1px solid #d5d5d5;
+    background: #fff;
+    color: #222;
+}
+
+.ui-widget-content {
+    border: 1px solid #d5d5d5;
+    background: #fff;
+    color: #222;
+}
+
+.browserLayout {
+    width:  100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.northPane {
+    padding: 0;
+}
+
+.southPane {
+    padding: 0;
+}
+
+.tags .ui-autocomplete-multiple-container {
+    width: 100% !important;
+}
+
+.tags .ui-autocomplete-input-token input {
+    margin: 0px !important;
+}
+
+.tags .ui-autocomplete-multiple .ui-autocomplete-multiple-container .ui-autocomplete-token {
+    padding: 2px !important;
+}
+
+.tags .ui-autocomplete-token {
+    margin: 0px !important;
+    margin-right: 2px !important;
+}
+
+.tags .ui-autocomplete-multiple-container {
+    opacity:100;
+    background-color: transparent;
+    border-bottom: 0;
+}
+
+.ui-autocomplete-multiple-container.ui-widget.ui-inputfield {
+    padding: 0 !important;
+}
+
+.pe-layout-pane-header {
+    padding: 4px 0em;
+    border-width: 0 0 1px;
+}
+
+.filterStatus .ui-autocomplete {
+    width: 95%;
+}
+
+.browserFilters .ui-autocomplete-multiple-container {
+    width: 100% !important;
+}
+
+.browserFilters .ui-autocomplete-input-token input {
+    margin: 0px !important;
+}
+
+.browserFilters .ui-autocomplete-multiple .ui-autocomplete-multiple-container .ui-autocomplete-token {
+    padding: 2px !important;
+}
+
+.browserFilters .ui-autocomplete-token {
+    margin: 0px !important;
+    margin-right: 2px !important;
+    margin-bottom: 5px !important;
+}
+
+.browserFilters .ui-autocomplete-multiple-container {
+    opacity:100;
+    background-color: #FFF;
+    border-bottom: 0;
+}
+
+#browserForm\:conceptPanel table thead {
+    display: none !important;
+}
+
+#conceptForm\:j_idt74\:smtkAttributes table thead {
+    display: none !important;
+}
+
+#browserForm\:conceptPanel .ui-datatable tbody tr.ui-datatable-even {
+    background-color: transparent !important;
+}
+
+#browserForm\:conceptPanel .ui-datatable tbody tr td {
+    border: transparent !important;
+}
+
+#browserForm\:conceptPanel .ui-widget-header {
+    border: transparent !important;
+}
+
+#browserForm\:conceptTable_paginator_top {
+    /*display: none !important;*/
+}
+
+/* */
+#browserForm\:conceptPanel .ui-paginator-current {
+    color: #1A0DAB !important;
+}
+
+#browserForm\:conceptPanel .ui-paginator .ui-paginator-pages .ui-paginator-page {
+    color: #1A0DAB !important;
+}
+
+#browserForm\:conceptPanel .ui-paginator .ui-paginator-pages .ui-paginator-page.ui-state-active {
+    color: #FFFFFF !important;
+}
+
+#browserForm\:conceptPanel .conceptTable .ui-widget-header {
+    background: rgba(56, 73, 162, 0) !important;
+}
+
+#browserForm\:conceptPanel .ui-paginator .ui-paginator-first, #browserForm\:conceptPanel .ui-paginator .ui-paginator-prev, #browserForm\:conceptPanel .ui-paginator .ui-paginator-next, #browserForm\:conceptPanel .ui-paginator .ui-paginator-last {
+    color: #1A0DAB !important;
+}
+
+#browserForm\:conceptPanel #browserForm\:conceptTable_paginator_bottom {
+    background: #FFF none repeat scroll 0% 0% !important;
+    border-bottom: 1px solid #BDBDBD !important;
+    border-left: 1px solid #BDBDBD !important;
+    border-right: 1px solid #BDBDBD !important;
+    boorder-top: 0px !important;
+}
+
+#browserForm\:conceptTableSCT_paginator_top {
+    background: transparent !important;
+}
+
+#browserForm\:conceptTableSCT_paginator_bottom {
+    background: transparent !important;
+}
+/* ---------------- */
+
+
+.ui-inputfield {
+    padding: 4px !important;
+}
+
+.ui-inputfield.ui-state-focus {
+    padding: 4px !important;
+}
+
+.myCustomLinkStyle:link {
+    color: #1a0dab;
+    font-size: 18px;
+}
+
+.myCustomLinkStyle:visited {
+    color: #6717ab !important;
+    font-size: 18px !important;
+}
+
+.myCustomLinkStyle:hover {
+    color: #1a0dab !important;
+    font-size: 18px !important;
+    text-decoration: underline !important;
+}
+
+.ui-autocomplete-item:first-child {
+    display: none !important;
+    /*visibility: hidden !important;*/
+}
+
+.ui-button.ui-button-icon-only.search-button-tiny {
+    border-radius: 10% !important;
+    /*width: 2.4em !important;*/
+    /*height: 100%;*/
+    /*height: 27px !important;*/
+}
+
+.ui-fluid .ui-inputtext[size], .ui-fluid .ui-inputfield[size] {
+    width: inherit !important;
+}
+
+.first-heading {
+    font-size: 1.7em !important;
+    margin: 10px !important;
+    line-height: 24px !important;
+}
+
+.second-heading {
+    margin: 10px !important;
+}
+
+.heading-separator {
+    border-top: 0px solid rgb(219, 219, 219) !important;
+    border-bottom: 1px solid darkgrey !important;
+    /*margin: 10px !important;*/
+    margin-bottom: 1.5em !important;
+}
+
+.value {
+    /*font-style: italic !important;*/
+}
+
+.label {
+    font-weight: bold;
+    color: #3c3c3c !important;
+}
+
+.browser-options .ui-menuitem {
+    float: right !important;
+}
+
+.layout-rightpanel .layout-rightpanel-header {
+    height: 50px !important;
+}
+
+.layout-rightpanel .layout-rightpanel-header {
+    background: #283593 none repeat scroll 0% 0% !important;
+}
+
+/*
+.logo {
+    image-rendering: -webkit-optimize-contrast !important;
+}
+*/
+
+/*
+.ui-paginator .ui-paginator-pages {
+    display: inline-block !important;
+}
+*/
+
+/*
+.ui-widget, .ui-widget .ui-widget
+{
+    font-size: 95% !important;
+}
+
+
+.ui-selectonemenu-label, .ui-selectonemenu .ui-selectonemenu-label
+{
+    font-size: 95% !important;
+}
+*/
+
+/*
+.ui-selectonemenu {
+    min-width: 223px !important;
+}
+*/
+
+/*
+.layout-main {
+    max-width: 1200px;
+}
+*/
+
+.ui-dialog {
+    max-width: 1200px;
+}
+
+.nano {
+    height: 90% !important;
+}
+
+.concept-selected {
+    /*background-color: #e8e8e8;*/
+    font-weight: bold;
+}
+
+.concept-selected-menu {
+    font-weight: bold !important;
+    /*color: #E91E63; !important;*/
+}

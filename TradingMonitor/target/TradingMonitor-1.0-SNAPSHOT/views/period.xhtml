@@ -1,0 +1,149 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:pe="http://primefaces.org/ui/extensions"
+                template="/WEB-INF/template.xhtml">
+
+    <ui:define name="title">Semantikos Diseñador</ui:define>
+
+    <ui:define name="head">
+        <script type="text/javascript">
+            //<![CDATA[
+            function skinChart() {
+                this.cfg.shadow = false;
+                this.cfg.title = '';
+                this.cfg.seriesColors = ['#FFC107', '#03A9F4'];
+                this.cfg.grid = {
+                    background: '#ffffff',
+                    borderColor: '#ffffff',
+                    gridLineColor: '#EEEEEE',
+                    shadow: false
+                };
+                this.cfg.axesDefaults = {
+                    rendererOptions: {
+                        textColor: '#212121'
+                    }
+                };
+                this.cfg.seriesDefaults = {
+                    shadow: false,
+                    lineWidth: 1,
+                    markerOptions: {
+                        shadow: false,
+                        size: 7,
+                        style: 'circle'
+                    }
+                }
+            }
+            //]]>
+        </script>
+        <style type="text/css">
+            .main-content {
+                padding: 0;
+            }
+        </style>
+    </ui:define>
+
+    <ui:define name="content">
+
+        <f:metadata>
+            <f:viewParam name="idSelectedPeriod" value="#{backTestBean.idSelectedPeriod}" />
+        </f:metadata>
+
+        <div class="ui-g dashboard">
+
+        <h:form style="width: 100%" id="form">
+
+            <div class="ui-g-12 ui-md-12 ui-lg-12">
+                    <!-- Left Side -->
+
+                    <div class="card card-w-title">
+
+                        <h1>#{backTestBean.selectedPeriod.name}</h1>
+
+                        <p:separator styleClass="heading-separator"/>
+
+                        <p:outputPanel styleClass="ui-g ui-fluid" style="margin-bottom: 20px">
+
+                            <div class="ui-g-12 ui-md-4 ui-lg-2">
+                                <h:outputText value="Inicio:" styleClass="label" />
+                            </div>
+
+                            <div class="ui-g-12 ui-md-8 ui-lg-10">
+                                <h:outputText value="#{backTestBean.selectedPeriod.start}" styleClass="value" />
+                            </div>
+
+                            <div class="ui-g-12 ui-md-4 ui-lg-2">
+                                <h:outputText value="Fin:" styleClass="label" />
+                            </div>
+
+                            <div class="ui-g-12 ui-md-8 ui-lg-10">
+                                <h:outputText value="#{backTestBean.selectedPeriod.end}" styleClass="value" />
+                            </div>
+
+                            <div class="ui-g-12 ui-md-4 ui-lg-2">
+                                <h:outputText value="Number of trades:" styleClass="label" />
+                            </div>
+
+                            <div class="ui-g-12 ui-md-8 ui-lg-10">
+                                <h:outputText value="#{backTestBean.trades}" styleClass="value" />
+                            </div>
+
+                            <div class="ui-g-12 ui-md-4 ui-lg-2">
+                                <h:outputText value="Profitable trades ratio:" styleClass="label" />
+                            </div>
+
+                            <div class="ui-g-12 ui-md-8 ui-lg-10">
+                                <h:outputText value="#{backTestBean.profitableTrades}" styleClass="value" />
+                            </div>
+
+                            <div class="ui-g-12 ui-md-4 ui-lg-2">
+                                <h:outputText value="Reward-risk ratio:" styleClass="label" />
+                            </div>
+
+                            <div class="ui-g-12 ui-md-8 ui-lg-10">
+                                <h:outputText value="#{backTestBean.rewardRisk}" styleClass="value"/>
+                            </div>
+
+                            <div class="ui-g-12 ui-md-4 ui-lg-2">
+                                <h:outputText value="vs buy-and-hold profit:" styleClass="label"/>
+                            </div>
+
+                            <div class="ui-g-12 ui-md-8 ui-lg-10">
+                                <h:outputText rows="1" value="#{backTestBean.vsBuyAndHold}" styleClass="value"/>
+                            </div>
+
+                            <div class="ui-g-12 ui-md-4 ui-lg-2">
+                                <h:outputText value="CashFlow:" styleClass="label"/>
+                            </div>
+
+                            <div class="ui-g-12 ui-md-8 ui-lg-10">
+                                <h:outputText rows="1" value="#{backTestBean.cashFlow.getValue(backTestBean.cashFlow.getSize()-1)}" styleClass="value"/>
+                            </div>
+
+                            <br/>
+
+                            <p:graphicImage value="#{backTestBean.chart}" rendered="true" stream="false" />
+
+                        </p:outputPanel>
+
+                    </div>
+
+            </div>
+
+        </h:form>
+
+        </div>
+
+        <script type="text/javascript">
+
+            $(document).ready(function() {
+                $.removeCookie('myCookie');
+            });
+
+        </script>
+
+    </ui:define>
+
+</ui:composition>

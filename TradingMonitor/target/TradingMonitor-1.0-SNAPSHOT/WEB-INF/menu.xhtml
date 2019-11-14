@@ -1,0 +1,83 @@
+<ui:composition 
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:p="http://primefaces.org/ui"
+    xmlns:pu="http://primefaces.org/ultima">
+
+
+    <h:form id="browserForm">
+        <div class="layout-menu #{guestPreferences.menuClass}">
+            <div class="nano">
+                <div class="nano-content menu-scroll-content">
+                    <ui:fragment rendered="#{guestPreferences.profileMode == 'inline' and guestPreferences.menuLayout != 'menu-layout-static menu-layout-horizontal'}">
+
+                    </ui:fragment>
+
+                    <pu:menu widgetVar="me" model="#{menuBean.menuModel}" rendered="#{true}"/>
+
+                </div>
+            </div>
+        </div>
+    </h:form>
+
+    <script type="text/javascript">
+
+        function highlight() {
+            $('.conceptPanel .context').on('click', function() {
+               $('.concept-selected-menu').removeClass('concept-selected-menu');
+               $(this).addClass('concept-selected-menu');
+            });
+        }
+
+        function initloader() {
+            $('.loader').css("display","inline");
+            $('.search .fa').hide();
+        }
+
+        function haltloader() {
+            $('.loader').css("display","none");
+            $('.search .fa').show();
+        }
+
+        function loader() {
+
+            $('.loader-trigger').on('click', function() {
+                $.Toast.showToast({
+                    // toast message
+                    "title": "Un momento por favor...",
+                    // "success", "none", "error"
+                    "icon": "Cargando",
+                    // default: 1500
+                    "duration": 10000
+                });
+            });
+
+            $('.ui-paginator-page').on('click', function() {
+                $.Toast.showToast({
+                    // toast message
+                    "title": "Un momento por favor...",
+                    // "success", "none", "error"
+                    "icon": "Cargando",
+                    // default: 1500
+                    "duration": 10000
+                });
+            });
+
+        }
+
+
+        function scrolltop() {
+            setTimeout(
+                    function() {
+                        window.scroll(0, 0);
+                    }, 0);
+            $.Toast.hideToast();
+        }
+
+        highlight();
+
+    </script>
+
+</ui:composition>
