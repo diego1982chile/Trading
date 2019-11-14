@@ -9,11 +9,11 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="TradingDomain" />
-    <orderEntry type="library" name="Maven: org-ta4j:ta4j-core:0.12-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: org-ta4j:ta4j-examples:0.12-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: org.jfree:jfreechart:1.0.14-redhat-2" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" name="Maven: org.jfree:jcommon:1.0.21" level="project" />
+    <orderEntry type="library" name="Maven: org-ta4j:ta4j-core:0.12-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org-ta4j:ta4j-examples:0.12-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.jfree:jfreechart:1.0.17" level="project" />
   </component>
 </module>

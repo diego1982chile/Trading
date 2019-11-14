@@ -3,7 +3,6 @@ package cl.dsoto.trading.strategies;
 import cl.dsoto.trading.model.*;
 import javafx.util.Pair;
 import org.ta4j.core.BaseTimeSeries;
-import org.ta4j.core.Strategy;
 import org.ta4j.core.TimeSeries;
 import ta4jexamples.strategies.*;
 
@@ -41,7 +40,7 @@ public class StrategyHelper {
 
     private static final String WINSLOW = "WinslowStrategy";
 
-    public static List<Strategy> mapFrom(Period period) throws Exception {
+    public static List<org.ta4j.core.Strategy> mapFrom(Period period) throws Exception {
 
         List<org.ta4j.core.Strategy> strategies = new ArrayList<>();
 

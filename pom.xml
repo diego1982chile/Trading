@@ -24,7 +24,7 @@
         <module>TradingDomain</module>
         <module>TradingPersistence</module>
         <module>TradingController</module>
-        <module>TradingMonitor</module>
+        <!--module>TradingMonitor</module-->
         <module>TradingCentral</module>
         <module>TradingView</module>
     </modules>

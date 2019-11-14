@@ -6,10 +6,12 @@ import cl.dsoto.trading.components.PeriodManager;
 import cl.dsoto.trading.daos.OptimizationDAO;
 import cl.dsoto.trading.daos.PeriodDAO;
 import cl.dsoto.trading.model.*;
+import cl.dsoto.trading.model.Strategy;
 import org.apache.poi.hssf.record.chart.TickRecord;
 import org.jfree.chart.ChartRenderingInfo;
 import org.jfree.chart.ChartUtilities;
 import org.jfree.chart.JFreeChart;
+
 import org.primefaces.model.DefaultStreamedContent;
 import org.primefaces.model.DefaultTreeNode;
 import org.primefaces.model.StreamedContent;
@@ -17,7 +19,6 @@ import org.primefaces.model.chart.AxisType;
 import org.primefaces.model.chart.OhlcChartModel;
 import org.primefaces.model.chart.OhlcChartSeries;
 import org.ta4j.core.*;
-import org.ta4j.core.Strategy;
 import org.ta4j.core.analysis.CashFlow;
 import org.ta4j.core.analysis.criteria.AverageProfitableTradesCriterion;
 import org.ta4j.core.analysis.criteria.RewardRiskRatioCriterion;
@@ -195,7 +196,7 @@ public class BackTestBean {
 
             TimeSeriesManager seriesManager = new TimeSeriesManager(series);
 
-            List<Strategy> strategies = mapFrom(selectedPeriod);
+            List<org.ta4j.core.Strategy> strategies = mapFrom(selectedPeriod);
 
             MultipleStrategy multipleStrategy = new MultipleStrategy(strategies);
 
@@ -248,7 +249,7 @@ public class BackTestBean {
 
     }
 
-    public List<Strategy> mapFrom(Period period) throws Exception {
+    public List<org.ta4j.core.Strategy> mapFrom(Period period) throws Exception {
 
         List<org.ta4j.core.Strategy> strategies = new ArrayList<>();
 

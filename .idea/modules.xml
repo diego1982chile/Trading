@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/TradingCentral/TradingCentral.iml" filepath="$PROJECT_DIR$/TradingCentral/TradingCentral.iml" />
       <module fileurl="file://$PROJECT_DIR$/TradingController/TradingController.iml" filepath="$PROJECT_DIR$/TradingController/TradingController.iml" />
       <module fileurl="file://$PROJECT_DIR$/TradingDomain/TradingDomain.iml" filepath="$PROJECT_DIR$/TradingDomain/TradingDomain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TradingMonitor/TradingMonitor.iml" filepath="$PROJECT_DIR$/TradingMonitor/TradingMonitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/TradingPersistence/TradingPersistence.iml" filepath="$PROJECT_DIR$/TradingPersistence/TradingPersistence.iml" />
       <module fileurl="file://$PROJECT_DIR$/TradingView/TradingView.iml" filepath="$PROJECT_DIR$/TradingView/TradingView.iml" />
     </modules>
