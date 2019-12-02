@@ -225,7 +225,7 @@ public class BackTestController {
             ChartPanel panel = new ChartPanel(jfreechart);
             panel.setFillZoomRectangle(true);
             panel.setMouseWheelEnabled(true);
-            panel.setPreferredSize(new Dimension(1024, 400));
+            panel.setPreferredSize(new Dimension(800, 200));
 
             getPlotView().setLayout(new BorderLayout());
             getPlotView().removeAll();

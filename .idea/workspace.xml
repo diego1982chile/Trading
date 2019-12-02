@@ -13,9 +13,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_1_1.xml" afterPath="" />
@@ -24,24 +22,20 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_16.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_faces_2_2_17.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_build_config_7_5_21_Final_redhat_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_as_jboss_as_build_config_7_2_0_Final.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_ejb3_jboss_ejb3_ext_api_2_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jboss_ejb_client_1_0_41_Final_redhat_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jboss_remote_naming_1_0_13_Final_redhat_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_4_GA_redhat_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_marshalling_jboss_marshalling_1_4_10_SP3_redhat_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_marshalling_jboss_marshalling_river_1_4_10_SP3_redhat_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_remoting3_jboss_remoting_3_3_12_Final_redhat_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jboss_ejb_client_1_0_16_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jboss_remote_naming_1_0_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_2_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_marshalling_jboss_marshalling_1_3_16_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_marshalling_jboss_marshalling_river_1_3_16_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_remoting3_jboss_remoting_3_2_14_GA.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_jaxrs_api_3_0_8_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_sasl_jboss_sasl_1_0_5_Final_redhat_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_sasl_jboss_sasl_1_0_3_Final.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_annotation_jboss_annotations_api_1_2_spec_1_0_0_Final.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_batch_jboss_batch_api_1_0_spec_1_0_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_ejb_jboss_ejb_api_3_1_spec_1_0_2_Final_redhat_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_ejb_jboss_ejb_api_3_1_spec_1_0_2_Final.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_ejb_jboss_ejb_api_3_2_spec_1_0_0_Final.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_el_jboss_el_api_3_0_spec_1_0_4_Final.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_enterprise_concurrent_jboss_concurrency_api_1_0_spec_1_0_0_Final.xml" afterPath="" />
@@ -57,69 +51,32 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_servlet_jboss_servlet_api_3_1_spec_1_0_0_Final.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_servlet_jsp_jboss_jsp_api_2_3_spec_1_0_1_Final.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_servlet_jstl_jboss_jstl_api_1_2_spec_1_1_2_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_1_Final_redhat_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_1_Final.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_websocket_jboss_websocket_api_1_0_spec_1_0_0_Final.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_xml_bind_jboss_jaxb_api_2_2_spec_1_0_4_Final.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_xml_soap_jboss_saaj_api_1_3_spec_1_0_3_Final.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_xml_ws_jboss_jaxws_api_2_2_spec_2_0_2_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_weld_servlet_weld_servlet_2_3_5_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_api_3_0_17_GA_redhat_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_nio_3_0_17_GA_redhat_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_api_3_0_7_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_nio_3_0_7_GA.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jcommon_1_0_21.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jfreechart_1_0_14_redhat_2.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jfreechart_1_0_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ocpsoft_rewrite_rewrite_config_prettyfaces_3_4_1_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ocpsoft_rewrite_rewrite_integration_faces_3_4_1_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ocpsoft_rewrite_rewrite_servlet_3_4_1_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_omnifaces_omnifaces_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_extensions_primefaces_extensions_6_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_6_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_ultima_1_1_3.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_5_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_5_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_21.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ta4j_ta4j_core_0_12_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ta4j_ta4j_core_0_12_SNAPSHOT2.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ta4j_ta4j_examples_0_12_SNAPSHOT.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_uma_jmetal_jmetal_algorithm_5_7_SNAPSHOT.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_uma_jmetal_jmetal_core_5_7_SNAPSHOT.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_uma_jmetal_jmetal_exec_5_7_SNAPSHOT.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_uma_jmetal_jmetal_problem_5_7_SNAPSHOT.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__postgresql_postgresql_9_1_901_1_jdbc4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_3_04.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.~lock.2010_D.csv#" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2008_2012_D.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2010_2012_D.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2010_D.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2011_01.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2011_02.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2011_03.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2011_04.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2011_05.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2011_06.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2011_07.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2011_08.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2011_09.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2011_10.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2011_11.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2011_12.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2011_D.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2012_D.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2013_D.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2014_D.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2015_D.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2016_D.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2017_D.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2018_D.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2019_M.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FUN.tsv" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Trading.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/META-INF/application.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/TradingCentral.iml" afterPath="" />
@@ -127,20 +84,19 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/TradingCentral/src/main/resources/application.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/pom.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral.ear" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/META-INF/MANIFEST.MF" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/META-INF/application.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/TradingPersistence" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/TradingDomain-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jboss-as-build-config-7.5.21.Final-redhat-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jboss-ejb-api_3.1_spec-1.0.2.Final-redhat-3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jboss-ejb-client-1.0.41.Final-redhat-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jboss-logging-3.1.4.GA-redhat-2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jboss-marshalling-1.4.10.SP3-redhat-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jboss-marshalling-river-1.4.10.SP3-redhat-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jboss-remote-naming-1.0.13.Final-redhat-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jboss-remoting-3.3.12.Final-redhat-2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jboss-sasl-1.0.5.Final-redhat-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jboss-transaction-api_1.1_spec-1.0.1.Final-redhat-3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jboss-as-build-config-7.2.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jboss-ejb-api_3.1_spec-1.0.2.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jboss-ejb-client-1.0.16.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jboss-logging-3.1.2.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jboss-marshalling-1.3.16.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jboss-marshalling-river-1.3.16.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jboss-remote-naming-1.0.5.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jboss-remoting-3.2.14.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jboss-sasl-1.0.3.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jboss-transaction-api_1.1_spec-1.0.1.Final.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jmetal-algorithm-5.7-SNAPSHOT.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jmetal-core-5.7-SNAPSHOT.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jmetal-exec-5.7-SNAPSHOT.jar" afterPath="" />
@@ -151,17 +107,15 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/slf4j-log4j12-1.5.6.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/ta4j-core-0.12-SNAPSHOT.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/ta4j-examples-0.12-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/xnio-api-3.0.17.GA-redhat-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/xnio-nio-3.0.17.GA-redhat-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/xnio-api-3.0.7.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/xnio-nio-3.0.7.GA.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/application.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingCentral/target/maven-archiver/pom.properties" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingController/TradingController.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingController/pom.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingController/src/cl.dsoto.trading/controllers/Executor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingController/src/cl.dsoto.trading/controllers/Test.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingController/target/TradingController-1.0-SNAPSHOT.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingController/target/classes/cl/dsoto/trading/controllers/Executor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingController/target/classes/cl/dsoto/trading/controllers/Test.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingController/target/maven-archiver/pom.properties" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingDomain/TradingDomain.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingDomain/pom.xml" afterPath="" />
@@ -207,233 +161,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/src/cl/dsoto/trading/BackTestBean.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/src/cl/dsoto/trading/MenuBean.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/src/cl/dsoto/trading/components/GuestPreferences.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/ROOT.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/classes/cl/dsoto/trading/BackTestBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/classes/cl/dsoto/trading/MenuBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/classes/cl/dsoto/trading/components/GuestPreferences.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/classes/cl/dsoto/trading/version.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/faces-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/footer.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/TradingDomain-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/TradingPersistence-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/commons-collections4-4.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/gson-2.2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/javax.faces-2.2.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/jboss-as-build-config-7.5.21.Final-redhat-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/jboss-ejb-api_3.1_spec-1.0.2.Final-redhat-3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/jboss-ejb-client-1.0.41.Final-redhat-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.1.4.GA-redhat-2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/jboss-marshalling-1.4.10.SP3-redhat-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/jboss-marshalling-river-1.4.10.SP3-redhat-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/jboss-remote-naming-1.0.13.Final-redhat-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/jboss-remoting-3.3.12.Final-redhat-2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/jboss-sasl-1.0.5.Final-redhat-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.1.Final-redhat-3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/jcommon-1.0.21.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/jfreechart-1.0.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/jmetal-algorithm-5.7-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/jmetal-core-5.7-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/jmetal-exec-5.7-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/jmetal-problem-5.7-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/omnifaces-2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/poi-3.16.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/postgresql-9.1-901-1.jdbc4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/primefaces-6.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/primefaces-extensions-6.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/rewrite-config-prettyfaces-3.4.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/rewrite-integration-faces-3.4.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/rewrite-servlet-3.4.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.21.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.7.21.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/ta4j-core-0.12-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/ta4j-examples-0.12-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/ultima-1.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/weld-servlet-2.3.5.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/xml-apis-1.3.04.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/xnio-api-3.0.17.GA-redhat-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/lib/xnio-nio-3.0.17.GA-redhat-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/menu.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/pretty-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/rightpanel.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/template.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/topbar.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/images/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/semantikos/css/customStyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/semantikos/images/background-light-web-opera-blue-simple.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/semantikos/images/loader-pink.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/semantikos/images/logo-31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/semantikos/images/logo-indigo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/semantikos/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/semantikos/images/logo180-180.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/semantikos/images/minsal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/semantikos/images/search.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/semantikos/images/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/semantikos/js/jquery.mark.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/semantikos/js/jquery.toast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/semantikos/loader-pink.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-blue-grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-blue-grey.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-blue.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-brown.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-brown.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-cyan.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-cyan.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-dark-blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-dark-blue.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-dark-green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-dark-green.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-green.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-grey.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-indigo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-indigo.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-purple-amber.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-purple-amber.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-purple-cyan.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-purple-cyan.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-teal.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/layout-teal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/nanoscroller.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/css/ripple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/fonts/MaterialIcons-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/fonts/MaterialIcons-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/fonts/MaterialIcons-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/fonts/MaterialIcons-Regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/fonts/roboto-v15-latin-300.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/fonts/roboto-v15-latin-300.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/fonts/roboto-v15-latin-300.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/fonts/roboto-v15-latin-300.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/fonts/roboto-v15-latin-300.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/fonts/roboto-v15-latin-700.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/fonts/roboto-v15-latin-700.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/fonts/roboto-v15-latin-700.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/fonts/roboto-v15-latin-700.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/fonts/roboto-v15-latin-700.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/fonts/roboto-v15-latin-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/fonts/roboto-v15-latin-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/fonts/roboto-v15-latin-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/fonts/roboto-v15-latin-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/fonts/roboto-v15-latin-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/401.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/404.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/avatar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/avatar1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/avatar2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/avatar2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/avatar3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/avatar4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/dark-user-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/dark-user-bg2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/dashboard/map.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/dashboard/md.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/dashboard/progress.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/dashboard/sales.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/dashboard/sidebar-image.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/dashboard/views.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/dashboard/weather-icon-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/dashboard/weather-icon-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/dashboard/weather-icon-3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/dashboard/weather-icon-4.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/error.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/landing/landing-header.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/landing/promotion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/login/login.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/login/login2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/logo-ultima.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/logo2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/preloader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/profile-bg-dark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/profile-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/profile-bg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/profile-image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/user-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/images/user-bg2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/js/layout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/js/nanoscroller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/js/ripple.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/resources/ultima-layout/js/swipe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/errors/404.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/errors/error.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples-ultima/404.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples-ultima/access.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples-ultima/charts.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples-ultima/dashboard.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples-ultima/data.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples-ultima/docs.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples-ultima/empty.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples-ultima/error.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples-ultima/file.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples-ultima/forms.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples-ultima/landing.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples-ultima/login.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples-ultima/menu.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples-ultima/messages.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples-ultima/misc.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples-ultima/overlay.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples-ultima/panel.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples-ultima/sample.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples-ultima/utils.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/charts.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/dashboard.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/data.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/datatable.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/core/box-sizing.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/core/containerx.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/core/displaying.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/core/empty-boxes.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/core/floating.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/core/font-size.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/core/font-weights.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/core/installation.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/core/menus.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/core/opacity.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/core/overflows.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/core/positioning.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/core/responsive-mode.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/core/selection.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/core/text-aligning.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/core/transitions.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/core/underline.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/core/visibilities.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/core/widx.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/layout/background-colors.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/layout/borders.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/layout/cards.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/layout/effects.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/layout/less.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/layout/roboto-font.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/layout/separators.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/docs/layout/text-colors.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/empty-page.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/file.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/font-icons.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/forms.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/login.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/menu.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/messages.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/misc.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/overlay.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/panel.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/promotion-page.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/examples/sample.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/home.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/period.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingMonitor-1.0-SNAPSHOT/views/promotion-page.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/TradingWeb-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/classes/cl/dsoto/trading/BackTestBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/classes/cl/dsoto/trading/MenuBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/classes/cl/dsoto/trading/components/GuestPreferences.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/classes/cl/dsoto/trading/version.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/target/maven-archiver/pom.properties" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/web/WEB-INF/faces-config.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/web/WEB-INF/footer.xhtml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/web/WEB-INF/menu.xhtml" afterPath="" />
@@ -609,7 +336,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/web/views/home.xhtml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/web/views/period.xhtml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingMonitor/web/views/promotion-page.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingPersistence-1.0-SNAPSHOT.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingPersistence/TradingPersistence.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingPersistence/pom.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingPersistence/postgresql-9.4.1208.jre7.jar" afterPath="" />
@@ -692,29 +418,27 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/asm-tree-3.0.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/forms-1.1-preview.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/forms_rt-7.0.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jboss-as-build-config-7.5.21.Final-redhat-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jboss-as-ejb-client-bom-7.5.21.Final-redhat-1.pom" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jboss-ejb-api_3.1_spec-1.0.2.Final-redhat-3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jboss-ejb-client-1.0.41.Final-redhat-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jboss-logging-3.1.4.GA-redhat-2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jboss-marshalling-1.4.10.SP3-redhat-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jboss-marshalling-river-1.4.10.SP3-redhat-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jboss-remote-naming-1.0.13.Final-redhat-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jboss-remoting-3.3.12.Final-redhat-2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jboss-sasl-1.0.5.Final-redhat-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jboss-transaction-api_1.1_spec-1.0.1.Final-redhat-3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jcommon-1.0.24.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jboss-as-build-config-7.2.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jboss-as-ejb-client-bom-7.2.0.Final.pom" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jboss-ejb-api_3.1_spec-1.0.2.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jboss-ejb-client-1.0.16.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jboss-logging-3.1.2.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jboss-marshalling-1.3.16.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jboss-marshalling-river-1.3.16.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jboss-remote-naming-1.0.5.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jboss-remoting-3.2.14.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jboss-sasl-1.0.3.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jboss-transaction-api_1.1_spec-1.0.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jcommon-1.0.21.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jdom-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jfreechart-1.5.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/jfreechart-1.0.17.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/slf4j-api-1.7.25.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/ta4j-core-0.12-SNAPSHOT.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/ta4j-examples-0.12-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/xnio-api-3.0.17.GA-redhat-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/xnio-nio-3.0.17.GA-redhat-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/xml-apis-1.3.04.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/xnio-api-3.0.7.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/lib/xnio-nio-3.0.7.GA.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TradingView/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/VAR.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jMetal.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jMetal.log.1" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/jmetal-algorithm-5.7-SNAPSHOT.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/jmetal-core-5.7-SNAPSHOT.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/jmetal-exec-5.7-SNAPSHOT.jar" afterPath="" />
@@ -745,7 +469,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/pom.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/ta4j-core-0.12-SNAPSHOT.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/ta4j-examples-0.12-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultima-theme-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ultima-theme-2.0.2.jar" afterPath="" />
     </list>
     <ignored path="Trading.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -777,41 +501,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PeriodDAOImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimeFrame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/TimeFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-50">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Strategy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Strategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="105">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TradingDomain/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TradingView/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1530">
+              <caret line="102" column="35" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -820,29 +534,23 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-50">
+            <state relative-caret-position="120">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProblemType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/ProblemType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PeriodBar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/PeriodBar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#942#943#0" expanded="false" />
+                <element signature="e#967#968#0" expanded="false" />
+                <element signature="e#1001#1002#0" expanded="false" />
+                <element signature="e#1029#1030#0" expanded="false" />
+                <element signature="e#1074#1075#0" expanded="false" />
+                <element signature="e#1109#1110#0" expanded="false" />
+                <element signature="e#1171#1172#0" expanded="false" />
+                <element signature="e#1219#1220#0" expanded="false" />
+                <element signature="e#1253#1254#0" expanded="false" />
+                <element signature="e#1282#1283#0" expanded="false" />
+                <element signature="e#1329#1330#0" expanded="false" />
+                <element signature="e#1365#1366#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -850,28 +558,96 @@
       <file leaf-file-name="Period.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Period.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1397">
-              <caret line="165" column="57" selection-start-line="165" selection-start-column="57" selection-end-line="165" selection-end-column="57" />
+            <state relative-caret-position="435">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1571#1572#0" expanded="false" />
+                <element signature="e#1598#1599#0" expanded="false" />
+                <element signature="e#1647#1648#0" expanded="false" />
+                <element signature="e#1679#1680#0" expanded="false" />
+                <element signature="e#2245#2246#0" expanded="false" />
+                <element signature="e#2270#2271#0" expanded="false" />
+                <element signature="e#2304#2305#0" expanded="false" />
+                <element signature="e#2332#2333#0" expanded="false" />
+                <element signature="e#2363#2364#0" expanded="false" />
+                <element signature="e#2390#2391#0" expanded="false" />
+                <element signature="e#2430#2431#0" expanded="false" />
+                <element signature="e#2462#2463#0" expanded="false" />
+                <element signature="e#2501#2502#0" expanded="false" />
+                <element signature="e#2533#2534#0" expanded="false" />
+                <element signature="e#2586#2587#0" expanded="false" />
+                <element signature="e#2628#2629#0" expanded="false" />
+                <element signature="e#2658#2659#0" expanded="false" />
+                <element signature="e#2686#2687#0" expanded="false" />
+                <element signature="e#2726#2727#0" expanded="false" />
+                <element signature="e#2760#2761#0" expanded="false" />
+                <element signature="e#2788#2789#0" expanded="false" />
+                <element signature="e#2814#2815#0" expanded="false" />
+                <element signature="e#2850#2851#0" expanded="false" />
+                <element signature="e#2880#2881#0" expanded="false" />
+                <element signature="e#2919#2920#0" expanded="false" />
+                <element signature="e#2951#2952#0" expanded="false" />
+                <element signature="e#3004#3005#0" expanded="false" />
+                <element signature="e#3046#3047#0" expanded="false" />
+                <element signature="e#3098#3099#0" expanded="false" />
+                <element signature="e#3134#3135#0" expanded="false" />
+                <element signature="e#3204#3205#0" expanded="false" />
+                <element signature="e#3254#3255#0" expanded="false" />
+                <element signature="e#8156#8157#0" expanded="false" />
+                <element signature="e#8183#8184#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StrategiesView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/StrategiesView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="21" column="101" selection-start-line="21" selection-start-column="101" selection-end-line="21" selection-end-column="101" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Optimization.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Optimization.java">
+      <file leaf-file-name="TradingView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="735">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Objective.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Objective.java">
+      <file leaf-file-name="BackTestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/BackTestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="420">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StrategiesController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/StrategiesController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TradingPersistence/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-29">
+              <caret line="70" column="35" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -939,21 +715,21 @@
         <option value="$PROJECT_DIR$/TradingController/src/cl.dsoto.trading/controllers/Test.java" />
         <option value="$PROJECT_DIR$/TradingController/pom.xml" />
         <option value="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Period.java" />
-        <option value="$PROJECT_DIR$/TradingDomain/pom.xml" />
         <option value="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/components/PeriodManager.java" />
         <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManager.java" />
         <option value="$PROJECT_DIR$/TradingController/src/cl.dsoto.trading/controllers/Executor.java" />
         <option value="$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-exec/5.7-SNAPSHOT/jmetal-exec-5.7-SNAPSHOT.jar!/org/uma/jmetal/runner/singleobjective/GenerationalGeneticAlgorithmStockMarketIntegerRunner.class" />
         <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManagerImpl.java" />
-        <option value="$PROJECT_DIR$/TradingPersistence/pom.xml" />
         <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/StrategiesController.java" />
         <option value="$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.0.17/jfreechart-1.0.17.jar!/org/jfree/data/time/TimeSeries.class" />
         <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/strategies/StrategyHelper.java" />
         <option value="$PROJECT_DIR$/TradingMonitor/src/cl/dsoto/trading/BackTestBean.java" />
-        <option value="$PROJECT_DIR$/TradingView/pom.xml" />
-        <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/BackTestController.java" />
         <option value="$PROJECT_DIR$/TradingMonitor/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/BackTestController.java" />
+        <option value="$PROJECT_DIR$/TradingDomain/pom.xml" />
+        <option value="$PROJECT_DIR$/TradingView/pom.xml" />
+        <option value="$PROJECT_DIR$/TradingPersistence/pom.xml" />
       </list>
     </option>
   </component>
@@ -989,54 +765,6 @@
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="TradingView" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="TradingView" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="TradingController" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="TradingController" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -1065,10 +793,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
     <option name="y" value="28" />
-    <option name="width" value="1602" />
-    <option name="height" value="724" />
+    <option name="width" value="1600" />
+    <option name="height" value="723" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -1095,6 +822,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -1154,9 +882,27 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trading-trading-ejb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trading-trading-ejb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TradingView" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trading" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1181,7 +927,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1195,15 +941,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TradingView" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trading" />
+              <option name="myItemId" value="TradingPersistence" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1271,7 +1009,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1288,6 +1025,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="408" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="205" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -2034,7 +1772,12 @@
       <workItem from="1556663579156" duration="1286000" />
       <workItem from="1556921181450" duration="1309000" />
       <workItem from="1559166408790" duration="32744000" />
-      <workItem from="1573528125374" duration="15793000" />
+      <workItem from="1573528125374" duration="16954000" />
+      <workItem from="1573769303365" duration="1039000" />
+      <workItem from="1573771372500" duration="76000" />
+      <workItem from="1573773169704" duration="1797000" />
+      <workItem from="1575216654759" duration="5193000" />
+      <workItem from="1575233389785" duration="2705000" />
     </task>
     <task id="LOCAL-00001" summary="Se modifica modelo">
       <created>1554246046586</created>
@@ -2082,7 +1825,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="348951000" />
+    <option name="totallyTimeSpent" value="360922000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2094,13 +1837,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="28" width="1602" height="724" extended-state="6" />
+    <frame x="0" y="28" width="1600" height="723" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40392157" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.4979145" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2167742" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21526909" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2109,28 +1852,28 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967742" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28743544" sideWeight="0.49583334" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37947884" sideWeight="0.49583334" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27366608" sideWeight="0.49687174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4169381" sideWeight="0.49687174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22387096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2221527" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44052288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44052288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2185,7 +1928,8 @@
     <MESSAGE value="Se avanza con proyecto web monitor" />
     <MESSAGE value="Se cdrea nuevo proyecto swing TradingView" />
     <MESSAGE value="Se avanza con TradingView" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se avanza con TradingView" />
+    <MESSAGE value="asasadada" />
+    <option name="LAST_COMMIT_MESSAGE" value="asasadada" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2263,13 +2007,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/jdk1.8.0_144/src.zip!/javax/swing/JDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/jdk1.8.0_144/src.zip!/javax/swing/JDialog.java" />
     <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/Jframe.java" />
     <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.form">
       <provider editor-type-id="text-editor">
@@ -2285,7 +2023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="ui-designer">
@@ -2301,50 +2038,27 @@
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-exec/5.7-SNAPSHOT/jmetal-exec-5.7-SNAPSHOT.jar!/org/uma/jmetal/runner/singleobjective/GenerationalGeneticAlgorithmStockMarketRunner.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/BaseBar.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/BaseBar.class" />
     <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/TimeSeries.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/TimeSeries.class" />
     <entry file="file://$PROJECT_DIR$/TradingController/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/Strategy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/Strategy.class" />
     <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2352,29 +2066,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-exec/5.7-SNAPSHOT/jmetal-exec-5.7-SNAPSHOT.jar!/org/uma/jmetal/runner/singleobjective/GenerationalGeneticAlgorithmStockMarketIntegerRunner.class" />
-    <entry file="file://$PROJECT_DIR$/TradingDomain/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="103" column="78" selection-start-line="103" selection-start-column="78" selection-end-line="103" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingPersistence/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -2391,29 +2086,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/StrategiesView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="21" column="101" selection-start-line="21" selection-start-column="101" selection-end-line="21" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/StrategiesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/OptimizationManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2421,9 +2097,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2431,68 +2104,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1596">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.0.17/jfreechart-1.0.17.jar!/org/jfree/data/time/TimeSeries.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/TimeSeriesManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-examples/0.12-SNAPSHOT/ta4j-examples-0.12-SNAPSHOT.jar!/ta4jexamples/research/MultipleStrategy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding>
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-examples/0.12-SNAPSHOT/ta4j-examples-0.12-SNAPSHOT.jar!/ta4jexamples/strategies/CCICorrectionStrategy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-examples/0.12-SNAPSHOT/ta4j-examples-0.12-SNAPSHOT.jar!/ta4jexamples/strategies/GlobalExtremaStrategy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.0.17/jfreechart-1.0.17.jar!/org/jfree/data/time/TimeSeries.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/TimeSeriesManager.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-examples/0.12-SNAPSHOT/ta4j-examples-0.12-SNAPSHOT.jar!/ta4jexamples/research/MultipleStrategy.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-examples/0.12-SNAPSHOT/ta4j-examples-0.12-SNAPSHOT.jar!/ta4jexamples/strategies/CCICorrectionStrategy.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-examples/0.12-SNAPSHOT/ta4j-examples-0.12-SNAPSHOT.jar!/ta4jexamples/strategies/GlobalExtremaStrategy.class" />
     <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/strategies/StrategyHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-915">
           <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingView/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2500,9 +2123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2130">
           <caret line="198" column="39" selection-start-line="198" selection-start-column="39" selection-end-line="198" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2510,7 +2130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2518,7 +2137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="112" column="21" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2526,7 +2144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-180">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2550,25 +2167,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/BackTestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2576,7 +2174,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2584,7 +2181,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2592,7 +2188,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-50">
           <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2600,29 +2195,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Strategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/ProblemType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="105">
           <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding />
         </state>
@@ -2630,32 +2208,196 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/PeriodBar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
+        <state relative-caret-position="285">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Period.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1397">
-          <caret line="165" column="57" selection-start-line="165" selection-start-column="57" selection-end-line="165" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Optimization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
+        <state relative-caret-position="105">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1270#1271#0" expanded="false" />
+            <element signature="e#1295#1296#0" expanded="false" />
+            <element signature="e#1329#1330#0" expanded="false" />
+            <element signature="e#1357#1358#0" expanded="false" />
+            <element signature="e#1390#1391#0" expanded="false" />
+            <element signature="e#1419#1420#0" expanded="false" />
+            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="e#1499#1500#0" expanded="false" />
+            <element signature="e#1536#1537#0" expanded="false" />
+            <element signature="e#1567#1568#0" expanded="false" />
+            <element signature="e#1617#1618#0" expanded="false" />
+            <element signature="e#1657#1658#0" expanded="false" />
+            <element signature="e#1696#1697#0" expanded="false" />
+            <element signature="e#1728#1729#0" expanded="false" />
+            <element signature="e#1781#1782#0" expanded="false" />
+            <element signature="e#1823#1824#0" expanded="false" />
+            <element signature="e#1869#1870#0" expanded="false" />
+            <element signature="e#1902#1903#0" expanded="false" />
+            <element signature="e#1963#1964#0" expanded="false" />
+            <element signature="e#2007#2008#0" expanded="false" />
+            <element signature="e#2051#2052#0" expanded="false" />
+            <element signature="e#2083#2084#0" expanded="false" />
+            <element signature="e#2141#2142#0" expanded="false" />
+            <element signature="e#2183#2184#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Objective.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        <state relative-caret-position="270">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#774#775#0" expanded="false" />
+            <element signature="e#799#800#0" expanded="false" />
+            <element signature="e#833#834#0" expanded="false" />
+            <element signature="e#861#862#0" expanded="false" />
+            <element signature="e#906#907#0" expanded="false" />
+            <element signature="e#941#942#0" expanded="false" />
+            <element signature="e#1003#1004#0" expanded="false" />
+            <element signature="e#1051#1052#0" expanded="false" />
+            <element signature="e#1087#1088#0" expanded="false" />
+            <element signature="e#1119#1120#0" expanded="false" />
+            <element signature="e#1169#1170#0" expanded="false" />
+            <element signature="e#1211#1212#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/StrategiesView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="101" selection-start-line="21" selection-start-column="101" selection-end-line="21" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Period.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1571#1572#0" expanded="false" />
+            <element signature="e#1598#1599#0" expanded="false" />
+            <element signature="e#1647#1648#0" expanded="false" />
+            <element signature="e#1679#1680#0" expanded="false" />
+            <element signature="e#2245#2246#0" expanded="false" />
+            <element signature="e#2270#2271#0" expanded="false" />
+            <element signature="e#2304#2305#0" expanded="false" />
+            <element signature="e#2332#2333#0" expanded="false" />
+            <element signature="e#2363#2364#0" expanded="false" />
+            <element signature="e#2390#2391#0" expanded="false" />
+            <element signature="e#2430#2431#0" expanded="false" />
+            <element signature="e#2462#2463#0" expanded="false" />
+            <element signature="e#2501#2502#0" expanded="false" />
+            <element signature="e#2533#2534#0" expanded="false" />
+            <element signature="e#2586#2587#0" expanded="false" />
+            <element signature="e#2628#2629#0" expanded="false" />
+            <element signature="e#2658#2659#0" expanded="false" />
+            <element signature="e#2686#2687#0" expanded="false" />
+            <element signature="e#2726#2727#0" expanded="false" />
+            <element signature="e#2760#2761#0" expanded="false" />
+            <element signature="e#2788#2789#0" expanded="false" />
+            <element signature="e#2814#2815#0" expanded="false" />
+            <element signature="e#2850#2851#0" expanded="false" />
+            <element signature="e#2880#2881#0" expanded="false" />
+            <element signature="e#2919#2920#0" expanded="false" />
+            <element signature="e#2951#2952#0" expanded="false" />
+            <element signature="e#3004#3005#0" expanded="false" />
+            <element signature="e#3046#3047#0" expanded="false" />
+            <element signature="e#3098#3099#0" expanded="false" />
+            <element signature="e#3134#3135#0" expanded="false" />
+            <element signature="e#3204#3205#0" expanded="false" />
+            <element signature="e#3254#3255#0" expanded="false" />
+            <element signature="e#8156#8157#0" expanded="false" />
+            <element signature="e#8183#8184#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#942#943#0" expanded="false" />
+            <element signature="e#967#968#0" expanded="false" />
+            <element signature="e#1001#1002#0" expanded="false" />
+            <element signature="e#1029#1030#0" expanded="false" />
+            <element signature="e#1074#1075#0" expanded="false" />
+            <element signature="e#1109#1110#0" expanded="false" />
+            <element signature="e#1171#1172#0" expanded="false" />
+            <element signature="e#1219#1220#0" expanded="false" />
+            <element signature="e#1253#1254#0" expanded="false" />
+            <element signature="e#1282#1283#0" expanded="false" />
+            <element signature="e#1329#1330#0" expanded="false" />
+            <element signature="e#1365#1366#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingDomain/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingView/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="102" column="35" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/BackTestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/StrategiesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingPersistence/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="70" column="35" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -2752,14 +2494,14 @@
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
-    <option value="install:install-file -Dfile=ultima-theme-2.0.2.jar -DgroupId=org.primefaces.themes -DartifactId=ultima -Dversion=2.0.2 -Dpackaging=jar" />
-    <option value="install:install-file -Dfile=ultima-theme-1.1.3.jar -DgroupId=org.primefaces.themes -DartifactId=ultima -Dversion=2.0.2 -Dpackaging=jar" />
-    <option value="install:install-file -Dfile=ta4j-examples-0.12-SNAPSHOT.jar -DgroupId=org-ta4j -DartifactId=ta4j-examples -Dversion=0.12-SNAPSHOT -Dpackaging=jar" />
-    <option value="install:install-file -Dfile=ta4j-core-0.12-SNAPSHOT.jar -DgroupId=org-ta4j -DartifactId=ta4j-core -Dversion=0.12-SNAPSHOT -Dpackaging=jar" />
+    <option value="install:install-file -Dfile=jmetal-exec-5.7-SNAPSHOT.jar -DgroupId=org.uma.jmetal -DartifactId=jmetal-exec -Dversion=5.7-SNAPSHOT -Dpackaging=jar" />
+    <option value="install:install-file -Dfile=jmetal-problem-5.7-SNAPSHOT.jar -DgroupId=org.uma.jmetal -DartifactId=jmetal-problem -Dversion=5.7-SNAPSHOT -Dpackaging=jar" />
     <option value="install:install-file -Dfile=jmetal-algorithm-5.7-SNAPSHOT.jar -DgroupId=org.uma.jmetal -DartifactId=jmetal-algorithm -Dversion=5.7-SNAPSHOT -Dpackaging=jar" />
     <option value="install:install-file -Dfile=jmetal-core-5.7-SNAPSHOT.jar -DgroupId=org.uma.jmetal -DartifactId=jmetal-core -Dversion=5.7-SNAPSHOT -Dpackaging=jar" />
-    <option value="install:install-file -Dfile=jmetal-problem-5.7-SNAPSHOT.jar -DgroupId=org.uma.jmetal -DartifactId=jmetal-problem -Dversion=5.7-SNAPSHOT -Dpackaging=jar" />
-    <option value="install:install-file -Dfile=jmetal-exec-5.7-SNAPSHOT.jar -DgroupId=org.uma.jmetal -DartifactId=jmetal-exec -Dversion=5.7-SNAPSHOT -Dpackaging=jar" />
+    <option value="install:install-file -Dfile=ta4j-examples-0.12-SNAPSHOT.jar -DgroupId=org-ta4j -DartifactId=ta4j-examples -Dversion=0.12-SNAPSHOT -Dpackaging=jar" />
+    <option value="install:install-file -Dfile=ta4j-core-0.12-SNAPSHOT.jar -DgroupId=org-ta4j -DartifactId=ta4j-core -Dversion=0.12-SNAPSHOT -Dpackaging=jar" />
+    <option value="install:install-file -Dfile=ultima-theme-2.0.2.jar -DgroupId=org.primefaces.themes -DartifactId=ultima -Dversion=2.0.2 -Dpackaging=jar" />
+    <option value="install:install-file -Dfile=ultima-theme-1.1.3.jar -DgroupId=org.primefaces.themes -DartifactId=ultima -Dversion=2.0.2 -Dpackaging=jar" />
     <option value="install:install-file -Dfile=jmetal-exec-5.7-SNAPSHOT-jar-with-dependencies.jar -DgroupId=org.uma.jmetal -DartifactId=jmetal-exec -Dversion=5.7-SNAPSHOT -Dpackaging=jar" />
     <option value="archetype:generate -DarchetypeGroupId=com.zenjava -DarchetypeArtifactId=javafx-basic-archetype" />
     <option value="install:install-file -Dfile=TradingPersistence-1.0-SNAPSHOT.jar -DgroupId=cl.dsoto -DartifactId=TradingPersistence -Dversion=1.0-SNAPSHOT -Dpackaging=jar" />
