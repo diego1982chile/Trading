@@ -19,6 +19,8 @@ public interface PeriodManager {
 
     public Period createFromFile(String file) throws Exception;
 
+    public Period createFromSeries(TimeSeries file) throws Exception;
+
     public void generateOptimizations(TimeSeries series) throws Exception;
 
     public List<org.ta4j.core.Strategy> mapFrom(Period period) throws Exception;

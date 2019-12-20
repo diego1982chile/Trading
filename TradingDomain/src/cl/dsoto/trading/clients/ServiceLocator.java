@@ -61,6 +61,7 @@ public class ServiceLocator {
 
         props = new Properties();
         props.put(Context.URL_PKG_PREFIXES, "org.jboss.ejb.client.naming");
+        //props.put(Context.PROVIDER_URL, "remote://dnssemantikos:4447");
         //props.put(InitialContext.SECURITY_PRINCIPAL, "user@admin.cl");
         //props.put(InitialContext.SECURITY_CREDENTIALS, "1234567z");
         //props.put("remote.connection.default.username", "user@admin.cl");

@@ -123,6 +123,11 @@
             <artifactId>jfreechart</artifactId>
             <version>1.0.17</version>
         </dependency>
+        <dependency>
+            <groupId>cl.dsoto</groupId>
+            <artifactId>TradingDomain</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
     </dependencies>
 

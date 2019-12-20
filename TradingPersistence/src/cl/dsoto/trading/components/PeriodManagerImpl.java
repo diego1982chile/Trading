@@ -4,6 +4,7 @@ import cl.dsoto.trading.daos.OptimizationDAO;
 import cl.dsoto.trading.daos.PeriodDAO;
 import cl.dsoto.trading.daos.StrategyDAO;
 import cl.dsoto.trading.model.*;
+import org.jboss.ejb3.annotation.TransactionTimeout;
 import org.ta4j.core.*;
 import org.ta4j.core.Strategy;
 import org.uma.jmetal.runner.singleobjective.GenerationalGeneticAlgorithmStockMarketIntegerRunner;
@@ -14,6 +15,7 @@ import ta4jexamples.strategies.*;
 import javax.ejb.Asynchronous;
 import javax.ejb.EJB;
 import javax.ejb.Stateless;
+import javax.ejb.Timeout;
 import java.sql.Date;
 import java.sql.Timestamp;
 import java.time.LocalDate;
@@ -24,6 +26,7 @@ import java.util.BitSet;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by des01c7 on 25-03-19.
@@ -236,6 +239,7 @@ public class PeriodManagerImpl implements PeriodManager {
     }
 
     @Asynchronous
+    @TransactionTimeout(value = 30, unit = TimeUnit.MINUTES)
     public void generateOptimizations(TimeSeries timeSeries) throws Exception {
 
         Period period = createFromSeries(timeSeries);
@@ -245,7 +249,7 @@ public class PeriodManagerImpl implements PeriodManager {
         for (cl.dsoto.trading.model.Strategy strategy : strategies) {
             GenerationalGeneticAlgorithmStockMarketIntegerRunner runner =
                     new GenerationalGeneticAlgorithmStockMarketIntegerRunner(strategy.getName(), timeSeries, strategy.getVariables());
-            Optimization optimization = runner.run();
+            Optimization optimization = runner.run(strategy);
             optimization.setPeriod(period);
             period.getOptimizations().add(optimization);
             updateStrategy(optimization, strategy.getName());
@@ -256,7 +260,7 @@ public class PeriodManagerImpl implements PeriodManager {
         for (cl.dsoto.trading.model.Strategy strategy : strategies) {
             GenerationalGeneticAlgorithmStockMarketRunner runner =
                     new GenerationalGeneticAlgorithmStockMarketRunner(strategy.getName(), timeSeries, strategy.getVariables());
-            Optimization optimization = runner.run();
+            Optimization optimization = runner.run(strategy);
             optimization.setPeriod(period);
             period.getOptimizations().add(optimization);
         }

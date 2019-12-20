@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2019-05-31T16:05:24</date>
-  <millis>1559333124507</millis>
+  <date>2019-12-19T14:07:21</date>
+  <millis>1576775241525</millis>
   <sequence>6</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -13,19 +13,19 @@
   <message>Loggers configured with null</message>
 </record>
 <record>
-  <date>2019-05-31T16:05:24</date>
-  <millis>1559333124567</millis>
+  <date>2019-12-19T14:07:21</date>
+  <millis>1576775241534</millis>
   <sequence>7</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.runner.singleobjective.GenerationalGeneticAlgorithmStockMarketIntegerRunner</class>
   <method>run</method>
   <thread>1</thread>
-  <message>Total execution time: 1202588ms</message>
+  <message>Total execution time: 25528ms</message>
 </record>
 <record>
-  <date>2019-05-31T16:05:24</date>
-  <millis>1559333124569</millis>
+  <date>2019-12-19T14:07:21</date>
+  <millis>1576775241534</millis>
   <sequence>8</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -35,8 +35,8 @@
   <message>Objectives values have been written to file FUN.tsv</message>
 </record>
 <record>
-  <date>2019-05-31T16:05:24</date>
-  <millis>1559333124571</millis>
+  <date>2019-12-19T14:07:21</date>
+  <millis>1576775241534</millis>
   <sequence>9</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -46,19 +46,19 @@
   <message>Variables values have been written to file VAR.tsv</message>
 </record>
 <record>
-  <date>2019-05-31T16:20:03</date>
-  <millis>1559334003807</millis>
+  <date>2019-12-19T14:10:20</date>
+  <millis>1576775420529</millis>
   <sequence>10</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.runner.singleobjective.GenerationalGeneticAlgorithmStockMarketIntegerRunner</class>
   <method>run</method>
   <thread>1</thread>
-  <message>Total execution time: 468635ms</message>
+  <message>Total execution time: 7565ms</message>
 </record>
 <record>
-  <date>2019-05-31T16:20:03</date>
-  <millis>1559334003808</millis>
+  <date>2019-12-19T14:10:20</date>
+  <millis>1576775420532</millis>
   <sequence>11</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -68,8 +68,8 @@
   <message>Objectives values have been written to file FUN.tsv</message>
 </record>
 <record>
-  <date>2019-05-31T16:20:03</date>
-  <millis>1559334003808</millis>
+  <date>2019-12-19T14:10:20</date>
+  <millis>1576775420534</millis>
   <sequence>12</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -79,19 +79,19 @@
   <message>Variables values have been written to file VAR.tsv</message>
 </record>
 <record>
-  <date>2019-05-31T18:59:49</date>
-  <millis>1559343589740</millis>
+  <date>2019-12-19T14:13:05</date>
+  <millis>1576775585421</millis>
   <sequence>13</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.runner.singleobjective.GenerationalGeneticAlgorithmStockMarketIntegerRunner</class>
   <method>run</method>
   <thread>1</thread>
-  <message>Total execution time: 9585706ms</message>
+  <message>Total execution time: 146105ms</message>
 </record>
 <record>
-  <date>2019-05-31T18:59:49</date>
-  <millis>1559343589838</millis>
+  <date>2019-12-19T14:13:05</date>
+  <millis>1576775585421</millis>
   <sequence>14</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -101,8 +101,8 @@
   <message>Objectives values have been written to file FUN.tsv</message>
 </record>
 <record>
-  <date>2019-05-31T18:59:49</date>
-  <millis>1559343589839</millis>
+  <date>2019-12-19T14:13:05</date>
+  <millis>1576775585421</millis>
   <sequence>15</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -112,19 +112,19 @@
   <message>Variables values have been written to file VAR.tsv</message>
 </record>
 <record>
-  <date>2019-05-31T19:30:31</date>
-  <millis>1559345431275</millis>
+  <date>2019-12-19T14:13:47</date>
+  <millis>1576775627547</millis>
   <sequence>16</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.runner.singleobjective.GenerationalGeneticAlgorithmStockMarketIntegerRunner</class>
   <method>run</method>
   <thread>1</thread>
-  <message>Total execution time: 1841001ms</message>
+  <message>Total execution time: 31188ms</message>
 </record>
 <record>
-  <date>2019-05-31T19:30:31</date>
-  <millis>1559345431276</millis>
+  <date>2019-12-19T14:13:47</date>
+  <millis>1576775627548</millis>
   <sequence>17</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -134,8 +134,8 @@
   <message>Objectives values have been written to file FUN.tsv</message>
 </record>
 <record>
-  <date>2019-05-31T19:30:31</date>
-  <millis>1559345431276</millis>
+  <date>2019-12-19T14:13:47</date>
+  <millis>1576775627548</millis>
   <sequence>18</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -145,19 +145,19 @@
   <message>Variables values have been written to file VAR.tsv</message>
 </record>
 <record>
-  <date>2019-05-31T19:36:05</date>
-  <millis>1559345765437</millis>
+  <date>2019-12-19T14:14:03</date>
+  <millis>1576775643046</millis>
   <sequence>19</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.runner.singleobjective.GenerationalGeneticAlgorithmStockMarketIntegerRunner</class>
   <method>run</method>
   <thread>1</thread>
-  <message>Total execution time: 333862ms</message>
+  <message>Total execution time: 5845ms</message>
 </record>
 <record>
-  <date>2019-05-31T19:36:05</date>
-  <millis>1559345765471</millis>
+  <date>2019-12-19T14:14:03</date>
+  <millis>1576775643047</millis>
   <sequence>20</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -167,8 +167,8 @@
   <message>Objectives values have been written to file FUN.tsv</message>
 </record>
 <record>
-  <date>2019-05-31T19:36:05</date>
-  <millis>1559345765471</millis>
+  <date>2019-12-19T14:14:03</date>
+  <millis>1576775643047</millis>
   <sequence>21</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -178,19 +178,19 @@
   <message>Variables values have been written to file VAR.tsv</message>
 </record>
 <record>
-  <date>2019-05-31T19:54:25</date>
-  <millis>1559346865682</millis>
+  <date>2019-12-19T14:14:29</date>
+  <millis>1576775669437</millis>
   <sequence>22</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.runner.singleobjective.GenerationalGeneticAlgorithmStockMarketIntegerRunner</class>
   <method>run</method>
   <thread>1</thread>
-  <message>Total execution time: 1100042ms</message>
+  <message>Total execution time: 18309ms</message>
 </record>
 <record>
-  <date>2019-05-31T19:54:25</date>
-  <millis>1559346865682</millis>
+  <date>2019-12-19T14:14:29</date>
+  <millis>1576775669438</millis>
   <sequence>23</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -200,8 +200,8 @@
   <message>Objectives values have been written to file FUN.tsv</message>
 </record>
 <record>
-  <date>2019-05-31T19:54:25</date>
-  <millis>1559346865682</millis>
+  <date>2019-12-19T14:14:29</date>
+  <millis>1576775669438</millis>
   <sequence>24</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -211,19 +211,19 @@
   <message>Variables values have been written to file VAR.tsv</message>
 </record>
 <record>
-  <date>2019-06-01T04:09:18</date>
-  <millis>1559376558715</millis>
+  <date>2019-12-19T14:16:54</date>
+  <millis>1576775814174</millis>
   <sequence>25</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.runner.singleobjective.GenerationalGeneticAlgorithmStockMarketIntegerRunner</class>
   <method>run</method>
   <thread>1</thread>
-  <message>Total execution time: 29692851ms</message>
+  <message>Total execution time: 137777ms</message>
 </record>
 <record>
-  <date>2019-06-01T04:09:18</date>
-  <millis>1559376558775</millis>
+  <date>2019-12-19T14:16:54</date>
+  <millis>1576775814174</millis>
   <sequence>26</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -233,8 +233,8 @@
   <message>Objectives values have been written to file FUN.tsv</message>
 </record>
 <record>
-  <date>2019-06-01T04:09:18</date>
-  <millis>1559376558775</millis>
+  <date>2019-12-19T14:16:54</date>
+  <millis>1576775814174</millis>
   <sequence>27</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -244,19 +244,19 @@
   <message>Variables values have been written to file VAR.tsv</message>
 </record>
 <record>
-  <date>2019-06-01T04:33:21</date>
-  <millis>1559378001474</millis>
+  <date>2019-12-19T14:17:32</date>
+  <millis>1576775852705</millis>
   <sequence>28</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.runner.singleobjective.GenerationalGeneticAlgorithmStockMarketIntegerRunner</class>
   <method>run</method>
   <thread>1</thread>
-  <message>Total execution time: 1442419ms</message>
+  <message>Total execution time: 16971ms</message>
 </record>
 <record>
-  <date>2019-06-01T04:33:21</date>
-  <millis>1559378001474</millis>
+  <date>2019-12-19T14:17:32</date>
+  <millis>1576775852705</millis>
   <sequence>29</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -266,8 +266,8 @@
   <message>Objectives values have been written to file FUN.tsv</message>
 </record>
 <record>
-  <date>2019-06-01T04:33:21</date>
-  <millis>1559378001475</millis>
+  <date>2019-12-19T14:17:32</date>
+  <millis>1576775852705</millis>
   <sequence>30</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -277,19 +277,19 @@
   <message>Variables values have been written to file VAR.tsv</message>
 </record>
 <record>
-  <date>2019-06-01T04:44:02</date>
-  <millis>1559378642760</millis>
+  <date>2019-12-19T14:18:18</date>
+  <millis>1576775898774</millis>
   <sequence>31</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.runner.singleobjective.GenerationalGeneticAlgorithmStockMarketIntegerRunner</class>
   <method>run</method>
   <thread>1</thread>
-  <message>Total execution time: 641054ms</message>
+  <message>Total execution time: 25211ms</message>
 </record>
 <record>
-  <date>2019-06-01T04:44:02</date>
-  <millis>1559378642761</millis>
+  <date>2019-12-19T14:18:18</date>
+  <millis>1576775898775</millis>
   <sequence>32</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -299,8 +299,8 @@
   <message>Objectives values have been written to file FUN.tsv</message>
 </record>
 <record>
-  <date>2019-06-01T04:44:02</date>
-  <millis>1559378642761</millis>
+  <date>2019-12-19T14:18:18</date>
+  <millis>1576775898775</millis>
   <sequence>33</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -310,19 +310,19 @@
   <message>Variables values have been written to file VAR.tsv</message>
 </record>
 <record>
-  <date>2019-06-01T07:01:23</date>
-  <millis>1559386883236</millis>
+  <date>2019-12-19T14:20:45</date>
+  <millis>1576776045244</millis>
   <sequence>34</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.runner.singleobjective.GenerationalGeneticAlgorithmStockMarketIntegerRunner</class>
   <method>run</method>
   <thread>1</thread>
-  <message>Total execution time: 8240156ms</message>
+  <message>Total execution time: 133285ms</message>
 </record>
 <record>
-  <date>2019-06-01T07:01:23</date>
-  <millis>1559386883237</millis>
+  <date>2019-12-19T14:20:45</date>
+  <millis>1576776045245</millis>
   <sequence>35</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -332,8 +332,8 @@
   <message>Objectives values have been written to file FUN.tsv</message>
 </record>
 <record>
-  <date>2019-06-01T07:01:23</date>
-  <millis>1559386883237</millis>
+  <date>2019-12-19T14:20:45</date>
+  <millis>1576776045245</millis>
   <sequence>36</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -343,19 +343,19 @@
   <message>Variables values have been written to file VAR.tsv</message>
 </record>
 <record>
-  <date>2019-06-01T07:09:14</date>
-  <millis>1559387354285</millis>
+  <date>2019-12-19T14:21:25</date>
+  <millis>1576776085884</millis>
   <sequence>37</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.runner.singleobjective.GenerationalGeneticAlgorithmStockMarketIntegerRunner</class>
   <method>run</method>
   <thread>1</thread>
-  <message>Total execution time: 470923ms</message>
+  <message>Total execution time: 7936ms</message>
 </record>
 <record>
-  <date>2019-06-01T07:09:14</date>
-  <millis>1559387354285</millis>
+  <date>2019-12-19T14:21:25</date>
+  <millis>1576776085884</millis>
   <sequence>38</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -365,8 +365,8 @@
   <message>Objectives values have been written to file FUN.tsv</message>
 </record>
 <record>
-  <date>2019-06-01T07:09:14</date>
-  <millis>1559387354286</millis>
+  <date>2019-12-19T14:21:25</date>
+  <millis>1576776085884</millis>
   <sequence>39</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -376,19 +376,19 @@
   <message>Variables values have been written to file VAR.tsv</message>
 </record>
 <record>
-  <date>2019-06-01T07:29:39</date>
-  <millis>1559388579380</millis>
+  <date>2019-12-19T14:22:01</date>
+  <millis>1576776121066</millis>
   <sequence>40</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.runner.singleobjective.GenerationalGeneticAlgorithmStockMarketIntegerRunner</class>
   <method>run</method>
   <thread>1</thread>
-  <message>Total execution time: 1224608ms</message>
+  <message>Total execution time: 14885ms</message>
 </record>
 <record>
-  <date>2019-06-01T07:29:39</date>
-  <millis>1559388579380</millis>
+  <date>2019-12-19T14:22:01</date>
+  <millis>1576776121067</millis>
   <sequence>41</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -398,8 +398,8 @@
   <message>Objectives values have been written to file FUN.tsv</message>
 </record>
 <record>
-  <date>2019-06-01T07:29:39</date>
-  <millis>1559388579380</millis>
+  <date>2019-12-19T14:22:01</date>
+  <millis>1576776121067</millis>
   <sequence>42</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -409,19 +409,19 @@
   <message>Variables values have been written to file VAR.tsv</message>
 </record>
 <record>
-  <date>2019-06-01T10:18:20</date>
-  <millis>1559398700532</millis>
+  <date>2019-12-19T14:24:01</date>
+  <millis>1576776241125</millis>
   <sequence>43</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.runner.singleobjective.GenerationalGeneticAlgorithmStockMarketRunner</class>
   <method>run</method>
   <thread>1</thread>
-  <message>Total execution time: 10120767ms</message>
+  <message>Total execution time: 108748ms</message>
 </record>
 <record>
-  <date>2019-06-01T10:18:20</date>
-  <millis>1559398700533</millis>
+  <date>2019-12-19T14:24:01</date>
+  <millis>1576776241125</millis>
   <sequence>44</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -431,8 +431,8 @@
   <message>Objectives values have been written to file FUN.tsv</message>
 </record>
 <record>
-  <date>2019-06-01T10:18:20</date>
-  <millis>1559398700533</millis>
+  <date>2019-12-19T14:24:01</date>
+  <millis>1576776241126</millis>
   <sequence>45</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
