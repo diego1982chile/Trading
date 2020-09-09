@@ -16,5 +16,7 @@ public interface PeriodDAO {
 
     Period persist(Period period) throws Exception;
 
+    void delete(Period period) throws Exception;
+
     List<Period> getLast(int periods) throws Exception;
 }

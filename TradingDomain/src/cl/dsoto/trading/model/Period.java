@@ -54,6 +54,16 @@ public class Period implements Serializable {
 
     List<PeriodBar> bars = new ArrayList<>();
 
+    List<ForwardTest> forwardTests = new ArrayList<>();
+
+    public List<ForwardTest> getForwardTests() {
+        return forwardTests;
+    }
+
+    public void setForwardTests(List<ForwardTest> forwardTests) {
+        this.forwardTests = forwardTests;
+    }
+
     public List<PeriodBar> getBars() {
         return bars;
     }

@@ -27,7 +27,7 @@ public class Executor {
 
     //static List<String> files = Arrays.asList("2011_01.csv","2011_02.csv","2011_03.csv","2011_04.csv","2011_05.csv","2011_06.csv","2011_07.csv","2011_08.csv","2011_09.csv", "2011_10.csv", "2011_11.csv", "2011_12.csv");
 
-    static List<String> files = Arrays.asList("2019_M.csv");
+    static List<String> files = Arrays.asList("2020_AGO_D.csv");
 
     public static void main(String[] args) throws Exception {
 
@@ -40,7 +40,7 @@ public class Executor {
             for (Strategy strategy : strategies) {
                 GenerationalGeneticAlgorithmStockMarketIntegerRunner runner =
                     new GenerationalGeneticAlgorithmStockMarketIntegerRunner(strategy.getName(), file, strategy.getVariables());
-                Optimization optimization = runner.run();
+                Optimization optimization = runner.run(strategy);
                 optimization.setPeriod(period);
                 period.getOptimizations().add(optimization);
                 updateStrategy(optimization, strategy.getName());
@@ -51,7 +51,7 @@ public class Executor {
             for (Strategy strategy : strategies) {
                 GenerationalGeneticAlgorithmStockMarketRunner runner =
                         new GenerationalGeneticAlgorithmStockMarketRunner(strategy.getName(), file, strategy.getVariables());
-                Optimization optimization = runner.run();
+                Optimization optimization = runner.run(strategy);
                 optimization.setPeriod(period);
                 period.getOptimizations().add(optimization);
             }

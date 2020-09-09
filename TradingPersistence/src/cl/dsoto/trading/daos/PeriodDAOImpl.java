@@ -5,6 +5,7 @@ import cl.dsoto.trading.model.*;
 
 import javax.annotation.Resource;
 import javax.ejb.EJB;
+import javax.ejb.EJBException;
 import javax.ejb.Stateless;
 import javax.sql.DataSource;
 import java.sql.*;
@@ -30,6 +31,9 @@ public class PeriodDAOImpl implements PeriodDAO {
 
     @EJB
     private BarDAO barDAO;
+
+    @EJB
+    private ForwardTestDAO forwardTestDAO;
 
     @Resource(lookup = "java:jboss/TradingDS")
     private DataSource dataSource;
@@ -145,6 +149,23 @@ public class PeriodDAOImpl implements PeriodDAO {
         return periodList;
     }
 
+    @Override
+    public void delete(Period period) {
+
+        String sql = "{call trd.delete_period(?)}";
+
+        try (Connection connection = dataSource.getConnection();
+             CallableStatement call = connection.prepareCall(sql)) {
+
+            call.setLong(1, period.getId());
+            call.execute();
+
+        } catch (SQLException e) {
+            String errorMessage = "No se pudo eliminar el period: " + period.toString();
+            throw new EJBException(errorMessage, e);
+        }
+    }
+
     private Period createPeriodFromResultSet(ResultSet resultSet) throws Exception {
 
         long id = resultSet.getLong("id");
@@ -161,6 +182,8 @@ public class PeriodDAOImpl implements PeriodDAO {
         period.setOptimizations(optimizationDAO.getOptimizationsByPeriod(period));
 
         period.setBars(barDAO.getBars(period));
+
+        period.setForwardTests(forwardTestDAO.getForwardTestsByPeriod(period));
 
         return period;
     }

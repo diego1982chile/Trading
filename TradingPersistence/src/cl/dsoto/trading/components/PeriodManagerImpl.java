@@ -72,8 +72,26 @@ public class PeriodManagerImpl implements PeriodManager {
     }
 
     @Override
+    public void delete(Period period) throws Exception {
+        periodDAO.delete(period);
+    }
+
+    @Override
     public List<Period> getLast(int periods) throws Exception {
         return periodDAO.getLast(periods);
+    }
+
+    @Override
+    public List<Period> getLast(TimeFrame timeFrame, int periods) throws Exception {
+        List<Period> periodList = new ArrayList<>();
+
+        for (Period period : periodDAO.getLast(periods)) {
+            if(period.getTimeFrame().equals(timeFrame)) {
+                periodList.add(period);
+            }
+        }
+
+        return periodList;
     }
 
     @Override
@@ -245,7 +263,7 @@ public class PeriodManagerImpl implements PeriodManager {
         for (cl.dsoto.trading.model.Strategy strategy : strategies) {
             GenerationalGeneticAlgorithmStockMarketIntegerRunner runner =
                     new GenerationalGeneticAlgorithmStockMarketIntegerRunner(strategy.getName(), timeSeries, strategy.getVariables());
-            Optimization optimization = runner.run();
+            Optimization optimization = runner.run(strategy);
             optimization.setPeriod(period);
             period.getOptimizations().add(optimization);
             updateStrategy(optimization, strategy.getName());
@@ -256,7 +274,7 @@ public class PeriodManagerImpl implements PeriodManager {
         for (cl.dsoto.trading.model.Strategy strategy : strategies) {
             GenerationalGeneticAlgorithmStockMarketRunner runner =
                     new GenerationalGeneticAlgorithmStockMarketRunner(strategy.getName(), timeSeries, strategy.getVariables());
-            Optimization optimization = runner.run();
+            Optimization optimization = runner.run(strategy);
             optimization.setPeriod(period);
             period.getOptimizations().add(optimization);
         }
