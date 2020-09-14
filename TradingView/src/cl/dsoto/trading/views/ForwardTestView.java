@@ -52,6 +52,8 @@ public class ForwardTestView extends JDialog {
 
             forwardTestController.setPlotView(jPanel);
 
+            forwardTestController.computeResults(200);
+
 
         } catch (Exception e) {
             e.printStackTrace();

@@ -77,7 +77,6 @@ public class ForwardTestController {
 
     public ForwardTestController(ForwardTest selected) throws Exception {
         this.selected = selected;
-        computeResults();
     }
 
     public ForwardTest getSelected() {
@@ -87,7 +86,7 @@ public class ForwardTestController {
     public void setSelected(ForwardTest selected) {
         if(this.selected != selected) {
             this.selected = selected;
-            computeResults();
+            computeResults(200);
         }
     }
 
@@ -184,13 +183,15 @@ public class ForwardTestController {
      * @return a dummy strategy
      */
     private Strategy buildStrategy(TimeSeries series) {
+
         if (series == null) {
             throw new IllegalArgumentException("Series cannot be null");
         }
 
-        List<Strategy> strategies = null;
+        List<Strategy> strategies = new ArrayList<>();
+
         try {
-            strategies = StrategyHelper.mapFrom(selected.getPeriod());
+            strategies = StrategyHelper.mapFrom(selected.getPeriod(), series);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -215,12 +216,12 @@ public class ForwardTestController {
         return live.getBar(i);
     }
 
-    private void computeResults() {
+    public void computeResults(int maxBarCount) {
 
         try {
             System.out.println("********************** Initialization **********************");
             // Getting the time series
-            TimeSeries series = initMovingTimeSeries(200);
+            TimeSeries series = initMovingTimeSeries(maxBarCount);
 
             // Building the trading strategy
             Strategy strategy = buildStrategy(series);
@@ -282,6 +283,38 @@ public class ForwardTestController {
                 }
             }
 
+            System.out.println("Number of trades for our strategy: " + tradingRecord.getTradeCount());
+            setTrades(tradingRecord.getTradeCount());
+            getTradesView().setText(String.valueOf(tradingRecord.getTradeCount()));
+
+            // Analysis
+
+            // Getting the cash flow of the resulting trades
+            cashFlow = new CashFlow(series, tradingRecord);
+
+            // Getting the profitable trades ratio
+            AnalysisCriterion profitTradesRatio = new AverageProfitableTradesCriterion();
+            System.out.println("Profitable trades ratio: " + profitTradesRatio.calculate(series, tradingRecord));
+            setProfitableTrades(profitTradesRatio.calculate(series, tradingRecord));
+            getProfitableTradesView().setText(String.valueOf(profitTradesRatio.calculate(series, tradingRecord)));
+
+            // Getting the reward-risk ratio
+            AnalysisCriterion rewardRiskRatio = new RewardRiskRatioCriterion();
+            System.out.println("Reward-risk ratio: " + rewardRiskRatio.calculate(series, tradingRecord));
+            setRewardRisk(rewardRiskRatio.calculate(series, tradingRecord));
+            getRewardRiskView().setText(String.valueOf(rewardRiskRatio.calculate(series, tradingRecord)));
+
+            // Total profit of our strategy
+            // vs total profit of a buy-and-hold strategy
+            AnalysisCriterion vsBuyAndHold = new VersusBuyAndHoldCriterion(new TotalProfitCriterion());
+            System.out.println("Our profit vs buy-and-hold profit: " + vsBuyAndHold.calculate(series, tradingRecord));
+            setVsBuyAndHold(vsBuyAndHold.calculate(series, tradingRecord));
+            getVsBuyAndHoldView().setText(String.valueOf(vsBuyAndHold.calculate(series, tradingRecord)));
+
+            for (int i = 0; i < tradingRecord.getTrades().size(); ++i) {
+                System.out.println("Trade["+ i +"]: " + tradingRecord.getTrades().get(i).toString());
+            }
+
             // Getting the cash flow of the resulting trades
             CashFlow cashFlow = new CashFlow(series, tradingRecord);
 
@@ -290,9 +323,22 @@ public class ForwardTestController {
                     System.out.println("CashFlow["+ i +"]: " + cashFlow.getValue(i));
                 }
                 catch (IndexOutOfBoundsException e) {
-                    return;
+                    getCashFlowView().setText(String.valueOf(decimalFormat.format(cashFlow.getValue(i-1))));
                 }
             }
+
+            //Chart
+            JFreeChart jfreechart = BuyAndSellSignalsToChart.buildCandleStickChart(series, strategy);
+            ChartPanel panel = new ChartPanel(jfreechart);
+            panel.setFillZoomRectangle(true);
+            panel.setMouseWheelEnabled(true);
+            panel.setPreferredSize(new Dimension(800, 200));
+
+            getPlotView().setLayout(new BorderLayout());
+            getPlotView().removeAll();
+            getPlotView().add(panel);
+            getPlotView().validate();
+
         }
         catch(Exception e) {
             e.printStackTrace();

@@ -4,75 +4,31 @@
     <bookmark url="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/BackTestController.java" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bab48a6c-f80d-4cc5-836d-8e22cc29cea5" name="Default" comment="asasadada">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/components/ForwardTestManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/ForwardTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/ForwardTestBar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/ForwardTestManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/ForwardTestManagerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ForwardTestDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ForwardTestDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/ForwardTestController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/NewForwardTestController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/ForwardTestView.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/ForwardTestView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/NewForwardTestView.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/NewForwardTestView.java" />
+    <list default="true" id="bab48a6c-f80d-4cc5-836d-8e22cc29cea5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral.ear" afterPath="$PROJECT_DIR$/TradingCentral/target/TradingCentral.ear" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/TradingPersistence" afterPath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/TradingPersistence" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/TradingDomain-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/TradingDomain-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jmetal-exec-5.7-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/jmetal-exec-5.7-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/ta4j-core-0.12-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/ta4j-core-0.12-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/ta4j-examples-0.12-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/TradingCentral/target/TradingCentral/lib/ta4j-examples-0.12-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingController/target/TradingController-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/TradingController/target/TradingController-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingController/target/classes/cl/dsoto/trading/controllers/Executor.class" afterPath="$PROJECT_DIR$/TradingController/target/classes/cl/dsoto/trading/controllers/Executor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingDomain/target/TradingDomain-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/TradingDomain/target/TradingDomain-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingDomain/target/classes/cl/dsoto/trading/components/PeriodManager.class" afterPath="$PROJECT_DIR$/TradingDomain/target/classes/cl/dsoto/trading/components/PeriodManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingDomain/target/classes/cl/dsoto/trading/model/Period.class" afterPath="$PROJECT_DIR$/TradingDomain/target/classes/cl/dsoto/trading/model/Period.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/TradingPersistence-1.0-SNAPSHOT-client.jar" afterPath="$PROJECT_DIR$/TradingPersistence/target/TradingPersistence-1.0-SNAPSHOT-client.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/TradingPersistence-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/TradingPersistence/target/TradingPersistence-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/components/PeriodManager.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/components/PeriodManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/components/PeriodManagerImpl.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/components/PeriodManagerImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/BarDAO.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/BarDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/BarDAOImpl.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/BarDAOImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/PeriodDAO.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/PeriodDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/PeriodDAOImpl.class" afterPath="$PROJECT_DIR$/TradingPersistence/target/classes/cl/dsoto/trading/daos/PeriodDAOImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingView/target/TradingView.jar" afterPath="$PROJECT_DIR$/TradingView/target/TradingView.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingView/target/classes/cl/dsoto/trading/controllers/BackTestController$1.class" afterPath="$PROJECT_DIR$/TradingView/target/classes/cl/dsoto/trading/controllers/BackTestController$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingView/target/classes/cl/dsoto/trading/controllers/BackTestController.class" afterPath="$PROJECT_DIR$/TradingView/target/classes/cl/dsoto/trading/controllers/BackTestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingView/target/classes/cl/dsoto/trading/views/TradingView$1.class" afterPath="$PROJECT_DIR$/TradingView/target/classes/cl/dsoto/trading/views/TradingView$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingView/target/classes/cl/dsoto/trading/views/TradingView$2.class" afterPath="$PROJECT_DIR$/TradingView/target/classes/cl/dsoto/trading/views/TradingView$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingView/target/classes/cl/dsoto/trading/views/TradingView.class" afterPath="$PROJECT_DIR$/TradingView/target/classes/cl/dsoto/trading/views/TradingView.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingView/target/lib/TradingDomain-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/TradingView/target/lib/TradingDomain-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingView/target/lib/ta4j-core-0.12-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/TradingView/target/lib/ta4j-core-0.12-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingView/target/lib/ta4j-examples-0.12-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/TradingView/target/lib/ta4j-examples-0.12-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TradingView/cl/dsoto/trading/controllers/BackTestController$1.class" afterPath="$PROJECT_DIR$/out/production/TradingView/cl/dsoto/trading/controllers/BackTestController$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TradingView/cl/dsoto/trading/controllers/BackTestController.class" afterPath="$PROJECT_DIR$/out/production/TradingView/cl/dsoto/trading/controllers/BackTestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TradingView/cl/dsoto/trading/views/TradingView$1.class" afterPath="$PROJECT_DIR$/out/production/TradingView/cl/dsoto/trading/views/TradingView$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TradingView/cl/dsoto/trading/views/TradingView$2.class" afterPath="$PROJECT_DIR$/out/production/TradingView/cl/dsoto/trading/views/TradingView$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TradingView/cl/dsoto/trading/views/TradingView.class" afterPath="$PROJECT_DIR$/out/production/TradingView/cl/dsoto/trading/views/TradingView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TradingView/cl/dsoto/trading/strategies/StrategyHelper.class" afterPath="$PROJECT_DIR$/out/production/TradingView/cl/dsoto/trading/strategies/StrategyHelper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ta4j-core-0.12-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ta4j-core-0.12-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ta4j-examples-0.12-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ta4j-examples-0.12-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/TradingCentral_ear_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/TradingCentral_ear_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingCentral/TradingCentral.iml" afterPath="$PROJECT_DIR$/TradingCentral/TradingCentral.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingCentral/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/TradingCentral/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingController/TradingController.iml" afterPath="$PROJECT_DIR$/TradingController/TradingController.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingController/src/cl.dsoto.trading/controllers/Executor.java" afterPath="$PROJECT_DIR$/TradingController/src/cl.dsoto.trading/controllers/Executor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingController/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/TradingController/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingDomain/TradingDomain.iml" afterPath="$PROJECT_DIR$/TradingDomain/TradingDomain.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/components/PeriodManager.java" afterPath="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/components/PeriodManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Period.java" afterPath="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Period.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingDomain/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/TradingDomain/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/TradingPersistence.iml" afterPath="$PROJECT_DIR$/TradingPersistence/TradingPersistence.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManager.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManagerImpl.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManagerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/BarDAO.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/BarDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/BarDAOImpl.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/BarDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAO.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAOImpl.java" afterPath="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAOImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingPersistence/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/TradingPersistence/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/BackTestController.java" afterPath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/BackTestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.form" afterPath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.java" afterPath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/ForwardTestController.java" afterPath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/ForwardTestController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/strategies/StrategyHelper.java" afterPath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/strategies/StrategyHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/ForwardTestView.java" afterPath="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/ForwardTestView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradingView/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/TradingView/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="Trading.iws" />
@@ -108,8 +64,21 @@
       <file leaf-file-name="ForwardTestController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/ForwardTestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="241" column="58" selection-start-line="241" selection-start-column="58" selection-end-line="241" selection-end-column="58" />
+            <state relative-caret-position="93">
+              <caret line="325" column="0" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
+              <folding>
+                <element signature="e#13032#13033#0" expanded="true" />
+                <element signature="e#13065#13066#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuyAndSellSignalsToChart.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-examples/0.12-SNAPSHOT/ta4j-examples-0.12-SNAPSHOT.jar!/ta4jexamples/analysis/BuyAndSellSignalsToChart.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -118,18 +87,38 @@
       <file leaf-file-name="ForwardTestView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/ForwardTestView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
+            <state relative-caret-position="-246">
               <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TradingView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.java">
+      <file leaf-file-name="StrategyHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/strategies/StrategyHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1245">
-              <caret line="99" column="91" selection-start-line="99" selection-start-column="91" selection-end-line="99" selection-end-column="91" />
+            <state relative-caret-position="-1983">
+              <caret line="149" column="68" selection-start-line="149" selection-start-column="68" selection-end-line="149" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseTimeSeries.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/BaseTimeSeries.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GlobalExtremaStrategy.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-examples/0.12-SNAPSHOT/ta4j-examples-0.12-SNAPSHOT.jar!/ta4jexamples/strategies/GlobalExtremaStrategy.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -138,69 +127,44 @@
       <file leaf-file-name="BackTestController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/BackTestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="103">
+              <caret line="365" column="18" selection-start-line="365" selection-start-column="18" selection-end-line="365" selection-end-column="18" />
+              <folding>
+                <element signature="e#12091#12092#0" expanded="true" />
+                <element signature="e#12122#12123#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ForwardTestDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ForwardTestDAO.java">
+      <file leaf-file-name="ForwardTestView.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/ForwardTestView.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Strategy.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/Strategy.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="158">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="e#949#950#0" expanded="true" />
+                <element signature="e#1016#1017#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PeriodManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/components/PeriodManager.java">
+      <file leaf-file-name="CCICorrectionStrategy.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-examples/0.12-SNAPSHOT/ta4j-examples-0.12-SNAPSHOT.jar!/ta4jexamples/strategies/CCICorrectionStrategy.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForwardTestDAOImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ForwardTestDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="111" column="39" selection-start-line="111" selection-start-column="39" selection-end-line="111" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PeriodManagerImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManagerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="87" column="43" selection-start-line="87" selection-start-column="43" selection-end-line="87" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PeriodDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PeriodDAOImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2565">
-              <caret line="185" column="46" selection-start-line="185" selection-start-column="46" selection-end-line="185" selection-end-column="46" />
-              <folding />
+            <state relative-caret-position="120">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#4124#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -250,7 +214,6 @@
         <option value="$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-exec/5.7-SNAPSHOT/jmetal-exec-5.7-SNAPSHOT.jar!/org/uma/jmetal/runner/singleobjective/GenerationalGeneticAlgorithmStockMarketIntegerRunner.class" />
         <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/StrategiesController.java" />
         <option value="$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.0.17/jfreechart-1.0.17.jar!/org/jfree/data/time/TimeSeries.class" />
-        <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/strategies/StrategyHelper.java" />
         <option value="$PROJECT_DIR$/TradingMonitor/src/cl/dsoto/trading/BackTestBean.java" />
         <option value="$PROJECT_DIR$/TradingMonitor/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -271,17 +234,18 @@
         <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/PeriodManagerImpl.java" />
         <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.form" />
         <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/PeriodDAOImpl.java" />
-        <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/BackTestController.java" />
         <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/ForwardTestManager.java" />
         <option value="$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/components/ForwardTestManager.java" />
         <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/components/ForwardTestManagerImpl.java" />
         <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/NewForwardTestController.java" />
         <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/ForwardTestView.form" />
         <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/NewForwardTestView.java" />
-        <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/ForwardTestView.java" />
-        <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/ForwardTestController.java" />
         <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/TradingView.java" />
         <option value="$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ForwardTestDAOImpl.java" />
+        <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/BackTestController.java" />
+        <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/strategies/StrategyHelper.java" />
+        <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/ForwardTestView.java" />
+        <option value="$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/ForwardTestController.java" />
       </list>
     </option>
   </component>
@@ -375,9 +339,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -408,66 +372,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="TradingView" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading-trading-ejb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading-trading-ejb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradingView" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradingView" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading-trading-ejb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trading-trading-ejb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradingView" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StrategiesView" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -767,7 +671,7 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SumZeroTrading-master" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.35329342" />
@@ -1550,7 +1454,8 @@
       <workItem from="1599240193089" duration="23505000" />
       <workItem from="1599505614823" duration="387000" />
       <workItem from="1599506308597" duration="26802000" />
-      <workItem from="1599686457972" duration="4000" />
+      <workItem from="1599686457972" duration="751000" />
+      <workItem from="1600098047863" duration="17910000" />
     </task>
     <task id="LOCAL-00001" summary="Se modifica modelo">
       <created>1554246046586</created>
@@ -1601,11 +1506,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575253041916</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Se agrega modelo para Forward Tests y Live Trading">
+      <created>1599686513475</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599686513475</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="492108000" />
+    <option name="totallyTimeSpent" value="510765000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1621,39 +1533,39 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5929054" sideWeight="0.50641847" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.4979145" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11681643" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22913992" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967742" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43243244" sideWeight="0.4935815" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4695946" sideWeight="0.49687174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22913992" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4391892" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41216215" sideWeight="0.4935815" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4695946" sideWeight="0.49687174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4391892" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1709,7 +1621,8 @@
     <MESSAGE value="Se cdrea nuevo proyecto swing TradingView" />
     <MESSAGE value="Se avanza con TradingView" />
     <MESSAGE value="asasadada" />
-    <option name="LAST_COMMIT_MESSAGE" value="asasadada" />
+    <MESSAGE value="Se agrega modelo para Forward Tests y Live Trading" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega modelo para Forward Tests y Live Trading" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1764,39 +1677,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/ForwardTestController.java</url>
-          <line>285</line>
+          <line>340</line>
           <properties />
-          <option name="timeStamp" value="222" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/ForwardTestController.java</url>
-          <line>220</line>
-          <properties />
-          <option name="timeStamp" value="223" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/ForwardTestController.java</url>
-          <line>186</line>
-          <properties />
-          <option name="timeStamp" value="225" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/ForwardTestController.java</url>
-          <line>156</line>
-          <properties />
-          <option name="timeStamp" value="227" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/ForwardTestController.java</url>
-          <line>178</line>
-          <properties />
-          <option name="timeStamp" value="228" />
+          <option name="timeStamp" value="244" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="229" />
+      <option name="time" value="245" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1805,99 +1694,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Strategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingDomain/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingView/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="102" column="35" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingPersistence/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="70" column="35" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingCentral/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/factories/DataSourceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/SolutionDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingPersistence/src/cl/dsoto/trading/daos/ValueDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-exec/5.7-SNAPSHOT/jmetal-exec-5.7-SNAPSHOT.jar!/org/uma/jmetal/runner/singleobjective/GenerationalGeneticAlgorithmStockMarketIntegerRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/strategies/StrategyHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="55" column="64" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingController/src/cl.dsoto.trading/controllers/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/PeriodBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TradingDomain/src/cl/dsoto/trading/model/Period.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -2079,16 +1875,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/ForwardTestView.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2096,6 +1883,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="35" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2113,7 +1901,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2121,7 +1911,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="87" column="43" selection-start-line="87" selection-start-column="43" selection-end-line="87" selection-end-column="43" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2129,7 +1921,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2137,7 +1931,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2145,7 +1941,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1470">
           <caret line="111" column="39" selection-start-line="111" selection-start-column="39" selection-end-line="111" selection-end-column="39" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2153,15 +1951,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2565">
           <caret line="185" column="46" selection-start-line="185" selection-start-column="46" selection-end-line="185" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/BackTestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2173,19 +1965,152 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/Rule.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/indicators/helpers/TypicalPriceIndicator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/indicators/CCIIndicator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/indicators/CachedIndicator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/trading/rules/OverIndicatorRule.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/trading/rules/AndRule.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/BaseStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/Strategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-examples/0.12-SNAPSHOT/ta4j-examples-0.12-SNAPSHOT.jar!/ta4jexamples/strategies/CCICorrectionStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#4124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-examples/0.12-SNAPSHOT/ta4j-examples-0.12-SNAPSHOT.jar!/ta4jexamples/strategies/GlobalExtremaStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/BaseTimeSeries.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/ForwardTestView.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/BackTestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="365" column="18" selection-start-line="365" selection-start-column="18" selection-end-line="365" selection-end-column="18" />
+          <folding>
+            <element signature="e#12091#12092#0" expanded="true" />
+            <element signature="e#12122#12123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-examples/0.12-SNAPSHOT/ta4j-examples-0.12-SNAPSHOT.jar!/ta4jexamples/analysis/BuyAndSellSignalsToChart.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/views/ForwardTestView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="-246">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/strategies/StrategyHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1983">
+          <caret line="149" column="68" selection-start-line="149" selection-start-column="68" selection-end-line="149" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TradingView/src/cl/dsoto/trading/controllers/ForwardTestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="241" column="58" selection-start-line="241" selection-start-column="58" selection-end-line="241" selection-end-column="58" />
-          <folding />
+        <state relative-caret-position="93">
+          <caret line="325" column="0" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
+          <folding>
+            <element signature="e#13032#13033#0" expanded="true" />
+            <element signature="e#13065#13066#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2281,8 +2206,8 @@
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
-    <option value="install:install-file -Dfile=ta4j-core-0.12-SNAPSHOT.jar -DgroupId=org-ta4j -DartifactId=ta4j-core -Dversion=0.12-SNAPSHOT -Dpackaging=jar" />
     <option value="install:install-file -Dfile=ta4j-examples-0.12-SNAPSHOT.jar -DgroupId=org-ta4j -DartifactId=ta4j-examples -Dversion=0.12-SNAPSHOT -Dpackaging=jar" />
+    <option value="install:install-file -Dfile=ta4j-core-0.12-SNAPSHOT.jar -DgroupId=org-ta4j -DartifactId=ta4j-core -Dversion=0.12-SNAPSHOT -Dpackaging=jar" />
     <option value="install:install-file -Dfile=jmetal-exec-5.7-SNAPSHOT.jar -DgroupId=org.uma.jmetal -DartifactId=jmetal-exec -Dversion=5.7-SNAPSHOT -Dpackaging=jar" />
     <option value="install:install-file -Dfile=jmetal-problem-5.7-SNAPSHOT.jar -DgroupId=org.uma.jmetal -DartifactId=jmetal-problem -Dversion=5.7-SNAPSHOT -Dpackaging=jar" />
     <option value="install:install-file -Dfile=jmetal-algorithm-5.7-SNAPSHOT.jar -DgroupId=org.uma.jmetal -DartifactId=jmetal-algorithm -Dversion=5.7-SNAPSHOT -Dpackaging=jar" />

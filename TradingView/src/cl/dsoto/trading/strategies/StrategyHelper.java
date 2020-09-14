@@ -145,6 +145,105 @@ public class StrategyHelper {
         return strategies;
     }
 
+    public static List<org.ta4j.core.Strategy> mapFrom(Period period, TimeSeries series) throws Exception {
+
+        List<org.ta4j.core.Strategy> strategies = new ArrayList<>();
+
+        for (Optimization optimization : period.getOptimizationsOfType(ProblemType.INTEGER)) {
+            switch (optimization.getStrategy().getName()) {
+                case GLOBAL_EXTREMA:
+                    GlobalExtremaStrategy.mapFrom(optimization);
+                    break;
+                case TUNNEL:
+                    TunnelStrategy.mapFrom(optimization);
+                    break;
+                case CCI_CORRECTION:
+                    CCICorrectionStrategy.mapFrom(optimization);
+                    break;
+                case BAGOVINO:
+                    BagovinoStrategy.mapFrom(optimization);
+                    break;
+                case MOVING_AVERAGES:
+                    MovingAveragesStrategy.mapFrom(optimization);
+                    break;
+                case RSI_2:
+                    RSI2Strategy.mapFrom(optimization);
+                    break;
+                case PARABOLIC_SAR:
+                    ParabolicSARStrategy.mapFrom(optimization);
+                    break;
+                case MOVING_MOMENTUM:
+                    MovingMomentumStrategy.mapFrom(optimization);
+                    break;
+                case STOCHASTIC:
+                    StochasticStrategy.mapFrom(optimization);
+                    break;
+                case MACD:
+                    MACDStrategy.mapFrom(optimization);
+                    break;
+                case FX_BOOTCAMP:
+                    FXBootCampStrategy.mapFrom(optimization);
+                    break;
+                case WINSLOW:
+                    WinslowStrategy.mapFrom(optimization);
+                    break;
+            }
+        }
+
+        for (Optimization optimization : period.getOptimizationsOfType(ProblemType.BINARY)) {
+            for (Solution solution : optimization.getSolutions()) {
+
+                for (int i = 0; i < solution.getValues().size(); i++) {
+                    boolean value = (Boolean) solution.getValues().get(i);
+
+                    if (value) {
+
+                        switch (i) {
+                            case 0:
+                                strategies.add(CCICorrectionStrategy.buildStrategy(series));
+                                break;
+                            case 1:
+                                strategies.add(GlobalExtremaStrategy.buildStrategy(series));
+                                break;
+                            case 2:
+                                strategies.add(MovingMomentumStrategy.buildStrategy(series));
+                                break;
+                            case 3:
+                                strategies.add(RSI2Strategy.buildStrategy(series));
+                                break;
+                            case 4:
+                                strategies.add(MACDStrategy.buildStrategy(series));
+                                break;
+                            case 5:
+                                strategies.add(StochasticStrategy.buildStrategy(series));
+                                break;
+                            case 6:
+                                strategies.add(ParabolicSARStrategy.buildStrategy(series));
+                                break;
+                            case 7:
+                                strategies.add(MovingAveragesStrategy.buildStrategy(series));
+                                break;
+                            case 8:
+                                strategies.add(BagovinoStrategy.buildStrategy(series));
+                                break;
+                            case 9:
+                                strategies.add(FXBootCampStrategy.buildStrategy(series));
+                                break;
+                            case 10:
+                                strategies.add(TunnelStrategy.buildStrategy(series));
+                                break;
+                            case 11:
+                                strategies.add(WinslowStrategy.buildStrategy(series));
+                                break;
+                        }
+                    }
+                }
+            }
+        }
+
+        return strategies;
+    }
+
     public static Map<String, List<Pair<String, Integer>>> mapStrategiesFrom(Period period) {
 
         Map<String, List<Pair<String, Integer>>> parameters = new HashMap<>();
