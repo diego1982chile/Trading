@@ -9,6 +9,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class ForwardTestView extends JDialog {
+
     private JPanel contentPane;
     private JButton buttonOK;
     private JButton buttonCancel;
@@ -26,13 +27,13 @@ public class ForwardTestView extends JDialog {
 
     public ForwardTestView(Component parent, ForwardTest selected) {
         super(SwingUtilities.getWindowAncestor(parent), "Forward Test", ModalityType.APPLICATION_MODAL);
-        this.setSize(500, 500);
+        this.setSize(850, 600);
         setContentPane(contentPane);
         setModal(true);
         getRootPane().setDefaultButton(buttonOK);
 
         this.setLocationRelativeTo(null);
-        this.setMinimumSize(new Dimension(500, 500));
+        this.setMinimumSize(new Dimension(850, 600));
 
         this.selected = selected;
 
@@ -52,7 +53,9 @@ public class ForwardTestView extends JDialog {
 
             forwardTestController.setPlotView(jPanel);
 
-            forwardTestController.computeResults(200);
+            //forwardTestController.doInBackground();
+
+            forwardTestController.computeResults(400);
 
 
         } catch (Exception e) {

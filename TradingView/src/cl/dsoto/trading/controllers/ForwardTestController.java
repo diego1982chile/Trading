@@ -33,7 +33,7 @@ import java.util.List;
 /**
  * Created by des01c7 on 12-04-19.
  */
-public class ForwardTestController {
+public class ForwardTestController  {
 
     //@EJB
     private ForwardTestManager forwardTestManager = (ForwardTestManager) ServiceLocator.getInstance().getService(ForwardTestManager.class);
@@ -83,7 +83,7 @@ public class ForwardTestController {
         return selected;
     }
 
-    public void setSelected(ForwardTest selected) {
+    public void setSelected(ForwardTest selected) throws Exception {
         if(this.selected != selected) {
             this.selected = selected;
             computeResults(200);
@@ -219,12 +219,17 @@ public class ForwardTestController {
     public void computeResults(int maxBarCount) {
 
         try {
+
             System.out.println("********************** Initialization **********************");
             // Getting the time series
             TimeSeries series = initMovingTimeSeries(maxBarCount);
 
+            //TimeSeries series2 = initMovingTimeSeries(maxBarCount);
+
             // Building the trading strategy
             Strategy strategy = buildStrategy(series);
+
+            //Strategy strategy2 = buildStrategy(series2);
 
             // Initializing the trading history
             TradingRecord tradingRecord = new BaseTradingRecord();
@@ -237,9 +242,12 @@ public class ForwardTestController {
 
             Bar newBar = null;
 
-        /*
-          We run the strategy for the 50 next bars.
-         */
+            getStart().setText(DateTimeFormatter.ISO_LOCAL_DATE.format(live.getFirstBar().getEndTime()));
+            getEnd().setText(DateTimeFormatter.ISO_LOCAL_DATE.format(live.getLastBar().getEndTime()));
+
+            /*
+              We run the strategy for the 50 next bars.
+             */
             for (int i = 0; i < live.getBarCount(); i++) {
 
                 while(!flag) {
@@ -250,6 +258,7 @@ public class ForwardTestController {
                         System.out.println("------------------------------------------------------\n"
                                 + "Bar "+i+" added, close price = " + newBar.getClosePrice().doubleValue());
                         series.addBar(newBar);
+                        //series2.addBar(newBar);
                         flag = true;
                     }
                     catch(IllegalArgumentException e) {
@@ -260,6 +269,7 @@ public class ForwardTestController {
                 flag = false;
 
                 int endIndex = series.getEndIndex();
+
                 if (strategy.shouldEnter(endIndex)) {
                     // Our strategy should enter
                     System.out.println("Strategy should ENTER on " + endIndex);
@@ -267,7 +277,8 @@ public class ForwardTestController {
                     if (entered) {
                         Order entry = tradingRecord.getLastEntry();
                         System.out.println("Entered on " + entry.getIndex()
-                                + " (price=" + entry.getPrice().doubleValue()
+                                + " (date=" + live.getFirstBar().getEndTime().plusDays(i)
+                                + ", price=" + entry.getPrice().doubleValue()
                                 + ", amount=" + entry.getAmount().doubleValue() + ")");
                     }
                 } else if (strategy.shouldExit(endIndex)) {
@@ -277,6 +288,7 @@ public class ForwardTestController {
                     if (exited) {
                         Order exit = tradingRecord.getLastExit();
                         System.out.println("Exited on " + exit.getIndex()
+                                + " Date=" + live.getFirstBar().getEndTime().plusDays(i)
                                 + " (price=" + exit.getPrice().doubleValue()
                                 + ", amount=" + exit.getAmount().doubleValue() + ")");
                     }
@@ -324,11 +336,12 @@ public class ForwardTestController {
                 }
                 catch (IndexOutOfBoundsException e) {
                     getCashFlowView().setText(String.valueOf(decimalFormat.format(cashFlow.getValue(i-1))));
+                    break;
                 }
             }
 
             //Chart
-            JFreeChart jfreechart = BuyAndSellSignalsToChart.buildCandleStickChart(series, strategy);
+            JFreeChart jfreechart = BuyAndSellSignalsToChart.buildCandleStickChart(series, buildStrategy(series));
             ChartPanel panel = new ChartPanel(jfreechart);
             panel.setFillZoomRectangle(true);
             panel.setMouseWheelEnabled(true);
@@ -425,6 +438,5 @@ public class ForwardTestController {
     public void setStrategiesView(JLabel strategiesView) {
         this.strategiesView = strategiesView;
     }
-
 
 }

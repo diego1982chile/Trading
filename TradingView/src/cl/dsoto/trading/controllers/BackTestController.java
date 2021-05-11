@@ -84,7 +84,7 @@ public class BackTestController {
     public BackTestController(JList periods, JComboBox timeFrames, JList forwardTests) throws Exception {
         try {
             timeFrames.setModel(new DefaultComboBoxModel(TimeFrame.values()));
-            timeFrames.setSelectedItem(TimeFrame.MINUTE);
+            timeFrames.setSelectedItem(TimeFrame.DAY);
             selectedTimeFrame = (TimeFrame) timeFrames.getSelectedItem();
 
             timeFrames.addItemListener(new ItemListener() {
@@ -215,7 +215,13 @@ public class BackTestController {
         try {
             TimeSeries series = new BaseTimeSeries(selected.getName());
 
+            int cont = 0;
+
             for (PeriodBar periodBar : selected.getBars()) {
+
+                System.out.println(cont);
+                cont++;
+
                 ZonedDateTime time = periodBar.getEndTime();
                 double open = periodBar.getOpenPrice().doubleValue();
                 double close = periodBar.getClosePrice().doubleValue();
@@ -294,7 +300,7 @@ public class BackTestController {
             //BuyAndSellSignalsToChart.buildCandleStickChart(series, multipleStrategy.buildStrategy(series));
         }
         catch(Exception e) {
-
+            e.printStackTrace();
         }
 
     }
