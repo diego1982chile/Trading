@@ -50,6 +50,21 @@ public class StrategyHelper {
             series.addBar(periodBar);
         }
 
+        if(period.getOptimizationsOfType(ProblemType.INTEGER).isEmpty()) {
+            GlobalExtremaStrategy.resetToDefaultParameters();
+            TunnelStrategy.resetToDefaultParameters();
+            CCICorrectionStrategy.resetToDefaultParameters();
+            BagovinoStrategy.resetToDefaultParameters();
+            MovingAveragesStrategy.resetToDefaultParameters();
+            RSI2Strategy.resetToDefaultParameters();
+            ParabolicSARStrategy.resetToDefaultParameters();
+            MovingMomentumStrategy.resetToDefaultParameters();
+            StochasticStrategy.resetToDefaultParameters();
+            MACDStrategy.resetToDefaultParameters();
+            FXBootCampStrategy.resetToDefaultParameters();
+            WinslowStrategy.resetToDefaultParameters();
+        }
+
         for (Optimization optimization : period.getOptimizationsOfType(ProblemType.INTEGER)) {
             switch (optimization.getStrategy().getName()) {
                 case GLOBAL_EXTREMA:

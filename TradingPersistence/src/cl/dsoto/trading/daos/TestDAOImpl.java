@@ -1,6 +1,5 @@
 package cl.dsoto.trading.daos;
 
-import cl.dsoto.trading.factories.DataSourceFactory;
 import cl.dsoto.trading.model.*;
 
 import javax.annotation.Resource;
@@ -20,14 +19,9 @@ import java.util.logging.Logger;
  * Created by des01c7 on 25-03-19.
  */
 @Stateless
-public class PeriodDAOImpl implements PeriodDAO {
+public class TestDAOImpl implements TestDAO {
 
-    static private final Logger logger = Logger.getLogger(PeriodDAOImpl.class.getName());
-
-    Map<Long, Strategy> strategyMap = new ConcurrentHashMap<>();
-
-    @EJB
-    private TestDAO testDAO;
+    static private final Logger logger = Logger.getLogger(TestDAOImpl.class.getName());
 
     @EJB
     private OptimizationDAO optimizationDAO;
@@ -41,11 +35,11 @@ public class PeriodDAOImpl implements PeriodDAO {
     @Resource(lookup = "java:jboss/TradingDS")
     private DataSource dataSource;
 
-    public Period getPeriodById(long id) throws Exception {
+    public Test getTestById(long id) throws Exception {
 
-        Period period = null;
+        Test test = null;
 
-        String sql = "{call trd.get_period_by_id(?)}";
+        String sql = "{call trd.get_test_by_id(?)}";
 
         try (Connection connect = dataSource.getConnection();
              CallableStatement call = connect.prepareCall(sql)) {
@@ -59,7 +53,7 @@ public class PeriodDAOImpl implements PeriodDAO {
             ResultSet rs = call.getResultSet();
 
             if (rs.next()) {
-                period = createPeriodFromResultSet(rs);
+                test = createTestFromResultSet(rs);
             }
             else {
                 String errorMsg = "Error al recuperar la descripción de la BDD.";
@@ -73,39 +67,28 @@ public class PeriodDAOImpl implements PeriodDAO {
             throw new Exception(e.getMessage());
         }
 
-        return period;
+        return test;
     }
 
 
-    public Period persist(Period period) throws Exception {
+    public Test persist(Test test) throws Exception {
 
-        String sql = "{call trd.create_period(?,?,?,?,?)}";
+        String sql = "{call trd.create_test(?,?,?,?,?)}";
 
         try (Connection connect = dataSource.getConnection();
              CallableStatement call = connect.prepareCall(sql);
         ) {
 
-            call.setString(1, period.getName());
-            call.setTimestamp(2, period.getTimestamp());
-            call.setDate(3, period.getStart());
-            call.setDate(4, period.getEnd());
-            call.setLong(5, period.getTimeFrame().getId());
-            call.setLong(6, period.getTest().getId());
+            call.setString(1, test.getName());
+            call.setTimestamp(2, test.getTimestamp());
+            call.setLong(3, test.getTimeFrame().getId());
 
             call.execute();
 
             ResultSet rs = call.getResultSet();
 
             if (rs.next()) {
-                period.setId(rs.getLong(1));
-
-                for (Optimization optimization : period.getOptimizations()) {
-                    optimizationDAO.persist(optimization);
-                }
-
-                for (PeriodBar periodBar : period.getBars()) {
-                    barDAO.persist(periodBar);
-                }
+                test.setId(rs.getLong(1));
 
             } else {
                 connect.rollback();
@@ -120,14 +103,14 @@ public class PeriodDAOImpl implements PeriodDAO {
             throw new Exception(e);
         }
 
-        return period;
+        return test;
     }
 
-    public List<Period> getLast(int periods) throws Exception {
+    public List<Test> getLast(int periods) throws Exception {
 
-        List<Period> periodList = new ArrayList<>();
+        List<Test> testList = new ArrayList<>();
 
-        String sql = "{call trd.get_last_periods(?)}";
+        String sql = "{call trd.get_last_tests(?)}";
 
         try (Connection connect = dataSource.getConnection();
              CallableStatement call = connect.prepareCall(sql)) {
@@ -141,7 +124,7 @@ public class PeriodDAOImpl implements PeriodDAO {
             ResultSet rs = call.getResultSet();
 
             while (rs.next()) {
-                periodList.add(createPeriodFromResultSet(rs));
+                testList.add(createTestFromResultSet(rs));
             }
 
         } catch (SQLException e) {
@@ -150,48 +133,38 @@ public class PeriodDAOImpl implements PeriodDAO {
             throw new Exception(e.getMessage());
         }
 
-        return periodList;
+        return testList;
     }
 
     @Override
-    public void delete(Period period) {
+    public void delete(Test test) {
 
-        String sql = "{call trd.delete_period(?)}";
+        String sql = "{call trd.delete_test(?)}";
 
         try (Connection connection = dataSource.getConnection();
              CallableStatement call = connection.prepareCall(sql)) {
 
-            call.setLong(1, period.getId());
+            call.setLong(1, test.getId());
             call.execute();
 
         } catch (SQLException e) {
-            String errorMessage = "No se pudo eliminar el period: " + period.toString();
+            String errorMessage = "No se pudo eliminar el test: " + test.toString();
             throw new EJBException(errorMessage, e);
         }
     }
 
-    private Period createPeriodFromResultSet(ResultSet resultSet) throws Exception {
+    private Test createTestFromResultSet(ResultSet resultSet) throws Exception {
 
         long id = resultSet.getLong("id");
 
         String name = resultSet.getString("name");
         Timestamp timestamp = resultSet.getTimestamp("timestamp");
-        Date start = resultSet.getDate("start");
-        Date end = resultSet.getDate("end");
 
         TimeFrame timeFrame = TimeFrame.valueOf(resultSet.getInt("id_time_frame"));
 
-        Test test = testDAO.getTestById(resultSet.getLong("id_test"));
+        Test test = new Test(id, name, timestamp, timeFrame);
 
-        Period period = new Period(id, name, timestamp, start, end, timeFrame);
-
-        period.setOptimizations(optimizationDAO.getOptimizationsByPeriod(period));
-
-        period.setBars(barDAO.getBars(period));
-
-        period.setForwardTests(forwardTestDAO.getForwardTestsByPeriod(period));
-
-        return period;
+        return test;
     }
 
 }

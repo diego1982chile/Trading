@@ -226,7 +226,13 @@ public class BackTestController {
         try {
             TimeSeries series = new BaseTimeSeries(selected.getName());
 
+            int cont = 0;
+
             for (PeriodBar periodBar : selected.getBars()) {
+
+                System.out.println(cont);
+                cont++;
+
                 ZonedDateTime time = periodBar.getEndTime();
                 double open = periodBar.getOpenPrice().doubleValue();
                 double close = periodBar.getClosePrice().doubleValue();
