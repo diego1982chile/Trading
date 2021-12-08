@@ -39,6 +39,9 @@ public class TradingView {
     private JList list2;
     private JButton nuevoButton;
     private JComboBox comboBox1;
+    private JButton button3;
+    private JComboBox comboBox2;
+    private JTextField textField8;
 
     public BackTestController backTestController;
     public ForwardTestController forwardTestController;
@@ -81,7 +84,9 @@ public class TradingView {
             @Override
             public void itemStateChanged(ItemEvent e) {
                 try {
-                    backTestController.changeTimeFrame(list1, comboBox1);
+                    if(backTestController != null) {
+                        backTestController.changeTimeFrame(list1, comboBox1);
+                    }
                 } catch (Exception e1) {
                     e1.printStackTrace();
                 }
@@ -108,11 +113,11 @@ public class TradingView {
         JFrame jFrame = new JFrame("Trading View");
 
         double offset=0.8;
-        jFrame.setSize(new Dimension((int)(0.65 * Toolkit.getDefaultToolkit().getScreenSize().getWidth()),
+        jFrame.setSize(new Dimension((int)(0.67 * Toolkit.getDefaultToolkit().getScreenSize().getWidth()),
                 (int)(offset* Toolkit.getDefaultToolkit().getScreenSize().getHeight())));
-        jFrame.setMinimumSize(new Dimension((int)(0.65 * Toolkit.getDefaultToolkit().getScreenSize().getWidth()),
+        jFrame.setMinimumSize(new Dimension((int)(0.67 * Toolkit.getDefaultToolkit().getScreenSize().getWidth()),
                 (int)(offset* Toolkit.getDefaultToolkit().getScreenSize().getHeight())));
-        jFrame.setMaximumSize(new Dimension((int)(0.65 * Toolkit.getDefaultToolkit().getScreenSize().getWidth()),
+        jFrame.setMaximumSize(new Dimension((int)(0.67 * Toolkit.getDefaultToolkit().getScreenSize().getWidth()),
                 (int)(offset* Toolkit.getDefaultToolkit().getScreenSize().getHeight())));
 
         TradingView tradingView = new TradingView();
@@ -127,6 +132,7 @@ public class TradingView {
         tradingView.backTestController.setVsBuyAndHoldView(tradingView.textField6);
         tradingView.backTestController.setCashFlowView(tradingView.textField7);
         tradingView.backTestController.setCashFlowView(tradingView.textField7);
+        tradingView.backTestController.setTimestamp(tradingView.textField8);
         //tradingView.backTestController.setCashFlowDetailView(tradingView.textArea1);
 
         JTabbedPane jTabbedPane = (JTabbedPane) tradingView.panel1.getComponents()[0];

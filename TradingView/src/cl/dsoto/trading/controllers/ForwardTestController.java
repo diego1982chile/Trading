@@ -223,8 +223,12 @@ public class ForwardTestController {
             // Getting the time series
             TimeSeries series = initMovingTimeSeries(maxBarCount);
 
+            TimeSeries series2 = initMovingTimeSeries(maxBarCount);
+
             // Building the trading strategy
             Strategy strategy = buildStrategy(series);
+
+            Strategy strategy2 = buildStrategy(series2);
 
             // Initializing the trading history
             TradingRecord tradingRecord = new BaseTradingRecord();
@@ -250,6 +254,7 @@ public class ForwardTestController {
                         System.out.println("------------------------------------------------------\n"
                                 + "Bar "+i+" added, close price = " + newBar.getClosePrice().doubleValue());
                         series.addBar(newBar);
+                        series2.addBar(newBar);
                         flag = true;
                     }
                     catch(IllegalArgumentException e) {
@@ -260,6 +265,7 @@ public class ForwardTestController {
                 flag = false;
 
                 int endIndex = series.getEndIndex();
+
                 if (strategy.shouldEnter(endIndex)) {
                     // Our strategy should enter
                     System.out.println("Strategy should ENTER on " + endIndex);
@@ -324,11 +330,12 @@ public class ForwardTestController {
                 }
                 catch (IndexOutOfBoundsException e) {
                     getCashFlowView().setText(String.valueOf(decimalFormat.format(cashFlow.getValue(i-1))));
+                    break;
                 }
             }
 
             //Chart
-            JFreeChart jfreechart = BuyAndSellSignalsToChart.buildCandleStickChart(series, strategy);
+            JFreeChart jfreechart = BuyAndSellSignalsToChart.buildCandleStickChart(series2, buildStrategy(series2));
             ChartPanel panel = new ChartPanel(jfreechart);
             panel.setFillZoomRectangle(true);
             panel.setMouseWheelEnabled(true);

@@ -62,6 +62,9 @@ public class BackTestController {
 
     private JLabel strategiesView;
 
+    private JTextField timestamp;
+
+
     String pattern = "###.#####";
     DecimalFormat decimalFormat = new DecimalFormat(pattern);
 
@@ -84,7 +87,7 @@ public class BackTestController {
     public BackTestController(JList periods, JComboBox timeFrames, JList forwardTests) throws Exception {
         try {
             timeFrames.setModel(new DefaultComboBoxModel(TimeFrame.values()));
-            timeFrames.setSelectedItem(TimeFrame.MINUTE);
+            timeFrames.setSelectedItem(TimeFrame.DAY);
             selectedTimeFrame = (TimeFrame) timeFrames.getSelectedItem();
 
             timeFrames.addItemListener(new ItemListener() {
@@ -210,6 +213,14 @@ public class BackTestController {
         this.cashFlow = cashFlow;
     }
 
+    public JTextField getTimestamp() {
+        return timestamp;
+    }
+
+    public void setTimestamp(JTextField timestamp) {
+        this.timestamp = timestamp;
+    }
+
     private void computeResults() {
 
         try {
@@ -279,6 +290,8 @@ public class BackTestController {
 
             getCashFlowView().setText(String.valueOf(decimalFormat.format(cashFlow.getValue(cashFlow.getSize()-1))));
 
+            getTimestamp().setText(selected.getTimestamp().toString());
+
             //Chart
             JFreeChart jfreechart = BuyAndSellSignalsToChart.buildCandleStickChart(series, multipleStrategy.buildStrategy(series));
             ChartPanel panel = new ChartPanel(jfreechart);
@@ -294,7 +307,7 @@ public class BackTestController {
             //BuyAndSellSignalsToChart.buildCandleStickChart(series, multipleStrategy.buildStrategy(series));
         }
         catch(Exception e) {
-
+            e.printStackTrace();
         }
 
     }

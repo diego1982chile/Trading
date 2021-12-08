@@ -14,6 +14,7 @@ import ta4jexamples.loaders.CsvTicksLoader;
 import ta4jexamples.strategies.*;
 
 import java.sql.*;
+import java.time.Duration;
 import java.util.*;
 import java.util.Date;
 
@@ -27,7 +28,7 @@ public class Executor {
 
     //static List<String> files = Arrays.asList("2011_01.csv","2011_02.csv","2011_03.csv","2011_04.csv","2011_05.csv","2011_06.csv","2011_07.csv","2011_08.csv","2011_09.csv", "2011_10.csv", "2011_11.csv", "2011_12.csv");
 
-    static List<String> files = Arrays.asList("2020_AGO_D.csv");
+    static List<String> files = Arrays.asList("2009_2014.csv");
 
     public static void main(String[] args) throws Exception {
 
@@ -103,12 +104,15 @@ public class Executor {
     }
 
     public static Period createFromFile(String file) throws Exception {
+
         TimeSeries timeSeries = CsvTicksLoader.load(file);
+
         try {
             periodManager.generateOptimizations(timeSeries);
         } catch (Exception e) {
             e.printStackTrace();
         }
+
         String name = file;
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 
@@ -116,7 +120,20 @@ public class Executor {
         java.sql.Date end = java.sql.Date.valueOf(timeSeries.getLastBar().getBeginTime().toLocalDate());
 
         //TODO: Dejar esto parametrico
-        TimeFrame timeFrame = TimeFrame.DAY;
+        TimeFrame timeFrame;
+
+        switch ((int) Duration.between(timeSeries.getBar(0).getBeginTime(), timeSeries.getBar(1).getBeginTime()).getSeconds()) {
+            case 2700:
+                timeFrame = TimeFrame.HOUR;
+                break;
+            case 86400:
+            case 345600:
+            case 259200:
+                timeFrame = TimeFrame.DAY;
+                break;
+            default:
+                throw new Exception("TimeFrame no soportado!");
+        }
 
         Period period = new Period(name, timestamp, start, end, timeFrame);
 

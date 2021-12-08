@@ -25,6 +25,8 @@ public interface PeriodManager {
 
     public List<Period> getLast(TimeFrame timeFrame, int periods) throws Exception;
 
+    public Period createFromSeries(TimeSeries series) throws Exception;
+
     public Period createFromFile(String file) throws Exception;
 
     public void generateOptimizations(TimeSeries series) throws Exception;

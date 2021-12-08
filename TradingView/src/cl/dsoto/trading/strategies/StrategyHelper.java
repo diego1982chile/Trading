@@ -54,44 +54,59 @@ public class StrategyHelper {
             switch (optimization.getStrategy().getName()) {
                 case GLOBAL_EXTREMA:
                     GlobalExtremaStrategy.mapFrom(optimization);
+                    strategies.add(GlobalExtremaStrategy.buildStrategy(series));
                     break;
                 case TUNNEL:
                     TunnelStrategy.mapFrom(optimization);
+                    strategies.add(TunnelStrategy.buildStrategy(series));
                     break;
                 case CCI_CORRECTION:
                     CCICorrectionStrategy.mapFrom(optimization);
+                    strategies.add(CCICorrectionStrategy.buildStrategy(series));
                     break;
                 case BAGOVINO:
                     BagovinoStrategy.mapFrom(optimization);
+                    strategies.add(BagovinoStrategy.buildStrategy(series));
                     break;
                 case MOVING_AVERAGES:
                     MovingAveragesStrategy.mapFrom(optimization);
+                    strategies.add(MovingAveragesStrategy.buildStrategy(series));
                     break;
                 case RSI_2:
                     RSI2Strategy.mapFrom(optimization);
+                    strategies.add(RSI2Strategy.buildStrategy(series));
                     break;
                 case PARABOLIC_SAR:
                     ParabolicSARStrategy.mapFrom(optimization);
+                    strategies.add(ParabolicSARStrategy.buildStrategy(series));
                     break;
                 case MOVING_MOMENTUM:
                     MovingMomentumStrategy.mapFrom(optimization);
+                    strategies.add(MovingMomentumStrategy.buildStrategy(series));
                     break;
                 case STOCHASTIC:
                     StochasticStrategy.mapFrom(optimization);
+                    strategies.add(StochasticStrategy.buildStrategy(series));
                     break;
                 case MACD:
                     MACDStrategy.mapFrom(optimization);
+                    strategies.add(MACDStrategy.buildStrategy(series));
                     break;
                 case FX_BOOTCAMP:
                     FXBootCampStrategy.mapFrom(optimization);
+                    strategies.add(FXBootCampStrategy.buildStrategy(series));
                     break;
                 case WINSLOW:
                     WinslowStrategy.mapFrom(optimization);
+                    strategies.add(WinslowStrategy.buildStrategy(series));
                     break;
             }
         }
 
         for (Optimization optimization : period.getOptimizationsOfType(ProblemType.BINARY)) {
+
+            strategies.clear();
+
             for (Solution solution : optimization.getSolutions()) {
 
                 for (int i = 0; i < solution.getValues().size(); i++) {
@@ -191,6 +206,9 @@ public class StrategyHelper {
         }
 
         for (Optimization optimization : period.getOptimizationsOfType(ProblemType.BINARY)) {
+
+            strategies.clear();
+
             for (Solution solution : optimization.getSolutions()) {
 
                 for (int i = 0; i < solution.getValues().size(); i++) {
@@ -247,6 +265,47 @@ public class StrategyHelper {
     public static Map<String, List<Pair<String, Integer>>> mapStrategiesFrom(Period period) {
 
         Map<String, List<Pair<String, Integer>>> parameters = new HashMap<>();
+
+        for (Optimization optimization : period.getOptimizationsOfType(ProblemType.INTEGER)) {
+            switch (optimization.getStrategy().getName()) {
+                case GLOBAL_EXTREMA:
+                    parameters.put("GlobalExtremaStrategy", GlobalExtremaStrategy.getParameters());
+                    break;
+                case TUNNEL:
+                    parameters.put("TunnelStrategy", TunnelStrategy.getParameters());
+                    break;
+                case CCI_CORRECTION:
+                    parameters.put("CCICorrectionStrategy", CCICorrectionStrategy.getParameters());
+                    break;
+                case BAGOVINO:
+                    parameters.put("BagovinoStrategy", BagovinoStrategy.getParameters());
+                    break;
+                case MOVING_AVERAGES:
+                    parameters.put("MovingAveragesStrategy", MovingAveragesStrategy.getParameters());
+                    break;
+                case RSI_2:
+                    parameters.put("RSI2Strategy", RSI2Strategy.getParameters());
+                    break;
+                case PARABOLIC_SAR:
+                    parameters.put("ParabolicSARStrategy", ParabolicSARStrategy.getParameters());
+                    break;
+                case MOVING_MOMENTUM:
+                    parameters.put("MovingMomentumStrategy", MovingMomentumStrategy.getParameters());
+                    break;
+                case STOCHASTIC:
+                    parameters.put("StochasticStrategy", StochasticStrategy.getParameters());
+                    break;
+                case MACD:
+                    parameters.put("MACDStrategy", MACDStrategy.getParameters());
+                    break;
+                case FX_BOOTCAMP:
+                    parameters.put("FXBootCampStrategy", FXBootCampStrategy.getParameters());
+                    break;
+                case WINSLOW:
+                    parameters.put("WinslowStrategy", WinslowStrategy.getParameters());
+                    break;
+            }
+        }
 
         for (Optimization optimization : period.getOptimizationsOfType(ProblemType.BINARY)) {
             for (Solution solution : optimization.getSolutions()) {
