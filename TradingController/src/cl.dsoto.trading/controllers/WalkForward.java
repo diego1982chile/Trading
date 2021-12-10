@@ -5,6 +5,7 @@ import cl.dsoto.trading.components.PeriodManager;
 import cl.dsoto.trading.components.StrategyManager;
 import cl.dsoto.trading.model.*;
 import cl.dsoto.trading.model.Strategy;
+import javafx.util.Pair;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFFont;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -33,10 +34,8 @@ import java.text.DecimalFormat;
 import java.time.Duration;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 import java.util.List;
-import java.util.Map;
 
 /**
  * Created by des01c7 on 28-03-19.
@@ -52,6 +51,12 @@ public class WalkForward {
 
     static Workbook workbook;
 
+    static FileOutputStream outputStream;
+
+    static Map<String, Double> efficiency = new HashMap<>();
+
+    static int cont = 0;
+
     public static void main(String[] args) throws Exception {
 
         for (String file : files) {
@@ -60,13 +65,15 @@ public class WalkForward {
 
             initOutput();
 
-            int offset = data.getBarCount()/11;
+            List<Strategy> strategies = strategyManager.getIntegerProblemTypeStrategies();
 
-            for(int i = 0; i < 6; ++i) {
+            //strategies.stream().filter(strategy -> strategy.getName().equals(MACD))
 
-                List<Strategy> strategies = strategyManager.getIntegerProblemTypeStrategies();
+            for (Strategy strategy : strategies) {
 
-                for (Strategy strategy : strategies) {
+                int offset = data.getBarCount()/11;
+
+                for(int i = 0; i < 6; ++i) {
 
                     String nameIn = String.valueOf(data.getBar(i*offset).getBeginTime().getYear());
                     nameIn = nameIn + "_" + String.valueOf(data.getBar((i+4)*offset).getBeginTime().getYear());
@@ -85,11 +92,25 @@ public class WalkForward {
                     period.getOptimizations().add(optimization);
                     updateStrategy(optimization, strategy.getName());
 
-                    periodManager.persist(period);
+                    //periodManager.persist(period);
 
-                    computeResults(period, strategy, na);
+                    computeResults(period, strategy, nameIn, null, "in");
+
+                    period = createFromSeries(out);
+
+                    optimization.setPeriod(period);
+                    period.getOptimizations().add(optimization);
+                    //updateStrategy(optimization, strategy.getName());
+
+                    //periodManager.persist(period);
+
+                    computeResults(period, strategy, nameOut, nameIn, "out");
+
+                    writeFile();
+
                 }
 
+                /*
                 strategies = strategyManager.getBinaryProblemTypeStrategies();
 
                 for (Strategy strategy : strategies) {
@@ -105,10 +126,12 @@ public class WalkForward {
                     optimization.setPeriod(period);
                     period.getOptimizations().add(optimization);
                 }
+                */
 
                 //periodManager.persist(period);
             }
 
+            closeFile();
         }
     }
 
@@ -193,7 +216,7 @@ public class WalkForward {
         return period;
     }
 
-    private static void computeResults(Period selected, Strategy strategy) {
+    private static void computeResults(Period selected, Strategy strategy, String currentPeriod, String previousPeriod, String stage) {
 
         try {
 
@@ -222,7 +245,7 @@ public class WalkForward {
             TradingRecord tradingRecord = seriesManager.run(multipleStrategy.buildStrategy(timeSeries));
 
             System.out.println("Number of trades for our strategy: " + tradingRecord.getTradeCount());
-            int TRADE_COUNT = tradingRecord.getTradeCount();
+            int NUMBER_OF_TRADES = tradingRecord.getTradeCount();
 
             // Analysis
 
@@ -239,7 +262,7 @@ public class WalkForward {
             AnalysisCriterion rewardRiskRatio = new RewardRiskRatioCriterion();
             System.out.println("Reward-risk ratio: " + rewardRiskRatio.calculate(timeSeries, tradingRecord));
 
-            double REWARD_RISK_RATIO = profitTradesRatio.calculate(timeSeries, tradingRecord);
+            double REWARD_RISK_RATIO = rewardRiskRatio.calculate(timeSeries, tradingRecord);
 
             // Total profit of our strategy
             // vs total profit of a buy-and-hold strategy
@@ -249,11 +272,11 @@ public class WalkForward {
             double VS_BUY_AND_HOLD_RATIO = vsBuyAndHold.calculate(timeSeries, tradingRecord);
 
             for (int i = 0; i < tradingRecord.getTrades().size(); ++i) {
-                System.out.println("Trade["+ i +"]: " + tradingRecord.getTrades().get(i).toString());
+                System.out.println("Trade[" + i + "]: " + tradingRecord.getTrades().get(i).toString());
             }
 
             for (int i = 0; i < cashFlow.getSize(); ++i) {
-                System.out.println("CashFlow["+ i +"]: " + cashFlow.getValue(i));
+                System.out.println("CashFlow[" + i + "]: " + cashFlow.getValue(i));
                 //getCashFlowDetailView().append("CashFlow["+ i +"]: " + cashFlow.getValue(i));
                 //getCashFlowDetailView().append(newline);
             }
@@ -266,6 +289,7 @@ public class WalkForward {
             selected.getTimestamp().toString();
 
             //Chart
+            /*
             JFreeChart jfreechart = BuyAndSellSignalsToChart.buildCandleStickChart(timeSeries, multipleStrategy.buildStrategy(timeSeries));
             ChartPanel panel = new ChartPanel(jfreechart);
             panel.setFillZoomRectangle(true);
@@ -273,8 +297,18 @@ public class WalkForward {
             panel.setPreferredSize(new Dimension(800, 200));
 
             BuyAndSellSignalsToChart.buildCandleStickChart(timeSeries, multipleStrategy.buildStrategy(timeSeries));
+            */
 
-            writeWFORecord(new WFORecord(strategy.getName(),));
+            if(stage.equals("in")) {
+                efficiency.put(currentPeriod, (CASHFLOW - 1)*100);
+                cont++;
+                writeWFORecord(new WFORecord(strategy.getName(), currentPeriod, stage, NUMBER_OF_TRADES, PROFIT_TRADES_RATIO, REWARD_RISK_RATIO, VS_BUY_AND_HOLD_RATIO, CASHFLOW, -1, mapStrategiesFrom(selected).toString()));
+            }
+            else {
+                double efficiencyRatio = ((CASHFLOW -1)*100) /efficiency.get(previousPeriod);
+                cont++;
+                writeWFORecord(new WFORecord(strategy.getName(), currentPeriod, stage, NUMBER_OF_TRADES, PROFIT_TRADES_RATIO, REWARD_RISK_RATIO,VS_BUY_AND_HOLD_RATIO, CASHFLOW, efficiencyRatio, mapStrategiesFrom(selected).toString()));
+            }
         }
         catch(Exception e) {
             e.printStackTrace();
@@ -431,15 +465,13 @@ public class WalkForward {
 
         Sheet sheet = workbook.createSheet("WFA");
 
-        Row header = sheet.createRow(0);
+        Row header = sheet.createRow(cont);
 
         CellStyle headerStyle = workbook.createCellStyle();
-        headerStyle.setFillForegroundColor(IndexedColors.LIGHT_BLUE.getIndex());
-        headerStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+        //headerStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
 
         XSSFFont font = ((XSSFWorkbook) workbook).createFont();
         font.setFontName("Arial");
-        font.setFontHeightInPoints((short) 16);
         font.setBold(true);
         headerStyle.setFont(font);
 
@@ -471,8 +503,12 @@ public class WalkForward {
         headerCell.setCellValue("Cashflow");
         headerCell.setCellStyle(headerStyle);
 
-        headerCell = header.createCell(6);
-        headerCell.setCellValue("Cashflow");
+        headerCell = header.createCell(7);
+        headerCell.setCellValue("Efficiency Ratio");
+        headerCell.setCellStyle(headerStyle);
+
+        headerCell = header.createCell(8);
+        headerCell.setCellValue("Parameters");
         headerCell.setCellStyle(headerStyle);
     }
 
@@ -480,7 +516,7 @@ public class WalkForward {
 
         Sheet sheet = workbook.getSheetAt(0);
 
-        Row wfoRow = sheet.createRow(0);
+        Row wfoRow = sheet.createRow(cont);
 
         wfoRow.createCell(0).setCellValue(wfoRecord.getStrategy());
         wfoRow.createCell(1).setCellValue(wfoRecord.getPeriod());
@@ -489,18 +525,76 @@ public class WalkForward {
         wfoRow.createCell(4).setCellValue(wfoRecord.getProfitableTradesRatio());
         wfoRow.createCell(5).setCellValue(wfoRecord.getRewardRiskRatio());
         wfoRow.createCell(6).setCellValue(wfoRecord.getCashflow());
-        wfoRow.createCell(7).setCellValue(wfoRecord.getEfficiencyIndex());
+
+        if(wfoRecord.getStage().equals("out")) {
+            wfoRow.createCell(7).setCellValue(wfoRecord.getEfficiencyIndex());
+        }
+        if(wfoRecord.getStage().equals("in")) {
+            wfoRow.createCell(8).setCellValue(wfoRecord.getEfficiencyIndex());
+        }
     }
 
-
     private static void writeFile() throws IOException {
+        //outputStream.flush();
         File currDir = new File(".");
         String path = currDir.getAbsolutePath();
+
         String fileLocation = path.substring(0, path.length() - 1) + "WFA.xlsx";
 
-        OutputStream outputStream = new FileOutputStream(fileLocation);
+        outputStream = new FileOutputStream(fileLocation, true);
         workbook.write(outputStream);
+    }
+
+    private static void closeFile() throws IOException {
         workbook.close();
+    }
+
+    public static Map<String, List<Pair<String, Integer>>> mapStrategiesFrom(Period period) {
+
+        Map<String, List<Pair<String, Integer>>> parameters = new HashMap<>();
+
+        for (Optimization optimization : period.getOptimizationsOfType(ProblemType.INTEGER)) {
+            switch (optimization.getStrategy().getName()) {
+                case GLOBAL_EXTREMA:
+                    parameters.put("GlobalExtremaStrategy", GlobalExtremaStrategy.getParameters());
+                    break;
+                case TUNNEL:
+                    parameters.put("TunnelStrategy", TunnelStrategy.getParameters());
+                    break;
+                case CCI_CORRECTION:
+                    parameters.put("CCICorrectionStrategy", CCICorrectionStrategy.getParameters());
+                    break;
+                case BAGOVINO:
+                    parameters.put("BagovinoStrategy", BagovinoStrategy.getParameters());
+                    break;
+                case MOVING_AVERAGES:
+                    parameters.put("MovingAveragesStrategy", MovingAveragesStrategy.getParameters());
+                    break;
+                case RSI_2:
+                    parameters.put("RSI2Strategy", RSI2Strategy.getParameters());
+                    break;
+                case PARABOLIC_SAR:
+                    parameters.put("ParabolicSARStrategy", ParabolicSARStrategy.getParameters());
+                    break;
+                case MOVING_MOMENTUM:
+                    parameters.put("MovingMomentumStrategy", MovingMomentumStrategy.getParameters());
+                    break;
+                case STOCHASTIC:
+                    parameters.put("StochasticStrategy", StochasticStrategy.getParameters());
+                    break;
+                case MACD:
+                    parameters.put("MACDStrategy", MACDStrategy.getParameters());
+                    break;
+                case FX_BOOTCAMP:
+                    parameters.put("FXBootCampStrategy", FXBootCampStrategy.getParameters());
+                    break;
+                case WINSLOW:
+                    parameters.put("WinslowStrategy", WinslowStrategy.getParameters());
+                    break;
+            }
+        }
+
+        return parameters;
     }
 
 }

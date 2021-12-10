@@ -27,9 +27,6 @@ public class PeriodDAOImpl implements PeriodDAO {
     Map<Long, Strategy> strategyMap = new ConcurrentHashMap<>();
 
     @EJB
-    private TestDAO testDAO;
-
-    @EJB
     private OptimizationDAO optimizationDAO;
 
     @EJB
@@ -90,7 +87,6 @@ public class PeriodDAOImpl implements PeriodDAO {
             call.setDate(3, period.getStart());
             call.setDate(4, period.getEnd());
             call.setLong(5, period.getTimeFrame().getId());
-            call.setLong(6, period.getTest().getId());
 
             call.execute();
 
@@ -180,8 +176,6 @@ public class PeriodDAOImpl implements PeriodDAO {
         Date end = resultSet.getDate("end");
 
         TimeFrame timeFrame = TimeFrame.valueOf(resultSet.getInt("id_time_frame"));
-
-        Test test = testDAO.getTestById(resultSet.getLong("id_test"));
 
         Period period = new Period(id, name, timestamp, start, end, timeFrame);
 

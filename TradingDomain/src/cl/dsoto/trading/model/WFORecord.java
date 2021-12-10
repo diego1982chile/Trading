@@ -11,18 +11,22 @@ public class WFORecord {
     int numberOfTrades;
     double profitableTradesRatio;
     double rewardRiskRatio;
+    double vsBuyAndHoldRatio;
     double cashflow;
     double efficiencyIndex;
+    String parameters;
 
-    public WFORecord(String strategy, String period, String stage, int numberOfTrades, double profitableTradesRatio, double rewardRiskRatio, double cashflow, double efficiencyIndex) {
+    public WFORecord(String strategy, String period, String stage, int numberOfTrades, double profitableTradesRatio, double rewardRiskRatio, double vsBuyAndHoldRatio, double cashflow, double efficiencyIndex, String parameters) {
         this.strategy = strategy;
         this.period = period;
         this.stage = stage;
         this.numberOfTrades = numberOfTrades;
         this.profitableTradesRatio = profitableTradesRatio;
         this.rewardRiskRatio = rewardRiskRatio;
+        this.vsBuyAndHoldRatio = vsBuyAndHoldRatio;
         this.cashflow = cashflow;
         this.efficiencyIndex = efficiencyIndex;
+        this.parameters = parameters;
     }
 
     public String getStrategy() {
@@ -73,6 +77,14 @@ public class WFORecord {
         this.rewardRiskRatio = rewardRiskRatio;
     }
 
+    public double getVsBuyAndHoldRatio() {
+        return vsBuyAndHoldRatio;
+    }
+
+    public void setVsBuyAndHoldRatio(double vsBuyAndHoldRatio) {
+        this.vsBuyAndHoldRatio = vsBuyAndHoldRatio;
+    }
+
     public double getCashflow() {
         return cashflow;
     }
@@ -87,5 +99,13 @@ public class WFORecord {
 
     public void setEfficiencyIndex(double efficiencyIndex) {
         this.efficiencyIndex = efficiencyIndex;
+    }
+
+    public String getParameters() {
+        return parameters;
+    }
+
+    public void setParameters(String parameters) {
+        this.parameters = parameters;
     }
 }
