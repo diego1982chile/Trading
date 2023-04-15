@@ -9,33 +9,29 @@ import javafx.util.Pair;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFFont;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.jfree.chart.ChartPanel;
-import org.jfree.chart.JFreeChart;
 import org.ta4j.core.*;
 import org.ta4j.core.analysis.CashFlow;
 import org.ta4j.core.analysis.criteria.AverageProfitableTradesCriterion;
 import org.ta4j.core.analysis.criteria.RewardRiskRatioCriterion;
 import org.ta4j.core.analysis.criteria.TotalProfitCriterion;
 import org.ta4j.core.analysis.criteria.VersusBuyAndHoldCriterion;
-import org.uma.jmetal.runner.singleobjective.GenerationalGeneticAlgorithmStockMarketIntegerRunner;
-import org.uma.jmetal.runner.singleobjective.GenerationalGeneticAlgorithmStockMarketRunner;
-import ta4jexamples.analysis.BuyAndSellSignalsToChart;
+import org.uma.jmetal.runner.multiobjective.MOCellStockMarketIntegerRunner;
 import ta4jexamples.loaders.CsvTicksLoader;
 import ta4jexamples.research.MultipleStrategy;
 import ta4jexamples.strategies.*;
 
-import java.awt.*;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
 import java.sql.Timestamp;
 import java.text.DecimalFormat;
 import java.time.Duration;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
-import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.stream.Collectors;
 
 /**
  * Created by des01c7 on 28-03-19.
@@ -57,6 +53,37 @@ public class WalkForward {
 
     static int cont = 0;
 
+    static int test = 0;
+
+    static String id = UUID.randomUUID().toString();
+
+    private static final String GLOBAL_EXTREMA = "GlobalExtremaStrategy";
+
+    private static final String TUNNEL = "TunnelStrategy";
+
+    private static final String CCI_CORRECTION = "CCICorrectionStrategy";
+
+    private static final String BAGOVINO = "BagovinoStrategy";
+
+    private static final String MOVING_AVERAGES = "MovingAveragesStrategy";
+
+    private static final String RSI_2 = "RSI2Strategy";
+
+    private static final String PARABOLIC_SAR = "ParabolicSARStrategy";
+
+    private static final String MOVING_MOMENTUM = "MovingMomentumStrategy";
+
+    private static final String STOCHASTIC = "StochasticStrategy";
+
+    private static final String MACD = "MACDStrategy";
+
+    private static final String FX_BOOTCAMP = "FXBootCampStrategy";
+
+    private static final String WINSLOW = "WinslowStrategy";
+
+    /** Logger para la clase */
+    private static final Logger logger = Logger.getLogger(WalkForward.class.getName());
+
     public static void main(String[] args) throws Exception {
 
         for (String file : files) {
@@ -65,50 +92,60 @@ public class WalkForward {
 
             initOutput();
 
-            List<Strategy> strategies = strategyManager.getIntegerProblemTypeStrategies();
+            for (int k = 0; k < 3; ++k) {
 
-            //strategies.stream().filter(strategy -> strategy.getName().equals(MACD))
+                test = k + 1;
 
-            for (Strategy strategy : strategies) {
+                List<Strategy> strategies = strategyManager.getIntegerProblemTypeStrategies();
 
-                int offset = data.getBarCount()/11;
+                //strategies = strategies.stream().filter(strategy -> strategy.getName().equals(MACD)).collect(Collectors.toList());
 
-                for(int i = 0; i < 6; ++i) {
+                for (Strategy strategy : strategies) {
 
-                    String nameIn = String.valueOf(data.getBar(i*offset).getBeginTime().getYear());
-                    nameIn = nameIn + "_" + String.valueOf(data.getBar((i+4)*offset).getBeginTime().getYear());
+                    int offset = data.getBarCount()/11;
 
-                    String nameOut = String.valueOf(data.getBar((i+4)*offset + 1).getBeginTime().getYear());
+                    for(int i = 0; i < 6; ++i) {
 
-                    TimeSeries in = new BaseTimeSeries(nameIn,data.getBarData().subList(i*offset,(i+4)*offset));
-                    TimeSeries out = new BaseTimeSeries(nameOut,data.getBarData().subList((i+4)*offset + 1,(i+5)*offset));
+                        String nameIn = String.valueOf(data.getBar(i*offset).getBeginTime().getYear());
+                        nameIn = nameIn + "_" + String.valueOf(data.getBar((i+4)*offset).getBeginTime().getYear());
 
-                    Period period = createFromSeries(in);
+                        String nameOut = String.valueOf(data.getBar((i+4)*offset + 1).getBeginTime().getYear());
 
-                    GenerationalGeneticAlgorithmStockMarketIntegerRunner runner =
-                            new GenerationalGeneticAlgorithmStockMarketIntegerRunner(strategy.getName(), in, strategy.getVariables());
-                    Optimization optimization = runner.run(strategy);
-                    optimization.setPeriod(period);
-                    period.getOptimizations().add(optimization);
-                    updateStrategy(optimization, strategy.getName());
+                        TimeSeries in = new BaseTimeSeries(nameIn,data.getBarData().subList(i*offset,(i+4)*offset));
+                        TimeSeries out = new BaseTimeSeries(nameOut,data.getBarData().subList((i+4)*offset + 1,(i+5)*offset));
 
-                    //periodManager.persist(period);
+                        Period period = createFromSeries(in);
 
-                    computeResults(period, strategy, nameIn, null, "in");
+                        /*
+                        GenerationalGeneticAlgorithmStockMarketIntegerRunner runner =
+                                new GenerationalGeneticAlgorithmStockMarketIntegerRunner(strategy.getName(), in, strategy.getVariables());
+                        */
 
-                    period = createFromSeries(out);
+                        MOCellStockMarketIntegerRunner runner =
+                                new MOCellStockMarketIntegerRunner(strategy.getName(), in, strategy.getVariables());
 
-                    optimization.setPeriod(period);
-                    period.getOptimizations().add(optimization);
-                    //updateStrategy(optimization, strategy.getName());
+                        Optimization optimization = runner.run(strategy);
+                        optimization.setPeriod(period);
+                        period.getOptimizations().add(optimization);
+                        updateStrategy(optimization, strategy.getName());
 
-                    //periodManager.persist(period);
+                        //periodManager.persist(period);
 
-                    computeResults(period, strategy, nameOut, nameIn, "out");
+                        computeResults(test, period, strategy, nameIn, null, "in");
 
-                    writeFile();
+                        period = createFromSeries(out);
 
-                }
+                        optimization.setPeriod(period);
+                        period.getOptimizations().add(optimization);
+                        //updateStrategy(optimization, strategy.getName());
+
+                        //periodManager.persist(period);
+
+                        computeResults(test, period, strategy, nameOut, nameIn, "out");
+
+                        writeFile();
+
+                    }
 
                 /*
                 strategies = strategyManager.getBinaryProblemTypeStrategies();
@@ -128,7 +165,9 @@ public class WalkForward {
                 }
                 */
 
-                //periodManager.persist(period);
+                    //periodManager.persist(period);
+                }
+
             }
 
             closeFile();
@@ -136,43 +175,48 @@ public class WalkForward {
     }
 
     public static void updateStrategy(Optimization optimization, String strategy) throws Exception {
-        switch (strategy) {
-            case "GlobalExtremaStrategy":
-                GlobalExtremaStrategy.mapFrom(optimization);
-                break;
-            case "TunnelStrategy":
-                TunnelStrategy.mapFrom(optimization);
-                break;
-            case "CCICorrectionStrategy":
-                CCICorrectionStrategy.mapFrom(optimization);
-                break;
-            case "BagovinoStrategy":
-                BagovinoStrategy.mapFrom(optimization);
-                break;
-            case "MovingAveragesStrategy":
-                MovingAveragesStrategy.mapFrom(optimization);
-                break;
-            case "RSI2Strategy":
-                RSI2Strategy.mapFrom(optimization);
-                break;
-            case "ParabolicSARStrategy":
-                ParabolicSARStrategy.mapFrom(optimization);
-                break;
-            case "MovingMomentumStrategy":
-                MovingMomentumStrategy.mapFrom(optimization);
-                break;
-            case "StochasticStrategy":
-                StochasticStrategy.mapFrom(optimization);
-                break;
-            case "MACDStrategy":
-                MACDStrategy.mapFrom(optimization);
-                break;
-            case "FXBootCampStrategy":
-                FXBootCampStrategy.mapFrom(optimization);
-                break;
-            case "WinslowStrategy":
-                WinslowStrategy.mapFrom(optimization);
-                break;
+        try {
+            switch (strategy) {
+                case "GlobalExtremaStrategy":
+                    GlobalExtremaStrategy.mapFrom(optimization);
+                    break;
+                case "TunnelStrategy":
+                    TunnelStrategy.mapFrom(optimization);
+                    break;
+                case "CCICorrectionStrategy":
+                    CCICorrectionStrategy.mapFrom(optimization);
+                    break;
+                case "BagovinoStrategy":
+                    BagovinoStrategy.mapFrom(optimization);
+                    break;
+                case "MovingAveragesStrategy":
+                    MovingAveragesStrategy.mapFrom(optimization);
+                    break;
+                case "RSI2Strategy":
+                    RSI2Strategy.mapFrom(optimization);
+                    break;
+                case "ParabolicSARStrategy":
+                    ParabolicSARStrategy.mapFrom(optimization);
+                    break;
+                case "MovingMomentumStrategy":
+                    MovingMomentumStrategy.mapFrom(optimization);
+                    break;
+                case "StochasticStrategy":
+                    StochasticStrategy.mapFrom(optimization);
+                    break;
+                case "MACDStrategy":
+                    MACDStrategy.mapFrom(optimization);
+                    break;
+                case "FXBootCampStrategy":
+                    FXBootCampStrategy.mapFrom(optimization);
+                    break;
+                case "WinslowStrategy":
+                    WinslowStrategy.mapFrom(optimization);
+                    break;
+            }
+        }
+        catch (Exception e) {
+            logger.log(Level.WARNING, e.getMessage());
         }
 
     }
@@ -216,7 +260,7 @@ public class WalkForward {
         return period;
     }
 
-    private static void computeResults(Period selected, Strategy strategy, String currentPeriod, String previousPeriod, String stage) {
+    private static void computeResults(int iteration, Period selected, Strategy strategy, String currentPeriod, String previousPeriod, String stage) {
 
         try {
 
@@ -302,12 +346,16 @@ public class WalkForward {
             if(stage.equals("in")) {
                 efficiency.put(currentPeriod, (CASHFLOW - 1)*100);
                 cont++;
-                writeWFORecord(new WFORecord(strategy.getName(), currentPeriod, stage, NUMBER_OF_TRADES, PROFIT_TRADES_RATIO, REWARD_RISK_RATIO, VS_BUY_AND_HOLD_RATIO, CASHFLOW, -1, mapStrategiesFrom(selected).toString()));
+                writeWFORecord(new WFORecord(id, iteration,  strategy.getName(), currentPeriod, stage, NUMBER_OF_TRADES,
+                        PROFIT_TRADES_RATIO, REWARD_RISK_RATIO, VS_BUY_AND_HOLD_RATIO, CASHFLOW, -1,
+                        mapStrategiesFrom(selected).toString()));
             }
             else {
                 double efficiencyRatio = ((CASHFLOW -1)*100) /efficiency.get(previousPeriod);
                 cont++;
-                writeWFORecord(new WFORecord(strategy.getName(), currentPeriod, stage, NUMBER_OF_TRADES, PROFIT_TRADES_RATIO, REWARD_RISK_RATIO,VS_BUY_AND_HOLD_RATIO, CASHFLOW, efficiencyRatio, mapStrategiesFrom(selected).toString()));
+                writeWFORecord(new WFORecord(id, iteration, strategy.getName(), currentPeriod, stage, NUMBER_OF_TRADES,
+                        PROFIT_TRADES_RATIO, REWARD_RISK_RATIO,VS_BUY_AND_HOLD_RATIO, CASHFLOW, efficiencyRatio,
+                        mapStrategiesFrom(selected).toString()));
             }
         }
         catch(Exception e) {
@@ -315,30 +363,6 @@ public class WalkForward {
         }
 
     }
-
-    private static final String GLOBAL_EXTREMA = "GlobalExtremaStrategy";
-
-    private static final String TUNNEL = "TunnelStrategy";
-
-    private static final String CCI_CORRECTION = "CCICorrectionStrategy";
-
-    private static final String BAGOVINO = "BagovinoStrategy";
-
-    private static final String MOVING_AVERAGES = "MovingAveragesStrategy";
-
-    private static final String RSI_2 = "RSI2Strategy";
-
-    private static final String PARABOLIC_SAR = "ParabolicSARStrategy";
-
-    private static final String MOVING_MOMENTUM = "MovingMomentumStrategy";
-
-    private static final String STOCHASTIC = "StochasticStrategy";
-
-    private static final String MACD = "MACDStrategy";
-
-    private static final String FX_BOOTCAMP = "FXBootCampStrategy";
-
-    private static final String WINSLOW = "WinslowStrategy";
 
     public static List<org.ta4j.core.Strategy> mapFrom(Period period) throws Exception {
 
@@ -476,38 +500,42 @@ public class WalkForward {
         headerStyle.setFont(font);
 
         Cell headerCell = header.createCell(0);
-        headerCell.setCellValue("Strategy");
+        headerCell.setCellValue("Test");
         headerCell.setCellStyle(headerStyle);
 
         headerCell = header.createCell(1);
-        headerCell.setCellValue("Period");
+        headerCell.setCellValue("Strategy");
         headerCell.setCellStyle(headerStyle);
 
         headerCell = header.createCell(2);
-        headerCell.setCellValue("Stage");
+        headerCell.setCellValue("Period");
         headerCell.setCellStyle(headerStyle);
 
         headerCell = header.createCell(3);
-        headerCell.setCellValue("Number of trades");
+        headerCell.setCellValue("Stage");
         headerCell.setCellStyle(headerStyle);
 
         headerCell = header.createCell(4);
-        headerCell.setCellValue("Profitable trades ratio");
+        headerCell.setCellValue("Number of trades");
         headerCell.setCellStyle(headerStyle);
 
         headerCell = header.createCell(5);
-        headerCell.setCellValue("Reward-risk ratio");
+        headerCell.setCellValue("Profitable trades ratio");
         headerCell.setCellStyle(headerStyle);
 
         headerCell = header.createCell(6);
-        headerCell.setCellValue("Cashflow");
+        headerCell.setCellValue("Reward-risk ratio");
         headerCell.setCellStyle(headerStyle);
 
         headerCell = header.createCell(7);
-        headerCell.setCellValue("Efficiency Ratio");
+        headerCell.setCellValue("Cashflow");
         headerCell.setCellStyle(headerStyle);
 
         headerCell = header.createCell(8);
+        headerCell.setCellValue("Efficiency Ratio");
+        headerCell.setCellStyle(headerStyle);
+
+        headerCell = header.createCell(9);
         headerCell.setCellValue("Parameters");
         headerCell.setCellStyle(headerStyle);
     }
@@ -518,19 +546,20 @@ public class WalkForward {
 
         Row wfoRow = sheet.createRow(cont);
 
-        wfoRow.createCell(0).setCellValue(wfoRecord.getStrategy());
-        wfoRow.createCell(1).setCellValue(wfoRecord.getPeriod());
-        wfoRow.createCell(2).setCellValue(wfoRecord.getStage());
-        wfoRow.createCell(3).setCellValue(wfoRecord.getNumberOfTrades());
-        wfoRow.createCell(4).setCellValue(wfoRecord.getProfitableTradesRatio());
-        wfoRow.createCell(5).setCellValue(wfoRecord.getRewardRiskRatio());
-        wfoRow.createCell(6).setCellValue(wfoRecord.getCashflow());
+        wfoRow.createCell(0).setCellValue(test);
+        wfoRow.createCell(1).setCellValue(wfoRecord.getStrategy());
+        wfoRow.createCell(2).setCellValue(wfoRecord.getPeriod());
+        wfoRow.createCell(3).setCellValue(wfoRecord.getStage());
+        wfoRow.createCell(4).setCellValue(wfoRecord.getNumberOfTrades());
+        wfoRow.createCell(5).setCellValue(wfoRecord.getProfitableTradesRatio());
+        wfoRow.createCell(6).setCellValue(wfoRecord.getRewardRiskRatio());
+        wfoRow.createCell(7).setCellValue(wfoRecord.getCashflow());
 
         if(wfoRecord.getStage().equals("out")) {
-            wfoRow.createCell(7).setCellValue(wfoRecord.getEfficiencyIndex());
+            wfoRow.createCell(8).setCellValue(wfoRecord.getEfficiencyIndex());
         }
         if(wfoRecord.getStage().equals("in")) {
-            wfoRow.createCell(8).setCellValue(wfoRecord.getEfficiencyIndex());
+            wfoRow.createCell(9).setCellValue(wfoRecord.getParameters());
         }
     }
 
@@ -556,40 +585,40 @@ public class WalkForward {
         for (Optimization optimization : period.getOptimizationsOfType(ProblemType.INTEGER)) {
             switch (optimization.getStrategy().getName()) {
                 case GLOBAL_EXTREMA:
-                    parameters.put("GlobalExtremaStrategy", GlobalExtremaStrategy.getParameters());
+                    parameters.put(GLOBAL_EXTREMA, GlobalExtremaStrategy.getParameters());
                     break;
                 case TUNNEL:
-                    parameters.put("TunnelStrategy", TunnelStrategy.getParameters());
+                    parameters.put(TUNNEL, TunnelStrategy.getParameters());
                     break;
                 case CCI_CORRECTION:
-                    parameters.put("CCICorrectionStrategy", CCICorrectionStrategy.getParameters());
+                    parameters.put(CCI_CORRECTION, CCICorrectionStrategy.getParameters());
                     break;
                 case BAGOVINO:
-                    parameters.put("BagovinoStrategy", BagovinoStrategy.getParameters());
+                    parameters.put(BAGOVINO, BagovinoStrategy.getParameters());
                     break;
                 case MOVING_AVERAGES:
-                    parameters.put("MovingAveragesStrategy", MovingAveragesStrategy.getParameters());
+                    parameters.put(MOVING_AVERAGES, MovingAveragesStrategy.getParameters());
                     break;
                 case RSI_2:
-                    parameters.put("RSI2Strategy", RSI2Strategy.getParameters());
+                    parameters.put(RSI_2, RSI2Strategy.getParameters());
                     break;
                 case PARABOLIC_SAR:
-                    parameters.put("ParabolicSARStrategy", ParabolicSARStrategy.getParameters());
+                    parameters.put(PARABOLIC_SAR, ParabolicSARStrategy.getParameters());
                     break;
                 case MOVING_MOMENTUM:
-                    parameters.put("MovingMomentumStrategy", MovingMomentumStrategy.getParameters());
+                    parameters.put(MOVING_MOMENTUM, MovingMomentumStrategy.getParameters());
                     break;
                 case STOCHASTIC:
-                    parameters.put("StochasticStrategy", StochasticStrategy.getParameters());
+                    parameters.put(STOCHASTIC, StochasticStrategy.getParameters());
                     break;
                 case MACD:
-                    parameters.put("MACDStrategy", MACDStrategy.getParameters());
+                    parameters.put(MACD, MACDStrategy.getParameters());
                     break;
                 case FX_BOOTCAMP:
-                    parameters.put("FXBootCampStrategy", FXBootCampStrategy.getParameters());
+                    parameters.put(FX_BOOTCAMP, FXBootCampStrategy.getParameters());
                     break;
                 case WINSLOW:
-                    parameters.put("WinslowStrategy", WinslowStrategy.getParameters());
+                    parameters.put(WINSLOW, WinslowStrategy.getParameters());
                     break;
             }
         }

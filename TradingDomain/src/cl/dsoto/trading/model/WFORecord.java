@@ -5,6 +5,8 @@ package cl.dsoto.trading.model;
  */
 public class WFORecord {
 
+    String id;
+    int iteration;
     String strategy;
     String period;
     String stage;
@@ -16,7 +18,11 @@ public class WFORecord {
     double efficiencyIndex;
     String parameters;
 
-    public WFORecord(String strategy, String period, String stage, int numberOfTrades, double profitableTradesRatio, double rewardRiskRatio, double vsBuyAndHoldRatio, double cashflow, double efficiencyIndex, String parameters) {
+    public WFORecord(String id, int iteration, String strategy, String period, String stage, int numberOfTrades,
+                     double profitableTradesRatio, double rewardRiskRatio, double vsBuyAndHoldRatio, double cashflow,
+                     double efficiencyIndex, String parameters) {
+        this.id = id;
+        this.iteration = iteration;
         this.strategy = strategy;
         this.period = period;
         this.stage = stage;
@@ -27,6 +33,22 @@ public class WFORecord {
         this.cashflow = cashflow;
         this.efficiencyIndex = efficiencyIndex;
         this.parameters = parameters;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public int getIteration() {
+        return iteration;
+    }
+
+    public void setIteration(int iteration) {
+        this.iteration = iteration;
     }
 
     public String getStrategy() {
@@ -108,4 +130,6 @@ public class WFORecord {
     public void setParameters(String parameters) {
         this.parameters = parameters;
     }
+
+
 }

@@ -78,7 +78,7 @@ public class NewForwardTestView extends JDialog {
                 File file = fc.getSelectedFile();
                 String name = file.getName();
 
-                TimeSeries timeSeries = CsvTicksLoader.load(file);
+                TimeSeries timeSeries = CsvTicksLoader.load(file.getName());
 
                 try {
                     forwardTest = forwardTestManager.createFromSeries(timeSeries);
