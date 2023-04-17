@@ -1,9 +1,6 @@
 package cl.dsoto.trading.daos;
 
-import cl.dsoto.trading.model.Optimization;
-import cl.dsoto.trading.model.Period;
-import cl.dsoto.trading.model.PeriodBar;
-import cl.dsoto.trading.model.Solution;
+import cl.dsoto.trading.model.*;
 import org.ta4j.core.Bar;
 
 import javax.ejb.Local;
@@ -15,7 +12,11 @@ import java.util.List;
 @Local
 public interface BarDAO {
 
+    ForwardTestBar persist(ForwardTestBar bar) throws Exception;
+
     PeriodBar persist(PeriodBar bar) throws Exception;
 
     List<PeriodBar> getBars(Period period) throws Exception;
+
+    List<ForwardTestBar> getBars(ForwardTest forwardTest) throws Exception;
 }

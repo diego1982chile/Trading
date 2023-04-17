@@ -44,11 +44,12 @@
             <version>0.12-SNAPSHOT</version>
         </dependency>
 
-        <dependency>
+        <!--dependency>
             <groupId>org.jfree</groupId>
             <artifactId>jfreechart</artifactId>
             <version>1.5.0</version>
-        </dependency>
+        </dependency-->
+
         <dependency>
             <groupId>org.jfree</groupId>
             <artifactId>jfreechart</artifactId>
@@ -84,6 +85,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
+                <version>2.3.2</version>
                 <configuration>
                     <archive>
                         <manifest>
@@ -98,6 +100,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>ideauidesigner-maven-plugin</artifactId>
+                <version>1.0-beta-1</version>
                 <executions>
                     <execution>
                         <goals>

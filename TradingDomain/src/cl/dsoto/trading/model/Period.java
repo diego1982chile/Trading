@@ -50,9 +50,21 @@ public class Period implements Serializable {
 
     TimeFrame timeFrame;
 
+    Test test;
+
     List<Optimization> optimizations = new ArrayList<>();
 
     List<PeriodBar> bars = new ArrayList<>();
+
+    List<ForwardTest> forwardTests = new ArrayList<>();
+
+    public List<ForwardTest> getForwardTests() {
+        return forwardTests;
+    }
+
+    public void setForwardTests(List<ForwardTest> forwardTests) {
+        this.forwardTests = forwardTests;
+    }
 
     public List<PeriodBar> getBars() {
         return bars;
@@ -133,6 +145,14 @@ public class Period implements Serializable {
 
     public void setOptimizations(List<Optimization> optimizations) {
         this.optimizations = optimizations;
+    }
+
+    public Test getTest() {
+        return test;
+    }
+
+    public void setTest(Test test) {
+        this.test = test;
     }
 
     public List<Optimization> getOptimizationsOfType(ProblemType problemType) {

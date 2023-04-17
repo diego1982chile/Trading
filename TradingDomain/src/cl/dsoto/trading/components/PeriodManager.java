@@ -1,6 +1,7 @@
 package cl.dsoto.trading.components;
 
 import cl.dsoto.trading.model.Period;
+import cl.dsoto.trading.model.TimeFrame;
 import org.ta4j.core.TimeSeries;
 
 import javax.ejb.Remote;
@@ -15,9 +16,15 @@ public interface PeriodManager {
 
     public Period persist(Period period) throws Exception;
 
+    public void delete(Period period) throws Exception;
+
     public List<Period> getLast(int periods) throws Exception;
 
+    public List<Period> getLast(TimeFrame timeFrame, int periods) throws Exception;
+
     public Period createFromFile(String file) throws Exception;
+
+    public Period createFromSeries(TimeSeries series) throws Exception;
 
     public void generateOptimizations(TimeSeries series) throws Exception;
 

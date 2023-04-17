@@ -1,14 +1,22 @@
 package cl.dsoto.trading.views;
 
 import cl.dsoto.trading.controllers.BackTestController;
+import cl.dsoto.trading.controllers.ForwardTestController;
 import cl.dsoto.trading.controllers.StrategiesController;
+import cl.dsoto.trading.model.ForwardTest;
 import cl.dsoto.trading.model.Period;
+import cl.dsoto.trading.model.TimeFrame;
 import org.jfree.ui.RefineryUtilities;
 
 import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
+import java.util.*;
 
 /**
  * Created by des01c7 on 12-04-19.
@@ -28,15 +36,74 @@ public class TradingView {
     private JButton button1;
     private JLabel estrategiasLabel;
     private JButton button2;
+    private JList list2;
+    private JButton nuevoButton;
+    private JComboBox comboBox1;
+    private JButton button3;
+    private JComboBox comboBox2;
+    private JTextField textField8;
 
     public BackTestController backTestController;
+    public ForwardTestController forwardTestController;
 
     public TradingView() {
         list1.addListSelectionListener(new ListSelectionListener() {
             @Override
             public void valueChanged(ListSelectionEvent e) {
-                backTestController.setSelected((Period) list1.getSelectedValue());
+                Period period = (Period) list1.getSelectedValue();
+                list2.setModel(new javax.swing.AbstractListModel() {
+                    java.util.List<ForwardTest> forwardTests = period.getForwardTests();
+                    public int getSize() { return period.getForwardTests().size(); }
+                    public Object getElementAt(int i) { return period.getForwardTests().get(i); }
+                });
+                backTestController.setSelected(period);
+            }
+        });
 
+        button2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    backTestController.delete(list1);
+                    //list1.updateUI();
+                    panel1.updateUI();
+                }
+                catch(Exception ex) {
+
+                }
+            }
+        });
+        nuevoButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                NewForwardTestView newForwardTestView = new NewForwardTestView(panel1,(Period) list1.getSelectedValue());
+                newForwardTestView.setVisible(true);
+            }
+        });
+        comboBox1.addItemListener(new ItemListener() {
+            @Override
+            public void itemStateChanged(ItemEvent e) {
+                try {
+                    if(backTestController != null) {
+                        backTestController.changeTimeFrame(list1, comboBox1);
+                    }
+                } catch (Exception e1) {
+                    e1.printStackTrace();
+                }
+                panel1.updateUI();
+            }
+        });
+        list2.addListSelectionListener(new ListSelectionListener() {
+            @Override
+            public void valueChanged(ListSelectionEvent e) {
+                ForwardTest forwardTest = (ForwardTest) list2.getSelectedValue();
+
+                if(forwardTest == null) {
+                    return;
+                }
+
+                ForwardTestView forwardTestView = new ForwardTestView(panel1, forwardTest);
+                forwardTestView.setVisible(true);
             }
         });
     }
@@ -46,16 +113,16 @@ public class TradingView {
         JFrame jFrame = new JFrame("Trading View");
 
         double offset=0.8;
-        jFrame.setSize(new Dimension((int)(0.65 * Toolkit.getDefaultToolkit().getScreenSize().getWidth()),
+        jFrame.setSize(new Dimension((int)(0.67 * Toolkit.getDefaultToolkit().getScreenSize().getWidth()),
                 (int)(offset* Toolkit.getDefaultToolkit().getScreenSize().getHeight())));
-        jFrame.setMinimumSize(new Dimension((int)(0.65 * Toolkit.getDefaultToolkit().getScreenSize().getWidth()),
+        jFrame.setMinimumSize(new Dimension((int)(0.67 * Toolkit.getDefaultToolkit().getScreenSize().getWidth()),
                 (int)(offset* Toolkit.getDefaultToolkit().getScreenSize().getHeight())));
-        jFrame.setMaximumSize(new Dimension((int)(0.65 * Toolkit.getDefaultToolkit().getScreenSize().getWidth()),
+        jFrame.setMaximumSize(new Dimension((int)(0.67 * Toolkit.getDefaultToolkit().getScreenSize().getWidth()),
                 (int)(offset* Toolkit.getDefaultToolkit().getScreenSize().getHeight())));
 
         TradingView tradingView = new TradingView();
 
-        tradingView.backTestController = new BackTestController(tradingView.list1);
+        tradingView.backTestController = new BackTestController(tradingView.list1, tradingView.comboBox1, tradingView.list2);
 
         tradingView.backTestController.setStart(tradingView.textField1);
         tradingView.backTestController.setEnd(tradingView.textField2);
@@ -65,6 +132,7 @@ public class TradingView {
         tradingView.backTestController.setVsBuyAndHoldView(tradingView.textField6);
         tradingView.backTestController.setCashFlowView(tradingView.textField7);
         tradingView.backTestController.setCashFlowView(tradingView.textField7);
+        tradingView.backTestController.setTimestamp(tradingView.textField8);
         //tradingView.backTestController.setCashFlowDetailView(tradingView.textArea1);
 
         JTabbedPane jTabbedPane = (JTabbedPane) tradingView.panel1.getComponents()[0];

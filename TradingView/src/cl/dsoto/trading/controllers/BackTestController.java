@@ -17,12 +17,15 @@ import ta4jexamples.research.MultipleStrategy;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
 import java.text.DecimalFormat;
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
@@ -59,6 +62,9 @@ public class BackTestController {
 
     private JLabel strategiesView;
 
+    private JTextField timestamp;
+
+
     String pattern = "###.#####";
     DecimalFormat decimalFormat = new DecimalFormat(pattern);
 
@@ -68,18 +74,59 @@ public class BackTestController {
 
     Period selected;
 
+    TimeFrame selectedTimeFrame;
 
-    public List<Period> getLast() throws Exception {
+    public TimeFrame getSelectedTimeFrame() {
+        return selectedTimeFrame;
+    }
+
+    public void setSelectedTimeFrame(TimeFrame selectedTimeFrame) {
+        this.selectedTimeFrame = selectedTimeFrame;
+    }
+
+    public BackTestController(JList periods, JComboBox timeFrames, JList forwardTests) throws Exception {
         try {
-            return periodManager.getLast(100);
+            timeFrames.setModel(new DefaultComboBoxModel(TimeFrame.values()));
+            timeFrames.setSelectedItem(TimeFrame.DAY);
+            selectedTimeFrame = (TimeFrame) timeFrames.getSelectedItem();
+
+            timeFrames.addItemListener(new ItemListener() {
+                public void itemStateChanged(ItemEvent event) {
+                    if (event.getStateChange() == ItemEvent.SELECTED) {
+                        try {
+                            List<Period> periods = getLast();
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
+                    }
+                }
+            });
+
+            this.periods = getLast();
+            periods.setModel(new javax.swing.AbstractListModel() {
+                List<Period> periods = getLast();
+                public int getSize() { return periods.size(); }
+                public Object getElementAt(int i) { return periods.get(i); }
+            });
+
         }
         catch (Exception e) {
             throw new Exception(e.getMessage());
         }
     }
 
-    public BackTestController(JList periods) throws Exception {
+    public List<Period> getLast() throws Exception {
         try {
+            return periodManager.getLast(selectedTimeFrame, 100);
+        }
+        catch (Exception e) {
+            throw new Exception(e.getMessage());
+        }
+    }
+
+    public void delete(JList periods) throws Exception {
+        try {
+            periodManager.delete(selected);
             this.periods = getLast();
             periods.setModel(new javax.swing.AbstractListModel() {
                 List<Period> periods = getLast();
@@ -91,6 +138,21 @@ public class BackTestController {
             throw new Exception(e.getMessage());
         }
     }
+
+    public void changeTimeFrame(JList periods, JComboBox timeFrames) throws Exception {
+        try {
+                selectedTimeFrame = (TimeFrame) timeFrames.getSelectedItem();
+                periods.setModel(new javax.swing.AbstractListModel() {
+                List<Period> periods = getLast();
+                public int getSize() { return periods.size(); }
+                public Object getElementAt(int i) { return periods.get(i); }
+            });
+        }
+        catch (Exception e) {
+            throw new Exception(e.getMessage());
+        }
+    }
+
 
     public Period getSelected() {
         return selected;
@@ -151,12 +213,26 @@ public class BackTestController {
         this.cashFlow = cashFlow;
     }
 
+    public JTextField getTimestamp() {
+        return timestamp;
+    }
+
+    public void setTimestamp(JTextField timestamp) {
+        this.timestamp = timestamp;
+    }
+
     private void computeResults() {
 
         try {
             TimeSeries series = new BaseTimeSeries(selected.getName());
 
+            int cont = 0;
+
             for (PeriodBar periodBar : selected.getBars()) {
+
+                System.out.println(cont);
+                cont++;
+
                 ZonedDateTime time = periodBar.getEndTime();
                 double open = periodBar.getOpenPrice().doubleValue();
                 double close = periodBar.getClosePrice().doubleValue();
@@ -220,12 +296,14 @@ public class BackTestController {
 
             getCashFlowView().setText(String.valueOf(decimalFormat.format(cashFlow.getValue(cashFlow.getSize()-1))));
 
+            getTimestamp().setText(selected.getTimestamp().toString());
+
             //Chart
             JFreeChart jfreechart = BuyAndSellSignalsToChart.buildCandleStickChart(series, multipleStrategy.buildStrategy(series));
             ChartPanel panel = new ChartPanel(jfreechart);
             panel.setFillZoomRectangle(true);
             panel.setMouseWheelEnabled(true);
-            panel.setPreferredSize(new Dimension(1024, 400));
+            panel.setPreferredSize(new Dimension(800, 200));
 
             getPlotView().setLayout(new BorderLayout());
             getPlotView().removeAll();
@@ -235,7 +313,7 @@ public class BackTestController {
             //BuyAndSellSignalsToChart.buildCandleStickChart(series, multipleStrategy.buildStrategy(series));
         }
         catch(Exception e) {
-
+            e.printStackTrace();
         }
 
     }

@@ -1,8 +1,13 @@
 package cl.dsoto.trading.model;
 
+import org.ta4j.core.BaseTimeSeries;
+import org.ta4j.core.TimeSeries;
+import ta4jexamples.strategies.*;
+
 import java.io.Serializable;
 import java.sql.Date;
 import java.sql.Timestamp;
+import java.util.ArrayList;
 import java.util.List;
 
 import static cl.dsoto.trading.model.DAO.NON_PERSISTED_ID;
@@ -12,45 +17,27 @@ import static cl.dsoto.trading.model.DAO.NON_PERSISTED_ID;
  */
 public class Test implements Serializable {
 
+
     /** El identificador único de la entidad, inicialmente fijado en <code>NON_PERSISTED_ID</code>. */
     private long id = NON_PERSISTED_ID;
 
     String name;
     Timestamp timestamp;
-    Date start;
-    Date end;
 
-    /* Periodo de optimización asociado*/
-    Period period;
+    TimeFrame timeFrame;
 
-    int trades;
-    double rewardRiskRatio;
-    double vsBuyAndHold;
-    double cashFlow;
 
-    public Test(String name, Timestamp timestamp, Date start, Date end, Period period, int trades, double rewardRiskRatio, double vsBuyAndHold, double cashFlow) {
+    public Test(String name, Timestamp timestamp, Date start, Date end, TimeFrame timeFrame) {
         this.name = name;
         this.timestamp = timestamp;
-        this.start = start;
-        this.end = end;
-        this.period = period;
-        this.trades = trades;
-        this.rewardRiskRatio = rewardRiskRatio;
-        this.vsBuyAndHold = vsBuyAndHold;
-        this.cashFlow = cashFlow;
+        this.timeFrame = timeFrame;
     }
 
-    public Test(long id, String name, Timestamp timestamp, Date start, Date end, Period period, int trades, double rewardRiskRatio, double vsBuyAndHold, double cashFlow) {
+    public Test(long id, String name, Timestamp timestamp, TimeFrame timeFrame) {
         this.id = id;
         this.name = name;
         this.timestamp = timestamp;
-        this.start = start;
-        this.end = end;
-        this.period = period;
-        this.trades = trades;
-        this.rewardRiskRatio = rewardRiskRatio;
-        this.vsBuyAndHold = vsBuyAndHold;
-        this.cashFlow = cashFlow;
+        this.timeFrame = timeFrame;
     }
 
     public long getId() {
@@ -77,59 +64,17 @@ public class Test implements Serializable {
         this.timestamp = timestamp;
     }
 
-    public Date getStart() {
-        return start;
+    public TimeFrame getTimeFrame() {
+        return timeFrame;
     }
 
-    public void setStart(Date start) {
-        this.start = start;
+    public void setTimeFrame(TimeFrame timeFrame) {
+        this.timeFrame = timeFrame;
     }
 
-    public Date getEnd() {
-        return end;
-    }
 
-    public void setEnd(Date end) {
-        this.end = end;
-    }
-
-    public Period getPeriod() {
-        return period;
-    }
-
-    public void setPeriod(Period period) {
-        this.period = period;
-    }
-
-    public int getTrades() {
-        return trades;
-    }
-
-    public void setTrades(int trades) {
-        this.trades = trades;
-    }
-
-    public double getRewardRiskRatio() {
-        return rewardRiskRatio;
-    }
-
-    public void setRewardRiskRatio(double rewardRiskRatio) {
-        this.rewardRiskRatio = rewardRiskRatio;
-    }
-
-    public double getVsBuyAndHold() {
-        return vsBuyAndHold;
-    }
-
-    public void setVsBuyAndHold(double vsBuyAndHold) {
-        this.vsBuyAndHold = vsBuyAndHold;
-    }
-
-    public double getCashFlow() {
-        return cashFlow;
-    }
-
-    public void setCashFlow(double cashFlow) {
-        this.cashFlow = cashFlow;
+    @Override
+    public String toString() {
+        return name;
     }
 }
