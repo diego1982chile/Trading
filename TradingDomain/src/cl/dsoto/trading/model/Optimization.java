@@ -20,6 +20,13 @@ public class Optimization implements Serializable {
     private List<Objective> objectives;
     private List<Solution> solutions;
 
+    public Optimization(Strategy strategy, Timestamp timestamp, List<Objective> objectives, List<Solution> solutions) {
+        this.strategy = strategy;
+        this.timestamp = timestamp;
+        this.objectives = objectives;
+        this.solutions = solutions;
+    }
+
     public Optimization(Period period, Strategy strategy, Timestamp timestamp, List<Objective> objectives, List<Solution> solutions) {
         this.period = period;
         this.strategy = strategy;

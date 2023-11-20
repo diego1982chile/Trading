@@ -102,7 +102,7 @@ public class WalkForward {
 
                 for (Strategy strategy : strategies) {
 
-                    int offset = data.getBarCount()/11;
+                    int offset = data.getBarCount() / 11;
 
                     for(int i = 0; i < 6; ++i) {
 
